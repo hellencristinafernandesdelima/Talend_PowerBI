@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_BVTf4G1uEeqdKaIwJAXuXw" id="_BVPOcG1uEeqdKaIwJAXuXw" label="job_elt_receitas" purpose="job_elt_receitas" description="Extração, validação de carga referente ao aquivo ReceitasSenado.csv." version="0.1" statusCode="" item="_BVTf4m1uEeqdKaIwJAXuXw" displayName="job_elt_receitas">
+    <author href="../talend.project#_mEQwkG1tEeqdKaIwJAXuXw"/>
+    <additionalProperties xmi:id="_BVefAG1uEeqdKaIwJAXuXw" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_BVefAW1uEeqdKaIwJAXuXw" key="created_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_BVefAm1uEeqdKaIwJAXuXw" key="created_date" value="2020-03-23T22:23:09.167-0300"/>
+    <additionalProperties xmi:id="_BVefA21uEeqdKaIwJAXuXw" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_BVefBG1uEeqdKaIwJAXuXw" key="modified_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_BVefBW1uEeqdKaIwJAXuXw" key="modified_date" value="2020-03-24T08:33:38.526-0300"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_BVTf4W1uEeqdKaIwJAXuXw" path="" locked="true" lockDate="2020-03-24T08:16:46.154-0300">
+    <locker href="../talend.project#_mEQwkG1tEeqdKaIwJAXuXw"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:ProcessItem xmi:id="_BVTf4m1uEeqdKaIwJAXuXw" property="_BVTf4G1uEeqdKaIwJAXuXw" state="_BVTf4W1uEeqdKaIwJAXuXw">
+    <process href="job_elt_receitas_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

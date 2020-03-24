@@ -293,3 +293,187 @@ java.net.URISyntaxException: Illegal character in path at index 32: file:/C:/Use
 
 !ENTRY org.eclipse.core.resources 2 10035 2020-03-23 22:33:29.056
 !MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2020-03-24 08:14:09.496 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_241
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2020-03-24 08:14:10.717
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2020-03-24 08:14:10.720
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [21]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-03-24 08:14:37.871
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 08:14:41.277
+!MESSAGE 2020-03-24 08:14:41,273 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-03-24 08:15:03.199
+!MESSAGE 2020-03-24 08:15:03,197 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 08:15:09.011
+!MESSAGE 2020-03-24 08:15:09,010 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /RECEITAS_SENADO_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 08:15:09.013
+!MESSAGE 2020-03-24 08:15:09,012 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /RECEITAS_SENADO_ROUTINES/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 08:15:09.015
+!MESSAGE 2020-03-24 08:15:09,014 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /RECEITAS_SENADO_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 08:15:09.016
+!MESSAGE 2020-03-24 08:15:09,016 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /RECEITAS_SENADO_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 08:15:12.783
+!MESSAGE 2020-03-24 08:15:12,782 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\GitHub\Talend_PowerBI\RECEITAS_SENADO\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 08:15:12.785
+!MESSAGE 2020-03-24 08:15:12,784 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s "C:\Users\hfernanl\OneDrive - everis\Talend - Projeto Everis Interno\TOS_DI-20190620_1446-V7.2.1\configuration\maven_user_settings.xml" install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 08:15:18.008
+!MESSAGE 2020-03-24 08:15:18,007 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com logged on Receitas_Senado
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 08:15:18.991
+!MESSAGE 2020-03-24 08:15:18,990 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-03-24 08:15:20.103
+!MESSAGE 2020-03-24 08:15:20,101 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-03-24 08:15:20.123
+!MESSAGE 2020-03-24 08:15:20,122 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 4 0 2020-03-24 08:15:43.364
+!MESSAGE 2020-03-24 08:15:43,362 ERROR org.talend.commons.exception.CommonExceptionHandler  - Illegal character in path at index 32: file:/C:/Users/hfernanl/OneDrive - everis/Talend - Projeto Everis Interno/TOS_DI-20190620_1446-V7.2.1/plugins/org.talend.librariesmanager_7.2.1.20190619_1352/distribution/license.json
+
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 32: file:/C:/Users/hfernanl/OneDrive - everis/Talend - Projeto Everis Interno/TOS_DI-20190620_1446-V7.2.1/plugins/org.talend.librariesmanager_7.2.1.20190619_1352/distribution/license.json
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.<init>(Unknown Source)
+	at java.net.URL.toURI(Unknown Source)
+	at org.talend.librariesmanager.model.service.DynamicDistibutionLicenseUtil.loadLicenseObjects(DynamicDistibutionLicenseUtil.java:47)
+	at org.talend.librariesmanager.model.service.DynamicDistibutionLicenseUtil.setupLicense(DynamicDistibutionLicenseUtil.java:68)
+	at org.talend.librariesmanager.utils.RemoteModulesHelper$RemoteModulesFetchRunnable.createUnavailableModuleToInstall(RemoteModulesHelper.java:408)
+	at org.talend.librariesmanager.utils.RemoteModulesHelper$RemoteModulesFetchRunnable.addUnavailableModulesToToBeInstalledModules(RemoteModulesHelper.java:374)
+	at org.talend.librariesmanager.utils.RemoteModulesHelper$RemoteModulesFetchRunnable.run(RemoteModulesHelper.java:167)
+	at org.talend.updates.runtime.engine.factory.PluginOptionalMissingJarsExtraUpdatesFactory.retrieveUninstalledExtraFeatures(PluginOptionalMissingJarsExtraUpdatesFactory.java:69)
+	at org.talend.updates.runtime.engine.ExtraFeaturesUpdatesFactory.retrieveUninstalledExtraFeatures(ExtraFeaturesUpdatesFactory.java:61)
+	at org.talend.updates.runtime.ui.CheckExtraFeaturesToInstallJob.run(CheckExtraFeaturesToInstallJob.java:68)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 08:16:47.875
+!MESSAGE 2020-03-24 08:16:47,873 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 08:16:48.187
+!MESSAGE 2020-03-24 08:16:48,186 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /RECEITAS_SENADO_JOB_ELT_RECEITAS_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 08:16:48.189
+!MESSAGE 2020-03-24 08:16:48,188 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /RECEITAS_SENADO_JOB_ELT_RECEITAS_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 08:16:48.193
+!MESSAGE 2020-03-24 08:16:48,191 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /RECEITAS_SENADO_JOB_ELT_RECEITAS_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 08:16:48.194
+!MESSAGE 2020-03-24 08:16:48,193 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /RECEITAS_SENADO_JOB_ELT_RECEITAS_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 08:49:09.985
+!MESSAGE 2020-03-24 08:49:09,984 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 08:49:10.229
+!MESSAGE 2020-03-24 08:49:10,228 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 08:49:10.450
+!MESSAGE 2020-03-24 08:49:10,449 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /RECEITAS_SENADO_JOB_ELT_RECEITAS_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 08:49:10.452
+!MESSAGE 2020-03-24 08:49:10,451 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /RECEITAS_SENADO_JOB_ELT_RECEITAS_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 08:49:10.456
+!MESSAGE 2020-03-24 08:49:10,455 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /RECEITAS_SENADO_JOB_ELT_RECEITAS_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 08:49:10.458
+!MESSAGE 2020-03-24 08:49:10,456 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /RECEITAS_SENADO_JOB_ELT_RECEITAS_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 08:49:10.637
+!MESSAGE 2020-03-24 08:49:10,636 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 08:49:11.019
+!MESSAGE 2020-03-24 08:49:11,017 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 08:49:11.289
+!MESSAGE 2020-03-24 08:49:11,288 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/RECEITAS_SENADO/poms/jobs/process/job_elt_receitas_0.1/target/classpath.jar; receitas_senado.job_elt_receitas_0_1.job_elt_receitas --context=Default --stat_port=3747 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:15:17.269
+!MESSAGE 2020-03-24 09:15:17,268 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:15:17.580
+!MESSAGE 2020-03-24 09:15:17,579 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /.Java/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:15:17.581
+!MESSAGE 2020-03-24 09:15:17,580 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /.Java/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:15:17.584
+!MESSAGE 2020-03-24 09:15:17,583 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /.Java/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:15:17.585
+!MESSAGE 2020-03-24 09:15:17,584 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /.Java/src/test/resources
+

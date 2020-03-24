@@ -13,6 +13,10 @@
     "version" : "Latest",
     "type" : "property"
   }, {
+    "id" : "_y6m6QG1UEeqt9oQXVsQm2w",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "DataOperation",
     "version" : "Latest",
     "type" : "routine"
@@ -48,5 +52,13 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
+  }, {
+    "id" : "_YJhuUG1dEeqt9oQXVsQm2w - tb_receitas_senado",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_y6m6QG1UEeqt9oQXVsQm2w - metadata_receitas_senado",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 } ]
