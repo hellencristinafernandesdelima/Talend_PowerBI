@@ -1,5 +1,1 @@
 INDEX VERSION 1.131+C:\Users\hfernanl\Documents\GitHub\Talend_PowerBI\Receitas_Senado\Projeto_Talend\.metadata\.plugins\org.eclipse.jdt.core
-1902387149.index
-1242787514.index
-4230326692.index
-1444496208.index
