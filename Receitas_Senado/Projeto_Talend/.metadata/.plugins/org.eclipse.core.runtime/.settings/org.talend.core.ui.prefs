@@ -1,3 +1,4 @@
+COLLECTOR_SYNC_NB=1
 data_collector=true
 data_collector_last_time=2020-03-23 18\:37\:09
 eclipse.preferences.version=1
