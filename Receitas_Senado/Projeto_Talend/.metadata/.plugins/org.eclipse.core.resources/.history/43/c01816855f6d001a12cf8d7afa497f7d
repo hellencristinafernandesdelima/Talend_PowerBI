@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_y608sG1UEeqt9oQXVsQm2w" id="_y6m6QG1UEeqt9oQXVsQm2w" label="csv_receitas_senado" purpose="csv_receitas_senado" description="Referente ao aquivo ReceitasSenado.csv." version="0.1" statusCode="" item="_y608sm1UEeqt9oQXVsQm2w" displayName="csv_receitas_senado">
+    <author href="../../talend.project#_SS7sMG1OEeqt9oQXVsQm2w"/>
+    <additionalProperties xmi:id="_y65OIG1UEeqt9oQXVsQm2w" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_y65OIW1UEeqt9oQXVsQm2w" key="created_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_y65OIm1UEeqt9oQXVsQm2w" key="created_date" value="2020-03-23T19:22:35.010-0300"/>
+    <additionalProperties xmi:id="_y65OI21UEeqt9oQXVsQm2w" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_y65OJG1UEeqt9oQXVsQm2w" key="modified_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_y65OJW1UEeqt9oQXVsQm2w" key="modified_date" value="2020-03-23T20:39:12.996-0300"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_y608sW1UEeqt9oQXVsQm2w" path="" locked="true" lockDate="2020-03-23T20:39:12.996-0300">
+    <locker href="../../talend.project#_SS7sMG1OEeqt9oQXVsQm2w"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:DelimitedFileConnectionItem xmi:id="_y608sm1UEeqt9oQXVsQm2w" property="_y608sG1UEeqt9oQXVsQm2w" state="_y608sW1UEeqt9oQXVsQm2w">
+    <connection href="csv_receitas_senado_0.1.item#_y6u2EG1UEeqt9oQXVsQm2w"/>
+  </TalendProperties:DelimitedFileConnectionItem>
+</xmi:XMI>
