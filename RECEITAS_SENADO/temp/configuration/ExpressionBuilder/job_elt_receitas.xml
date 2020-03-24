@@ -1,0 +1,17 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="StringHandling.LEFT(row2.Orgao_Cod_Desc,5)">
+  <variables name="row2.Ano" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.Orgao_Cod_Desc" value="02000 - SENADO FEDERAL" talendType="id_String" nullable="true"/>
+  <variables name="row2.Data_Carga_Dados" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.Categoria_Economica_Cod_Desc" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.Origem_Cod_Desc" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.Especie_Cod_Desc" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.Alinea_Cod_Desc_Desdob" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.Natureza_Receita_Cod_" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.Natureza_Receita" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.Soma_Receita_Prevista" value="null" talendType="id_Float" nullable="true"/>
+  <variables name="row2.Soma_Receita_Arrecadada_Liquida" value="null" talendType="id_Float" nullable="true"/>
+  <variables name="StringHandling.LEFT(row2.Orgao_Cod_Desc,6) " value="0" talendType="id_Integer"/>
+  <variables name="" value="0" talendType="id_Integer"/>
+  <variables name="Mathematical.INT(&quot;10&quot;) " value="null" talendType="id_String"/>
+</expression:EMFExpression>

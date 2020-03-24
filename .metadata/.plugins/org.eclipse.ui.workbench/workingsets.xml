@@ -11,4 +11,5 @@
 <item elementID="=RECEITAS_SENADO_JOB_ELT_RECEITAS_0.1/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1585012924728_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1585057121527_2" label="Window Working Set" name="Aggregate for window 1585057121526"/>
 </workingSetManager>

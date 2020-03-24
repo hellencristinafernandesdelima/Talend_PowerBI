@@ -381,10 +381,102 @@
     <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="tMap_Receitas"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b>tMap_Receitas&lt;/b>&lt;br>__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter field="MEMO" name="COMMENT" value="Mapeamento de campos que serão levados para a tabela final."/>
+    <metadata connector="FLOW" label="tb_receitas_senado" name="out_caga_tb_receitas_senado">
+      <column comment="" key="true" length="10" name="n_ano" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="60" name="desc_cod_orgao" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="true" length="13" name="dt_carga_dados" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="desc_cod_categ_econ" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="desc_cod_origem" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="160" name="desc_cod_especie" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="160" name="desc_cod_aliena_desd" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="true" length="10" name="cod_natureza_receita" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="120" name="desc_natureza_receita" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="15" name="vlr_soma_receita_prevista" nullable="true" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="15" name="vlr_soma_receita_liquidada" nullable="true" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="60" name="desc_orgao" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="cod_orgao" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="desc_categ_econ" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="cod_categ_econ" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="desc_origem" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="true" length="10" name="cod_origem" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="desc_especie" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="cod_especie" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="desc_aliena_desd" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="cod_aliena_desd" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
-      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <varTables sizeState="INTERMEDIATE" name="Var"/>
+      <outputTables sizeState="INTERMEDIATE" name="out_caga_tb_receitas_senado">
+        <mapperTableEntries name="n_ano" expression="row2.Ano " type="id_Integer"/>
+        <mapperTableEntries name="desc_cod_orgao" expression="row2.Orgao_Cod_Desc " type="id_String"/>
+        <mapperTableEntries name="dt_carga_dados" expression="row2.Data_Carga_Dados " type="id_Date"/>
+        <mapperTableEntries name="desc_cod_categ_econ" expression="row2.Categoria_Economica_Cod_Desc " type="id_String"/>
+        <mapperTableEntries name="desc_cod_origem" expression="row2.Origem_Cod_Desc " type="id_String"/>
+        <mapperTableEntries name="desc_cod_especie" expression="row2.Especie_Cod_Desc " type="id_String"/>
+        <mapperTableEntries name="desc_cod_aliena_desd" expression="row2.Alinea_Cod_Desc_Desdob " type="id_String"/>
+        <mapperTableEntries name="cod_natureza_receita" expression="row2.Natureza_Receita_Cod_ " type="id_Integer"/>
+        <mapperTableEntries name="desc_natureza_receita" expression="row2.Natureza_Receita " type="id_String" nullable="true"/>
+        <mapperTableEntries name="vlr_soma_receita_prevista" expression="row2.Soma_Receita_Prevista " type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="vlr_soma_receita_liquidada" expression="row2.Soma_Receita_Arrecadada_Liquida " type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="desc_orgao" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="cod_orgao" expression=" " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="desc_categ_econ" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="cod_categ_econ" expression="" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="desc_origem" type="id_String" nullable="true"/>
+        <mapperTableEntries name="cod_origem" type="id_Integer"/>
+        <mapperTableEntries name="desc_especie" type="id_String" nullable="true"/>
+        <mapperTableEntries name="cod_especie" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="desc_aliena_desd" type="id_String" nullable="true"/>
+        <mapperTableEntries name="cod_aliena_desd" type="id_Integer" nullable="true"/>
+      </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row2" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="Ano" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="Orgao_Cod_Desc" type="id_String" nullable="true"/>
@@ -400,7 +492,7 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="704" posY="128">
+  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="800" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_1" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_YJhuUG1dEeqt9oQXVsQm2w" show="false"/>
@@ -690,6 +782,10 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
   </connection>
+  <connection connectorName="FLOW" label="out_caga_tb_receitas_senado" lineStyle="0" metaname="out_caga_tb_receitas_senado" offsetLabelX="26" offsetLabelY="0" source="tMap_1" target="tDBOutput_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="out_caga_tb_receitas_senado" show="false"/>
+  </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCreateTable_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
@@ -697,11 +793,6 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
-  </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>

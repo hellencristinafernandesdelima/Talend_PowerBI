@@ -477,3 +477,1893 @@ java.net.URISyntaxException: Illegal character in path at index 32: file:/C:/Use
 !ENTRY org.talend.platform.logging 1 0 2020-03-24 09:15:17.585
 !MESSAGE 2020-03-24 09:15:17,584 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /.Java/src/test/resources
 
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:36:13.780
+!MESSAGE 2020-03-24 09:36:13,779 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:36:14.323
+!MESSAGE 2020-03-24 09:36:14,322 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:36:14.358
+!MESSAGE 2020-03-24 09:36:14,357 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:36:14.371
+!MESSAGE 2020-03-24 09:36:14,369 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:36:14.385
+!MESSAGE 2020-03-24 09:36:14,384 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:36:15.600
+!MESSAGE 2020-03-24 09:36:15,599 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:36:15.904
+!MESSAGE 2020-03-24 09:36:15,903 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:36:30.723
+!MESSAGE 2020-03-24 09:36:30,722 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:36:30.914
+!MESSAGE 2020-03-24 09:36:30,914 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:36:33.220
+!MESSAGE 2020-03-24 09:36:33,220 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:36:33.460
+!MESSAGE 2020-03-24 09:36:33,459 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:36:36.331
+!MESSAGE 2020-03-24 09:36:36,330 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:36:36.536
+!MESSAGE 2020-03-24 09:36:36,535 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:36:40.967
+!MESSAGE 2020-03-24 09:36:40,966 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:36:41.194
+!MESSAGE 2020-03-24 09:36:41,192 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:36:41.214
+!MESSAGE 2020-03-24 09:36:41,213 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:36:41.226
+!MESSAGE 2020-03-24 09:36:41,224 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:36:41.231
+!MESSAGE 2020-03-24 09:36:41,230 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:36:57.705
+!MESSAGE 2020-03-24 09:36:57,704 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:36:57.923
+!MESSAGE 2020-03-24 09:36:57,922 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:36:57.944
+!MESSAGE 2020-03-24 09:36:57,942 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:36:57.983
+!MESSAGE 2020-03-24 09:36:57,982 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:36:58.010
+!MESSAGE 2020-03-24 09:36:58,008 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:36:58.011
+!MESSAGE 2020-03-24 09:36:58,009 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:36:58.027
+!MESSAGE 2020-03-24 09:36:58,026 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:40:15.960
+!MESSAGE 2020-03-24 09:40:15,959 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:40:16.167
+!MESSAGE 2020-03-24 09:40:16,166 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:40:17.042
+!MESSAGE 2020-03-24 09:40:17,041 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:40:17.227
+!MESSAGE 2020-03-24 09:40:17,227 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:40:20.162
+!MESSAGE 2020-03-24 09:40:20,161 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:40:20.353
+!MESSAGE 2020-03-24 09:40:20,353 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:41:06.588
+!MESSAGE 2020-03-24 09:41:06,587 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:41:06.802
+!MESSAGE 2020-03-24 09:41:06,801 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:41:06.819
+!MESSAGE 2020-03-24 09:41:06,818 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:41:06.828
+!MESSAGE 2020-03-24 09:41:06,827 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:46:08.179
+!MESSAGE 2020-03-24 09:46:08,178 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:46:08.403
+!MESSAGE 2020-03-24 09:46:08,402 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:46:08.419
+!MESSAGE 2020-03-24 09:46:08,418 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:46:08.426
+!MESSAGE 2020-03-24 09:46:08,425 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:46:49.517
+!MESSAGE 2020-03-24 09:46:49,516 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:46:49.724
+!MESSAGE 2020-03-24 09:46:49,723 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:49:15.251
+!MESSAGE 2020-03-24 09:49:15,250 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:49:15.499
+!MESSAGE 2020-03-24 09:49:15,498 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:49:15.516
+!MESSAGE 2020-03-24 09:49:15,515 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:49:15.538
+!MESSAGE 2020-03-24 09:49:15,536 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:49:15.544
+!MESSAGE 2020-03-24 09:49:15,543 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:49:15.561
+!MESSAGE 2020-03-24 09:49:15,561 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:49:16.394
+!MESSAGE 2020-03-24 09:49:16,393 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:49:16.614
+!MESSAGE 2020-03-24 09:49:16,613 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:49:18.210
+!MESSAGE 2020-03-24 09:49:18,209 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:49:18.777
+!MESSAGE 2020-03-24 09:49:18,777 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:49:18.935
+!MESSAGE 2020-03-24 09:49:18,934 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:49:19.128
+!MESSAGE 2020-03-24 09:49:19,127 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:49:19.148
+!MESSAGE 2020-03-24 09:49:19,147 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:49:19.153
+!MESSAGE 2020-03-24 09:49:19,152 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:49:20.081
+!MESSAGE 2020-03-24 09:49:20,080 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:49:20.274
+!MESSAGE 2020-03-24 09:49:20,274 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:49:20.727
+!MESSAGE 2020-03-24 09:49:20,726 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:49:20.993
+!MESSAGE 2020-03-24 09:49:20,992 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:49:20.997
+!MESSAGE 2020-03-24 09:49:20,996 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 4 0 2020-03-24 09:49:24.359
+!MESSAGE 2020-03-24 09:49:24,357 ERROR org.talend.commons.exception.CommonExceptionHandler  - Widget is disposed
+
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.setText(StyledText.java:10425)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.feedBackTestResult(ExpressionTestMain.java:167)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.access$1(ExpressionTestMain.java:153)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain$1$1.run(ExpressionTestMain.java:128)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:171)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:273)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.createCommand(ExternalController.java:75)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.access$0(ExternalController.java:65)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController$1.widgetSelected(ExternalController.java:197)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:277)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2020-03-24 09:49:24.367
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.talend.commons.exception.FatalException: org.eclipse.swt.SWTException: Widget is disposed
+	at org.talend.commons.ui.runtime.exception.RuntimeExceptionHandler.process(RuntimeExceptionHandler.java:38)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.feedBackTestResult(ExpressionTestMain.java:176)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.access$1(ExpressionTestMain.java:153)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain$1$1.run(ExpressionTestMain.java:128)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:171)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:273)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.createCommand(ExternalController.java:75)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.access$0(ExternalController.java:65)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController$1.widgetSelected(ExternalController.java:197)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:277)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.setText(StyledText.java:10425)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.feedBackTestResult(ExpressionTestMain.java:167)
+	... 38 more
+
+!ENTRY org.talend.platform.logging 4 0 2020-03-24 09:49:25.377
+!MESSAGE 2020-03-24 09:49:25,374 ERROR org.talend.commons.exception.CommonExceptionHandler  - Widget is disposed
+
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.setText(StyledText.java:10425)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.feedBackTestResult(ExpressionTestMain.java:167)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.access$1(ExpressionTestMain.java:153)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain$1$1.run(ExpressionTestMain.java:128)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:171)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:273)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.createCommand(ExternalController.java:75)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.access$0(ExternalController.java:65)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController$1.widgetSelected(ExternalController.java:197)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:277)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2020-03-24 09:49:25.379
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.talend.commons.exception.FatalException: org.eclipse.swt.SWTException: Widget is disposed
+	at org.talend.commons.ui.runtime.exception.RuntimeExceptionHandler.process(RuntimeExceptionHandler.java:38)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.feedBackTestResult(ExpressionTestMain.java:176)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.access$1(ExpressionTestMain.java:153)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain$1$1.run(ExpressionTestMain.java:128)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:171)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:273)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.createCommand(ExternalController.java:75)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.access$0(ExternalController.java:65)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController$1.widgetSelected(ExternalController.java:197)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:277)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.setText(StyledText.java:10425)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.feedBackTestResult(ExpressionTestMain.java:167)
+	... 38 more
+
+!ENTRY org.talend.platform.logging 4 0 2020-03-24 09:49:26.389
+!MESSAGE 2020-03-24 09:49:26,386 ERROR org.talend.commons.exception.CommonExceptionHandler  - Widget is disposed
+
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.setText(StyledText.java:10425)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.feedBackTestResult(ExpressionTestMain.java:167)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.access$1(ExpressionTestMain.java:153)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain$1$1.run(ExpressionTestMain.java:128)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:171)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:273)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.createCommand(ExternalController.java:75)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.access$0(ExternalController.java:65)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController$1.widgetSelected(ExternalController.java:197)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:277)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2020-03-24 09:49:26.391
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.talend.commons.exception.FatalException: org.eclipse.swt.SWTException: Widget is disposed
+	at org.talend.commons.ui.runtime.exception.RuntimeExceptionHandler.process(RuntimeExceptionHandler.java:38)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.feedBackTestResult(ExpressionTestMain.java:176)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.access$1(ExpressionTestMain.java:153)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain$1$1.run(ExpressionTestMain.java:128)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:171)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:273)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.createCommand(ExternalController.java:75)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.access$0(ExternalController.java:65)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController$1.widgetSelected(ExternalController.java:197)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:277)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.setText(StyledText.java:10425)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.feedBackTestResult(ExpressionTestMain.java:167)
+	... 38 more
+
+!ENTRY org.talend.platform.logging 4 0 2020-03-24 09:49:27.396
+!MESSAGE 2020-03-24 09:49:27,394 ERROR org.talend.commons.exception.CommonExceptionHandler  - Widget is disposed
+
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.setText(StyledText.java:10425)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.feedBackTestResult(ExpressionTestMain.java:167)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.access$1(ExpressionTestMain.java:153)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain$1$1.run(ExpressionTestMain.java:128)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:171)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:273)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.createCommand(ExternalController.java:75)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.access$0(ExternalController.java:65)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController$1.widgetSelected(ExternalController.java:197)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:277)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2020-03-24 09:49:27.398
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.talend.commons.exception.FatalException: org.eclipse.swt.SWTException: Widget is disposed
+	at org.talend.commons.ui.runtime.exception.RuntimeExceptionHandler.process(RuntimeExceptionHandler.java:38)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.feedBackTestResult(ExpressionTestMain.java:176)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.access$1(ExpressionTestMain.java:153)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain$1$1.run(ExpressionTestMain.java:128)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:171)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:273)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.createCommand(ExternalController.java:75)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.access$0(ExternalController.java:65)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController$1.widgetSelected(ExternalController.java:197)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:277)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.setText(StyledText.java:10425)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.feedBackTestResult(ExpressionTestMain.java:167)
+	... 38 more
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:49:33.378
+!MESSAGE 2020-03-24 09:49:33,377 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:49:33.570
+!MESSAGE 2020-03-24 09:49:33,569 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:49:57.107
+!MESSAGE 2020-03-24 09:49:57,106 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:49:57.362
+!MESSAGE 2020-03-24 09:49:57,362 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:49:57.380
+!MESSAGE 2020-03-24 09:49:57,379 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:49:57.387
+!MESSAGE 2020-03-24 09:49:57,386 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:50:06.527
+!MESSAGE 2020-03-24 09:50:06,527 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:50:06.760
+!MESSAGE 2020-03-24 09:50:06,759 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:50:18.376
+!MESSAGE 2020-03-24 09:50:18,375 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:50:19.085
+!MESSAGE 2020-03-24 09:50:19,084 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:50:19.261
+!MESSAGE 2020-03-24 09:50:19,260 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:50:19.262
+!MESSAGE 2020-03-24 09:50:19,260 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:50:19.905
+!MESSAGE 2020-03-24 09:50:19,904 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:50:20.149
+!MESSAGE 2020-03-24 09:50:20,148 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:50:20.932
+!MESSAGE 2020-03-24 09:50:20,931 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:50:21.114
+!MESSAGE 2020-03-24 09:50:21,113 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:50:30.132
+!MESSAGE 2020-03-24 09:50:30,131 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:50:30.352
+!MESSAGE 2020-03-24 09:50:30,352 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:50:30.371
+!MESSAGE 2020-03-24 09:50:30,370 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:50:30.384
+!MESSAGE 2020-03-24 09:50:30,383 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:50:30.385
+!MESSAGE 2020-03-24 09:50:30,383 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:54:26.451
+!MESSAGE 2020-03-24 09:54:26,450 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:54:26.629
+!MESSAGE 2020-03-24 09:54:26,629 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:57:37.147
+!MESSAGE 2020-03-24 09:57:37,146 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:57:37.366
+!MESSAGE 2020-03-24 09:57:37,365 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:57:37.384
+!MESSAGE 2020-03-24 09:57:37,383 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:57:37.391
+!MESSAGE 2020-03-24 09:57:37,390 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:58:32.934
+!MESSAGE 2020-03-24 09:58:32,933 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:58:33.115
+!MESSAGE 2020-03-24 09:58:33,114 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:58:33.661
+!MESSAGE 2020-03-24 09:58:33,661 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:58:33.816
+!MESSAGE 2020-03-24 09:58:33,815 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:58:35.355
+!MESSAGE 2020-03-24 09:58:35,354 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:58:35.576
+!MESSAGE 2020-03-24 09:58:35,576 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:58:38.068
+!MESSAGE 2020-03-24 09:58:38,067 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:58:38.241
+!MESSAGE 2020-03-24 09:58:38,240 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:58:39.160
+!MESSAGE 2020-03-24 09:58:39,159 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:58:39.321
+!MESSAGE 2020-03-24 09:58:39,320 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:59:32.193
+!MESSAGE 2020-03-24 09:59:32,193 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:59:32.367
+!MESSAGE 2020-03-24 09:59:32,366 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:59:43.100
+!MESSAGE 2020-03-24 09:59:43,099 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 09:59:43.275
+!MESSAGE 2020-03-24 09:59:43,275 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:00:07.944
+!MESSAGE 2020-03-24 10:00:07,943 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:00:08.119
+!MESSAGE 2020-03-24 10:00:08,118 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:03:21.192
+!MESSAGE 2020-03-24 10:03:21,191 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:03:21.384
+!MESSAGE 2020-03-24 10:03:21,383 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:05:09.350
+!MESSAGE 2020-03-24 10:05:09,349 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:05:09.524
+!MESSAGE 2020-03-24 10:05:09,524 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:05:30.838
+!MESSAGE 2020-03-24 10:05:30,838 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:05:31.016
+!MESSAGE 2020-03-24 10:05:31,015 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:06:11.523
+!MESSAGE 2020-03-24 10:06:11,522 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:06:11.761
+!MESSAGE 2020-03-24 10:06:11,761 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:06:26.823
+!MESSAGE 2020-03-24 10:06:26,822 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:06:26.994
+!MESSAGE 2020-03-24 10:06:26,993 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:06:54.953
+!MESSAGE 2020-03-24 10:06:54,952 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:06:55.131
+!MESSAGE 2020-03-24 10:06:55,131 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:07:11.672
+!MESSAGE 2020-03-24 10:07:11,671 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:07:11.939
+!MESSAGE 2020-03-24 10:07:11,938 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:07:11.956
+!MESSAGE 2020-03-24 10:07:11,955 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:07:11.958
+!MESSAGE 2020-03-24 10:07:11,957 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:07:11.966
+!MESSAGE 2020-03-24 10:07:11,965 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:07:31.958
+!MESSAGE 2020-03-24 10:07:31,957 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:07:32.135
+!MESSAGE 2020-03-24 10:07:32,134 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 4 0 2020-03-24 10:07:33.719
+!MESSAGE 2020-03-24 10:07:33,718 ERROR org.talend.commons.exception.CommonExceptionHandler  - Widget is disposed
+
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.setText(StyledText.java:10425)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.feedBackTestResult(ExpressionTestMain.java:167)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.access$1(ExpressionTestMain.java:153)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain$1$1.run(ExpressionTestMain.java:128)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:171)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:273)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.createCommand(ExternalController.java:75)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.access$0(ExternalController.java:65)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController$1.widgetSelected(ExternalController.java:197)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:277)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2020-03-24 10:07:33.721
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.talend.commons.exception.FatalException: org.eclipse.swt.SWTException: Widget is disposed
+	at org.talend.commons.ui.runtime.exception.RuntimeExceptionHandler.process(RuntimeExceptionHandler.java:38)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.feedBackTestResult(ExpressionTestMain.java:176)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.access$1(ExpressionTestMain.java:153)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain$1$1.run(ExpressionTestMain.java:128)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:171)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:273)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.createCommand(ExternalController.java:75)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.access$0(ExternalController.java:65)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController$1.widgetSelected(ExternalController.java:197)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:277)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.setText(StyledText.java:10425)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.feedBackTestResult(ExpressionTestMain.java:167)
+	... 38 more
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:09:06.785
+!MESSAGE 2020-03-24 10:09:06,784 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:09:06.963
+!MESSAGE 2020-03-24 10:09:06,963 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:12:16.926
+!MESSAGE 2020-03-24 10:12:16,925 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:12:17.111
+!MESSAGE 2020-03-24 10:12:17,110 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:12:43.900
+!MESSAGE 2020-03-24 10:12:43,899 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:12:44.093
+!MESSAGE 2020-03-24 10:12:44,093 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:17:37.053
+!MESSAGE 2020-03-24 10:17:37,052 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:17:37.234
+!MESSAGE 2020-03-24 10:17:37,233 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:17:54.520
+!MESSAGE 2020-03-24 10:17:54,520 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:17:54.706
+!MESSAGE 2020-03-24 10:17:54,705 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:17:55.517
+!MESSAGE 2020-03-24 10:17:55,517 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:17:55.784
+!MESSAGE 2020-03-24 10:17:55,783 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:17:56.794
+!MESSAGE 2020-03-24 10:17:56,793 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:17:57.120
+!MESSAGE 2020-03-24 10:17:57,119 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:17:57.141
+!MESSAGE 2020-03-24 10:17:57,140 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:17:57.142
+!MESSAGE 2020-03-24 10:17:57,140 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:18:01.144
+!MESSAGE 2020-03-24 10:18:01,143 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:18:01.534
+!MESSAGE 2020-03-24 10:18:01,533 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:19:07.480
+!MESSAGE 2020-03-24 10:19:07,480 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:19:07.660
+!MESSAGE 2020-03-24 10:19:07,659 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:27:07.858
+!MESSAGE 2020-03-24 10:27:07,857 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:27:08.037
+!MESSAGE 2020-03-24 10:27:08,036 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:27:13.793
+!MESSAGE 2020-03-24 10:27:13,792 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:27:13.983
+!MESSAGE 2020-03-24 10:27:13,982 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:27:16.338
+!MESSAGE 2020-03-24 10:27:16,337 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:27:16.528
+!MESSAGE 2020-03-24 10:27:16,528 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:27:27.360
+!MESSAGE 2020-03-24 10:27:27,359 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:27:27.671
+!MESSAGE 2020-03-24 10:27:27,670 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:27:27.692
+!MESSAGE 2020-03-24 10:27:27,691 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:27:27.716
+!MESSAGE 2020-03-24 10:27:27,715 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:27:27.724
+!MESSAGE 2020-03-24 10:27:27,723 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:27:27.735
+!MESSAGE 2020-03-24 10:27:27,734 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:27:27.829
+!MESSAGE 2020-03-24 10:27:27,828 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:28:39.682
+!MESSAGE 2020-03-24 10:28:39,682 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:28:39.859
+!MESSAGE 2020-03-24 10:28:39,859 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:29:20.514
+!MESSAGE 2020-03-24 10:29:20,513 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:29:20.687
+!MESSAGE 2020-03-24 10:29:20,686 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:30:02.339
+!MESSAGE 2020-03-24 10:30:02,337 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:30:02.509
+!MESSAGE 2020-03-24 10:30:02,508 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:30:25.952
+!MESSAGE 2020-03-24 10:30:25,951 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:30:26.134
+!MESSAGE 2020-03-24 10:30:26,133 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:30:27.296
+!MESSAGE 2020-03-24 10:30:27,295 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:30:27.475
+!MESSAGE 2020-03-24 10:30:27,474 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:30:28.204
+!MESSAGE 2020-03-24 10:30:28,203 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:30:28.389
+!MESSAGE 2020-03-24 10:30:28,388 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:30:28.408
+!MESSAGE 2020-03-24 10:30:28,407 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:30:28.416
+!MESSAGE 2020-03-24 10:30:28,415 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:08.169
+!MESSAGE 2020-03-24 10:31:08,168 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:08.381
+!MESSAGE 2020-03-24 10:31:08,380 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:08.416
+!MESSAGE 2020-03-24 10:31:08,415 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:08.420
+!MESSAGE 2020-03-24 10:31:08,419 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:08.459
+!MESSAGE 2020-03-24 10:31:08,458 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:08.499
+!MESSAGE 2020-03-24 10:31:08,498 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:09.180
+!MESSAGE 2020-03-24 10:31:09,179 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:09.359
+!MESSAGE 2020-03-24 10:31:09,357 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:09.380
+!MESSAGE 2020-03-24 10:31:09,379 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:09.396
+!MESSAGE 2020-03-24 10:31:09,395 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:09.409
+!MESSAGE 2020-03-24 10:31:09,408 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:10.529
+!MESSAGE 2020-03-24 10:31:10,529 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:11.167
+!MESSAGE 2020-03-24 10:31:11,166 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:11.329
+!MESSAGE 2020-03-24 10:31:11,328 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:11.355
+!MESSAGE 2020-03-24 10:31:11,354 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:11.370
+!MESSAGE 2020-03-24 10:31:11,369 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:11.519
+!MESSAGE 2020-03-24 10:31:11,519 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:18.808
+!MESSAGE 2020-03-24 10:31:18,807 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:18.999
+!MESSAGE 2020-03-24 10:31:18,998 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:19.622
+!MESSAGE 2020-03-24 10:31:19,621 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:19.771
+!MESSAGE 2020-03-24 10:31:19,770 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:22.221
+!MESSAGE 2020-03-24 10:31:22,220 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:22.518
+!MESSAGE 2020-03-24 10:31:22,517 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:22.534
+!MESSAGE 2020-03-24 10:31:22,532 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:22.540
+!MESSAGE 2020-03-24 10:31:22,539 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:25.766
+!MESSAGE 2020-03-24 10:31:25,765 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:31:25.941
+!MESSAGE 2020-03-24 10:31:25,940 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.eclipse.ui 4 0 2020-03-24 10:31:27.459
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4576)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.custom.StyledText.getTextBounds(StyledText.java:5234)
+	at org.eclipse.jface.text.CursorLinePainter.drawHighlightLine(CursorLinePainter.java:194)
+	at org.eclipse.jface.text.CursorLinePainter.paint(CursorLinePainter.java:252)
+	at org.eclipse.jface.text.PaintManager.paint(PaintManager.java:305)
+	at org.eclipse.jface.text.PaintManager.mouseDown(PaintManager.java:323)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:196)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.talend.expressionbuilder.ui.ExpressionBuilderDialog.openDialog(ExpressionBuilderDialog.java:448)
+	at org.talend.commons.ui.runtime.swt.tableviewer.celleditor.CellEditorDialogBehavior$1.mouseUp(CellEditorDialogBehavior.java:115)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:171)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:273)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.createCommand(ExternalController.java:75)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.access$0(ExternalController.java:65)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController$1.widgetSelected(ExternalController.java:197)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:277)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2020-03-24 10:31:28.262
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4576)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.custom.StyledText.getTextBounds(StyledText.java:5234)
+	at org.eclipse.jface.text.CursorLinePainter.drawHighlightLine(CursorLinePainter.java:194)
+	at org.eclipse.jface.text.CursorLinePainter.paint(CursorLinePainter.java:250)
+	at org.eclipse.jface.text.PaintManager.paint(PaintManager.java:305)
+	at org.eclipse.jface.text.PaintManager.mouseDown(PaintManager.java:323)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:196)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.talend.expressionbuilder.ui.ExpressionBuilderDialog.openDialog(ExpressionBuilderDialog.java:448)
+	at org.talend.commons.ui.runtime.swt.tableviewer.celleditor.CellEditorDialogBehavior$1.mouseUp(CellEditorDialogBehavior.java:115)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:171)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:273)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.createCommand(ExternalController.java:75)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.access$0(ExternalController.java:65)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController$1.widgetSelected(ExternalController.java:197)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:277)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2020-03-24 10:31:30.239
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4576)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.custom.StyledText.getTextBounds(StyledText.java:5234)
+	at org.eclipse.jface.text.CursorLinePainter.drawHighlightLine(CursorLinePainter.java:194)
+	at org.eclipse.jface.text.CursorLinePainter.paint(CursorLinePainter.java:252)
+	at org.eclipse.jface.text.PaintManager.paint(PaintManager.java:305)
+	at org.eclipse.jface.text.PaintManager.mouseDown(PaintManager.java:323)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:196)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.talend.expressionbuilder.ui.ExpressionBuilderDialog.openDialog(ExpressionBuilderDialog.java:448)
+	at org.talend.commons.ui.runtime.swt.tableviewer.celleditor.CellEditorDialogBehavior$1.mouseUp(CellEditorDialogBehavior.java:115)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:171)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:273)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.createCommand(ExternalController.java:75)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.access$0(ExternalController.java:65)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController$1.widgetSelected(ExternalController.java:197)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:277)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2020-03-24 10:31:31.385
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4576)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.custom.StyledText.getTextBounds(StyledText.java:5234)
+	at org.eclipse.jface.text.CursorLinePainter.drawHighlightLine(CursorLinePainter.java:194)
+	at org.eclipse.jface.text.CursorLinePainter.paint(CursorLinePainter.java:250)
+	at org.eclipse.jface.text.PaintManager.paint(PaintManager.java:305)
+	at org.eclipse.jface.text.PaintManager.mouseDown(PaintManager.java:323)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:196)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.talend.expressionbuilder.ui.ExpressionBuilderDialog.openDialog(ExpressionBuilderDialog.java:448)
+	at org.talend.commons.ui.runtime.swt.tableviewer.celleditor.CellEditorDialogBehavior$1.mouseUp(CellEditorDialogBehavior.java:115)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:171)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:273)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.createCommand(ExternalController.java:75)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.access$0(ExternalController.java:65)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController$1.widgetSelected(ExternalController.java:197)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:277)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:32:00.047
+!MESSAGE 2020-03-24 10:32:00,047 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:32:00.219
+!MESSAGE 2020-03-24 10:32:00,219 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:32:03.352
+!MESSAGE 2020-03-24 10:32:03,351 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:32:03.553
+!MESSAGE 2020-03-24 10:32:03,552 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:32:03.568
+!MESSAGE 2020-03-24 10:32:03,568 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:32:03.574
+!MESSAGE 2020-03-24 10:32:03,573 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:32:05.762
+!MESSAGE 2020-03-24 10:32:05,761 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:32:05.941
+!MESSAGE 2020-03-24 10:32:05,940 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:34:03.008
+!MESSAGE 2020-03-24 10:34:03,008 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:34:03.182
+!MESSAGE 2020-03-24 10:34:03,181 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:34:43.433
+!MESSAGE 2020-03-24 10:34:43,432 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:34:43.607
+!MESSAGE 2020-03-24 10:34:43,607 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:34:49.207
+!MESSAGE 2020-03-24 10:34:49,206 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:34:49.412
+!MESSAGE 2020-03-24 10:34:49,412 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:34:55.209
+!MESSAGE 2020-03-24 10:34:55,208 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:34:55.392
+!MESSAGE 2020-03-24 10:34:55,391 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:34:57.914
+!MESSAGE 2020-03-24 10:34:57,913 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:34:58.203
+!MESSAGE 2020-03-24 10:34:58,202 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:37:49.622
+!MESSAGE 2020-03-24 10:37:49,621 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-24 10:37:49.808
+!MESSAGE 2020-03-24 10:37:49,807 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; receitas_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.eclipse.ui 4 0 2020-03-24 10:38:09.760
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Invalid visible region argument
+	at org.eclipse.jface.text.TextViewer.setVisibleRegion(TextViewer.java:3500)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.setVisibleRegion(ProjectionViewer.java:688)
+	at org.talend.designer.core.ui.viewer.ReconcilerViewer.setVisibleRegion(ReconcilerViewer.java:596)
+	at org.talend.designer.core.ui.viewer.ReconcilerViewer.updateVisibleRegion(ReconcilerViewer.java:627)
+	at org.talend.designer.core.ui.viewer.ReconcilerViewer$2$1.run(ReconcilerViewer.java:194)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.talend.expressionbuilder.ui.ExpressionBuilderDialog.openDialog(ExpressionBuilderDialog.java:448)
+	at org.talend.commons.ui.runtime.swt.tableviewer.celleditor.CellEditorDialogBehavior$1.mouseUp(CellEditorDialogBehavior.java:115)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:171)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:273)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.createCommand(ExternalController.java:75)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.access$0(ExternalController.java:65)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController$1.widgetSelected(ExternalController.java:197)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:277)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2020-03-24 10:38:10.249
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Invalid visible region argument
+	at org.eclipse.jface.text.TextViewer.setVisibleRegion(TextViewer.java:3500)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.setVisibleRegion(ProjectionViewer.java:688)
+	at org.talend.designer.core.ui.viewer.ReconcilerViewer.setVisibleRegion(ReconcilerViewer.java:596)
+	at org.talend.designer.core.ui.viewer.ReconcilerViewer.updateVisibleRegion(ReconcilerViewer.java:627)
+	at org.talend.designer.core.ui.viewer.ReconcilerViewer$2$1.run(ReconcilerViewer.java:194)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.talend.expressionbuilder.ui.ExpressionBuilderDialog.openDialog(ExpressionBuilderDialog.java:448)
+	at org.talend.commons.ui.runtime.swt.tableviewer.celleditor.CellEditorDialogBehavior$1.mouseUp(CellEditorDialogBehavior.java:115)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:171)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:273)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.createCommand(ExternalController.java:75)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.access$0(ExternalController.java:65)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController$1.widgetSelected(ExternalController.java:197)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:277)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 4 0 2020-03-24 10:38:13.725
+!MESSAGE 2020-03-24 10:38:13,724 ERROR org.talend.commons.exception.CommonExceptionHandler  - 
+
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.AbstractDocument.get(AbstractDocument.java:968)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.get(SynchronizableDocument.java:130)
+	at org.talend.expressionbuilder.ui.ExpressionComposite.getExpression(ExpressionComposite.java:463)
+	at org.talend.expressionbuilder.ui.ExpressionBuilderDialog.newExpression(ExpressionBuilderDialog.java:347)
+	at org.talend.expressionbuilder.ui.ExpressionBuilderDialog.close(ExpressionBuilderDialog.java:321)
+	at org.eclipse.jface.window.Window.handleShellCloseEvent(Window.java:738)
+	at org.eclipse.jface.dialogs.TrayDialog.handleShellCloseEvent(TrayDialog.java:220)
+	at org.eclipse.jface.window.Window$1.shellClosed(Window.java:684)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:284)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1574)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4770)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2153)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:506)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2153)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:506)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2153)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3545)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.talend.expressionbuilder.ui.ExpressionBuilderDialog.openDialog(ExpressionBuilderDialog.java:448)
+	at org.talend.commons.ui.runtime.swt.tableviewer.celleditor.CellEditorDialogBehavior$1.mouseUp(CellEditorDialogBehavior.java:115)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:171)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:273)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.createCommand(ExternalController.java:75)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController.access$0(ExternalController.java:65)
+	at org.talend.designer.core.ui.editor.properties.controllers.ExternalController$1.widgetSelected(ExternalController.java:197)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:277)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 4 0 2020-03-24 10:40:20.587
+!MESSAGE 2020-03-24 10:40:20,583 ERROR org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener  - Could not update launch configuration
+
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.getLaunchConfiguration(MavenRuntimeClasspathProvider.java:385)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:376)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:777)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:921)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.talend.platform.logging 4 0 2020-03-24 10:40:20.591
+!MESSAGE 2020-03-24 10:40:20,588 ERROR org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener  - Could not update launch configuration
+
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.getLaunchConfiguration(MavenRuntimeClasspathProvider.java:385)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:376)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:777)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:921)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.talend.platform.logging 4 0 2020-03-24 10:40:20.595
+!MESSAGE 2020-03-24 10:40:20,592 ERROR org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener  - Could not update launch configuration
+
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.getLaunchConfiguration(MavenRuntimeClasspathProvider.java:385)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:376)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:777)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:921)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-03-24 10:40:20.607
+!MESSAGE The workspace will exit with unsaved changes in this session.
