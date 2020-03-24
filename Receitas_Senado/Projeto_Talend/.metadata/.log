@@ -283,3 +283,70 @@ java.net.URISyntaxException: Illegal character in path at index 32: file:/C:/Use
 !ENTRY org.talend.platform.logging 1 0 2020-03-23 19:16:23.662
 !MESSAGE 2020-03-23 19:16:23,661 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/hfernanl/Documents/GitHub/Talend_PowerBI/Receitas_Senado/Projeto_Talend/.Java/target/classpath.jar; receitas_senado.shadowfileinputtodelimitedoutput_0_1.ShadowFileInputToDelimitedOutput --context=Shadow %*
 
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-23 20:32:29.439
+!MESSAGE 2020-03-23 20:32:29,438 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-23 20:32:29.580
+!MESSAGE 2020-03-23 20:32:29,579 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-23 20:32:29.808
+!MESSAGE 2020-03-23 20:32:29,807 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /RECEITAS_SENADO_JOB_EXTRACAO_RECEITAS_SENADORES_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-23 20:32:29.809
+!MESSAGE 2020-03-23 20:32:29,808 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /RECEITAS_SENADO_JOB_EXTRACAO_RECEITAS_SENADORES_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-23 20:32:29.812
+!MESSAGE 2020-03-23 20:32:29,811 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /RECEITAS_SENADO_JOB_EXTRACAO_RECEITAS_SENADORES_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-23 20:32:29.814
+!MESSAGE 2020-03-23 20:32:29,813 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /RECEITAS_SENADO_JOB_EXTRACAO_RECEITAS_SENADORES_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-23 20:32:29.976
+!MESSAGE 2020-03-23 20:32:29,975 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-23 20:32:30.174
+!MESSAGE 2020-03-23 20:32:30,173 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-23 20:32:32.139
+!MESSAGE 2020-03-23 20:32:32,138 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-23 20:32:32.380
+!MESSAGE 2020-03-23 20:32:32,379 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-23 20:32:32.612
+!MESSAGE 2020-03-23 20:32:32,610 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /RECEITAS_SENADO_JOB_EXTRACAO_RECEITAS_SENADORES_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-23 20:32:32.613
+!MESSAGE 2020-03-23 20:32:32,612 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /RECEITAS_SENADO_JOB_EXTRACAO_RECEITAS_SENADORES_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-23 20:32:32.616
+!MESSAGE 2020-03-23 20:32:32,615 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /RECEITAS_SENADO_JOB_EXTRACAO_RECEITAS_SENADORES_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-23 20:32:32.617
+!MESSAGE 2020-03-23 20:32:32,616 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /RECEITAS_SENADO_JOB_EXTRACAO_RECEITAS_SENADORES_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-23 20:32:32.736
+!MESSAGE 2020-03-23 20:32:32,735 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-23 20:32:33.026
+!MESSAGE 2020-03-23 20:32:33,025 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/RECEITAS_SENADO_ROUTINES: org.example.receitas_senado.code:routines:7.2.1 with classifier  to /RECEITAS_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-03-23 21:14:10.684
+!MESSAGE The workspace will exit with unsaved changes in this session.
