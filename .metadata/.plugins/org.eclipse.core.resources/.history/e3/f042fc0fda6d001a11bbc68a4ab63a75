@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_D-WtsG3aEeqG4Zj3SVZ_Vw" label="Administrativo_Senado" description="" language="java" technicalLabel="ADMINISTRATIVO_SENADO" local="true" author="_D-WtsW3aEeqG4Zj3SVZ_Vw" bigData="false"/>
+  <TalendProperties:User xmi:id="_D-WtsW3aEeqG4Zj3SVZ_Vw" login="user@talend.com" password="D41D8CD98F00B204E9800998ECF8427E"/>
+</xmi:XMI>
