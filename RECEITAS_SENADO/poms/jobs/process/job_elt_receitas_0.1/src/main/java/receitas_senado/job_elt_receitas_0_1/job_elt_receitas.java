@@ -344,17 +344,54 @@ public class job_elt_receitas implements TalendJob {
 		}
 	}
 
-	public void tCreateTable_1_error(Exception exception, String errorComponent,
+	public void tFileInputDelimited_1_error(Exception exception, String errorComponent,
 			final java.util.Map<String, Object> globalMap) throws TalendException {
 
 		end_Hash.put(errorComponent, System.currentTimeMillis());
 
 		status = "failure";
 
-		tCreateTable_1_onSubJobError(exception, errorComponent, globalMap);
+		tFileInputDelimited_1_onSubJobError(exception, errorComponent, globalMap);
 	}
 
-	public void tCreateTable_1_onSubJobError(Exception exception, String errorComponent,
+	public void tMap_1_error(Exception exception, String errorComponent, final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileInputDelimited_1_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tDBOutput_1_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap) throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileInputDelimited_1_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tSortRow_1_SortOut_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap) throws TalendException {
+
+		tSortRow_1_SortIn_error(exception, errorComponent, globalMap);
+
+	}
+
+	public void tSortRow_1_SortIn_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap) throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileInputDelimited_1_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tFileInputDelimited_1_onSubJobError(Exception exception, String errorComponent,
 			final java.util.Map<String, Object> globalMap) throws TalendException {
 
 		resumeUtil.addLog("SYSTEM_LOG", "NODE:" + errorComponent, "", Thread.currentThread().getId() + "", "FATAL", "",
@@ -362,10 +399,1249 @@ public class job_elt_receitas implements TalendJob {
 
 	}
 
-	public void tCreateTable_1Process(final java.util.Map<String, Object> globalMap) throws TalendException {
-		globalMap.put("tCreateTable_1_SUBPROCESS_STATE", 0);
+	public static class out_caga_tb_receitas_senadoStruct
+			implements routines.system.IPersistableRow<out_caga_tb_receitas_senadoStruct> {
+		final static byte[] commonByteArrayLock_RECEITAS_SENADO_job_elt_receitas = new byte[0];
+		static byte[] commonByteArray_RECEITAS_SENADO_job_elt_receitas = new byte[0];
+		protected static final int DEFAULT_HASHCODE = 1;
+		protected static final int PRIME = 31;
+		protected int hashCode = DEFAULT_HASHCODE;
+		public boolean hashCodeDirty = true;
+
+		public String loopKey;
+
+		public String n_ano;
+
+		public String getN_ano() {
+			return this.n_ano;
+		}
+
+		public String desc_cod_orgao;
+
+		public String getDesc_cod_orgao() {
+			return this.desc_cod_orgao;
+		}
+
+		public String dt_carga_dados;
+
+		public String getDt_carga_dados() {
+			return this.dt_carga_dados;
+		}
+
+		public String desc_cod_categ_econ;
+
+		public String getDesc_cod_categ_econ() {
+			return this.desc_cod_categ_econ;
+		}
+
+		public String desc_cod_origem;
+
+		public String getDesc_cod_origem() {
+			return this.desc_cod_origem;
+		}
+
+		public String desc_cod_especie;
+
+		public String getDesc_cod_especie() {
+			return this.desc_cod_especie;
+		}
+
+		public String desc_cod_aliena_desd;
+
+		public String getDesc_cod_aliena_desd() {
+			return this.desc_cod_aliena_desd;
+		}
+
+		public String cod_natureza_receita;
+
+		public String getCod_natureza_receita() {
+			return this.cod_natureza_receita;
+		}
+
+		public String desc_natureza_receita;
+
+		public String getDesc_natureza_receita() {
+			return this.desc_natureza_receita;
+		}
+
+		public String vlr_soma_receita_prevista;
+
+		public String getVlr_soma_receita_prevista() {
+			return this.vlr_soma_receita_prevista;
+		}
+
+		public String vlr_soma_receita_liquidada;
+
+		public String getVlr_soma_receita_liquidada() {
+			return this.vlr_soma_receita_liquidada;
+		}
+
+		public String desc_orgao;
+
+		public String getDesc_orgao() {
+			return this.desc_orgao;
+		}
+
+		public int cod_orgao;
+
+		public int getCod_orgao() {
+			return this.cod_orgao;
+		}
+
+		public String desc_categ_econ;
+
+		public String getDesc_categ_econ() {
+			return this.desc_categ_econ;
+		}
+
+		public int cod_categ_econ;
+
+		public int getCod_categ_econ() {
+			return this.cod_categ_econ;
+		}
+
+		public String desc_origem;
+
+		public String getDesc_origem() {
+			return this.desc_origem;
+		}
+
+		public int cod_origem;
+
+		public int getCod_origem() {
+			return this.cod_origem;
+		}
+
+		public String desc_especie;
+
+		public String getDesc_especie() {
+			return this.desc_especie;
+		}
+
+		public int cod_especie;
+
+		public int getCod_especie() {
+			return this.cod_especie;
+		}
+
+		public String desc_aliena_desd;
+
+		public String getDesc_aliena_desd() {
+			return this.desc_aliena_desd;
+		}
+
+		public int cod_aliena_desd;
+
+		public int getCod_aliena_desd() {
+			return this.cod_aliena_desd;
+		}
+
+		@Override
+		public int hashCode() {
+			if (this.hashCodeDirty) {
+				final int prime = PRIME;
+				int result = DEFAULT_HASHCODE;
+
+				result = prime * result + ((this.n_ano == null) ? 0 : this.n_ano.hashCode());
+
+				result = prime * result + ((this.dt_carga_dados == null) ? 0 : this.dt_carga_dados.hashCode());
+
+				result = prime * result
+						+ ((this.cod_natureza_receita == null) ? 0 : this.cod_natureza_receita.hashCode());
+
+				result = prime * result + (int) this.cod_origem;
+
+				this.hashCode = result;
+				this.hashCodeDirty = false;
+			}
+			return this.hashCode;
+		}
+
+		@Override
+		public boolean equals(Object obj) {
+			if (this == obj)
+				return true;
+			if (obj == null)
+				return false;
+			if (getClass() != obj.getClass())
+				return false;
+			final out_caga_tb_receitas_senadoStruct other = (out_caga_tb_receitas_senadoStruct) obj;
+
+			if (this.n_ano == null) {
+				if (other.n_ano != null)
+					return false;
+
+			} else if (!this.n_ano.equals(other.n_ano))
+
+				return false;
+
+			if (this.dt_carga_dados == null) {
+				if (other.dt_carga_dados != null)
+					return false;
+
+			} else if (!this.dt_carga_dados.equals(other.dt_carga_dados))
+
+				return false;
+
+			if (this.cod_natureza_receita == null) {
+				if (other.cod_natureza_receita != null)
+					return false;
+
+			} else if (!this.cod_natureza_receita.equals(other.cod_natureza_receita))
+
+				return false;
+
+			if (this.cod_origem != other.cod_origem)
+				return false;
+
+			return true;
+		}
+
+		public void copyDataTo(out_caga_tb_receitas_senadoStruct other) {
+
+			other.n_ano = this.n_ano;
+			other.desc_cod_orgao = this.desc_cod_orgao;
+			other.dt_carga_dados = this.dt_carga_dados;
+			other.desc_cod_categ_econ = this.desc_cod_categ_econ;
+			other.desc_cod_origem = this.desc_cod_origem;
+			other.desc_cod_especie = this.desc_cod_especie;
+			other.desc_cod_aliena_desd = this.desc_cod_aliena_desd;
+			other.cod_natureza_receita = this.cod_natureza_receita;
+			other.desc_natureza_receita = this.desc_natureza_receita;
+			other.vlr_soma_receita_prevista = this.vlr_soma_receita_prevista;
+			other.vlr_soma_receita_liquidada = this.vlr_soma_receita_liquidada;
+			other.desc_orgao = this.desc_orgao;
+			other.cod_orgao = this.cod_orgao;
+			other.desc_categ_econ = this.desc_categ_econ;
+			other.cod_categ_econ = this.cod_categ_econ;
+			other.desc_origem = this.desc_origem;
+			other.cod_origem = this.cod_origem;
+			other.desc_especie = this.desc_especie;
+			other.cod_especie = this.cod_especie;
+			other.desc_aliena_desd = this.desc_aliena_desd;
+			other.cod_aliena_desd = this.cod_aliena_desd;
+
+		}
+
+		public void copyKeysDataTo(out_caga_tb_receitas_senadoStruct other) {
+
+			other.n_ano = this.n_ano;
+			other.dt_carga_dados = this.dt_carga_dados;
+			other.cod_natureza_receita = this.cod_natureza_receita;
+			other.cod_origem = this.cod_origem;
+
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_RECEITAS_SENADO_job_elt_receitas.length) {
+					if (length < 1024 && commonByteArray_RECEITAS_SENADO_job_elt_receitas.length == 0) {
+						commonByteArray_RECEITAS_SENADO_job_elt_receitas = new byte[1024];
+					} else {
+						commonByteArray_RECEITAS_SENADO_job_elt_receitas = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_RECEITAS_SENADO_job_elt_receitas, 0, length);
+				strReturn = new String(commonByteArray_RECEITAS_SENADO_job_elt_receitas, 0, length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos) throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_RECEITAS_SENADO_job_elt_receitas) {
+
+				try {
+
+					int length = 0;
+
+					this.n_ano = readString(dis);
+
+					this.desc_cod_orgao = readString(dis);
+
+					this.dt_carga_dados = readString(dis);
+
+					this.desc_cod_categ_econ = readString(dis);
+
+					this.desc_cod_origem = readString(dis);
+
+					this.desc_cod_especie = readString(dis);
+
+					this.desc_cod_aliena_desd = readString(dis);
+
+					this.cod_natureza_receita = readString(dis);
+
+					this.desc_natureza_receita = readString(dis);
+
+					this.vlr_soma_receita_prevista = readString(dis);
+
+					this.vlr_soma_receita_liquidada = readString(dis);
+
+					this.desc_orgao = readString(dis);
+
+					this.cod_orgao = dis.readInt();
+
+					this.desc_categ_econ = readString(dis);
+
+					this.cod_categ_econ = dis.readInt();
+
+					this.desc_origem = readString(dis);
+
+					this.cod_origem = dis.readInt();
+
+					this.desc_especie = readString(dis);
+
+					this.cod_especie = dis.readInt();
+
+					this.desc_aliena_desd = readString(dis);
+
+					this.cod_aliena_desd = dis.readInt();
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// String
+
+				writeString(this.n_ano, dos);
+
+				// String
+
+				writeString(this.desc_cod_orgao, dos);
+
+				// String
+
+				writeString(this.dt_carga_dados, dos);
+
+				// String
+
+				writeString(this.desc_cod_categ_econ, dos);
+
+				// String
+
+				writeString(this.desc_cod_origem, dos);
+
+				// String
+
+				writeString(this.desc_cod_especie, dos);
+
+				// String
+
+				writeString(this.desc_cod_aliena_desd, dos);
+
+				// String
+
+				writeString(this.cod_natureza_receita, dos);
+
+				// String
+
+				writeString(this.desc_natureza_receita, dos);
+
+				// String
+
+				writeString(this.vlr_soma_receita_prevista, dos);
+
+				// String
+
+				writeString(this.vlr_soma_receita_liquidada, dos);
+
+				// String
+
+				writeString(this.desc_orgao, dos);
+
+				// int
+
+				dos.writeInt(this.cod_orgao);
+
+				// String
+
+				writeString(this.desc_categ_econ, dos);
+
+				// int
+
+				dos.writeInt(this.cod_categ_econ);
+
+				// String
+
+				writeString(this.desc_origem, dos);
+
+				// int
+
+				dos.writeInt(this.cod_origem);
+
+				// String
+
+				writeString(this.desc_especie, dos);
+
+				// int
+
+				dos.writeInt(this.cod_especie);
+
+				// String
+
+				writeString(this.desc_aliena_desd, dos);
+
+				// int
+
+				dos.writeInt(this.cod_aliena_desd);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("n_ano=" + n_ano);
+			sb.append(",desc_cod_orgao=" + desc_cod_orgao);
+			sb.append(",dt_carga_dados=" + dt_carga_dados);
+			sb.append(",desc_cod_categ_econ=" + desc_cod_categ_econ);
+			sb.append(",desc_cod_origem=" + desc_cod_origem);
+			sb.append(",desc_cod_especie=" + desc_cod_especie);
+			sb.append(",desc_cod_aliena_desd=" + desc_cod_aliena_desd);
+			sb.append(",cod_natureza_receita=" + cod_natureza_receita);
+			sb.append(",desc_natureza_receita=" + desc_natureza_receita);
+			sb.append(",vlr_soma_receita_prevista=" + vlr_soma_receita_prevista);
+			sb.append(",vlr_soma_receita_liquidada=" + vlr_soma_receita_liquidada);
+			sb.append(",desc_orgao=" + desc_orgao);
+			sb.append(",cod_orgao=" + String.valueOf(cod_orgao));
+			sb.append(",desc_categ_econ=" + desc_categ_econ);
+			sb.append(",cod_categ_econ=" + String.valueOf(cod_categ_econ));
+			sb.append(",desc_origem=" + desc_origem);
+			sb.append(",cod_origem=" + String.valueOf(cod_origem));
+			sb.append(",desc_especie=" + desc_especie);
+			sb.append(",cod_especie=" + String.valueOf(cod_especie));
+			sb.append(",desc_aliena_desd=" + desc_aliena_desd);
+			sb.append(",cod_aliena_desd=" + String.valueOf(cod_aliena_desd));
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(out_caga_tb_receitas_senadoStruct other) {
+
+			int returnValue = -1;
+
+			returnValue = checkNullsAndCompare(this.n_ano, other.n_ano);
+			if (returnValue != 0) {
+				return returnValue;
+			}
+
+			returnValue = checkNullsAndCompare(this.dt_carga_dados, other.dt_carga_dados);
+			if (returnValue != 0) {
+				return returnValue;
+			}
+
+			returnValue = checkNullsAndCompare(this.cod_natureza_receita, other.cod_natureza_receita);
+			if (returnValue != 0) {
+				return returnValue;
+			}
+
+			returnValue = checkNullsAndCompare(this.cod_origem, other.cod_origem);
+			if (returnValue != 0) {
+				return returnValue;
+			}
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(), object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public static class row2Struct implements routines.system.IPersistableRow<row2Struct> {
+		final static byte[] commonByteArrayLock_RECEITAS_SENADO_job_elt_receitas = new byte[0];
+		static byte[] commonByteArray_RECEITAS_SENADO_job_elt_receitas = new byte[0];
+
+		public String Ano;
+
+		public String getAno() {
+			return this.Ano;
+		}
+
+		public String Orgao_Cod_Desc;
+
+		public String getOrgao_Cod_Desc() {
+			return this.Orgao_Cod_Desc;
+		}
+
+		public String Data_Carga_Dados;
+
+		public String getData_Carga_Dados() {
+			return this.Data_Carga_Dados;
+		}
+
+		public String Categoria_Economica_Cod_Desc;
+
+		public String getCategoria_Economica_Cod_Desc() {
+			return this.Categoria_Economica_Cod_Desc;
+		}
+
+		public String Origem_Cod_Desc;
+
+		public String getOrigem_Cod_Desc() {
+			return this.Origem_Cod_Desc;
+		}
+
+		public String Especie_Cod_Desc;
+
+		public String getEspecie_Cod_Desc() {
+			return this.Especie_Cod_Desc;
+		}
+
+		public String Alinea_Cod_Desc_Desdob;
+
+		public String getAlinea_Cod_Desc_Desdob() {
+			return this.Alinea_Cod_Desc_Desdob;
+		}
+
+		public String Natureza_Receita_Cod_;
+
+		public String getNatureza_Receita_Cod_() {
+			return this.Natureza_Receita_Cod_;
+		}
+
+		public String Natureza_Receita;
+
+		public String getNatureza_Receita() {
+			return this.Natureza_Receita;
+		}
+
+		public String Soma_Receita_Prevista;
+
+		public String getSoma_Receita_Prevista() {
+			return this.Soma_Receita_Prevista;
+		}
+
+		public String Soma_Receita_Arrecadada_Liquida;
+
+		public String getSoma_Receita_Arrecadada_Liquida() {
+			return this.Soma_Receita_Arrecadada_Liquida;
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_RECEITAS_SENADO_job_elt_receitas.length) {
+					if (length < 1024 && commonByteArray_RECEITAS_SENADO_job_elt_receitas.length == 0) {
+						commonByteArray_RECEITAS_SENADO_job_elt_receitas = new byte[1024];
+					} else {
+						commonByteArray_RECEITAS_SENADO_job_elt_receitas = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_RECEITAS_SENADO_job_elt_receitas, 0, length);
+				strReturn = new String(commonByteArray_RECEITAS_SENADO_job_elt_receitas, 0, length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos) throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_RECEITAS_SENADO_job_elt_receitas) {
+
+				try {
+
+					int length = 0;
+
+					this.Ano = readString(dis);
+
+					this.Orgao_Cod_Desc = readString(dis);
+
+					this.Data_Carga_Dados = readString(dis);
+
+					this.Categoria_Economica_Cod_Desc = readString(dis);
+
+					this.Origem_Cod_Desc = readString(dis);
+
+					this.Especie_Cod_Desc = readString(dis);
+
+					this.Alinea_Cod_Desc_Desdob = readString(dis);
+
+					this.Natureza_Receita_Cod_ = readString(dis);
+
+					this.Natureza_Receita = readString(dis);
+
+					this.Soma_Receita_Prevista = readString(dis);
+
+					this.Soma_Receita_Arrecadada_Liquida = readString(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// String
+
+				writeString(this.Ano, dos);
+
+				// String
+
+				writeString(this.Orgao_Cod_Desc, dos);
+
+				// String
+
+				writeString(this.Data_Carga_Dados, dos);
+
+				// String
+
+				writeString(this.Categoria_Economica_Cod_Desc, dos);
+
+				// String
+
+				writeString(this.Origem_Cod_Desc, dos);
+
+				// String
+
+				writeString(this.Especie_Cod_Desc, dos);
+
+				// String
+
+				writeString(this.Alinea_Cod_Desc_Desdob, dos);
+
+				// String
+
+				writeString(this.Natureza_Receita_Cod_, dos);
+
+				// String
+
+				writeString(this.Natureza_Receita, dos);
+
+				// String
+
+				writeString(this.Soma_Receita_Prevista, dos);
+
+				// String
+
+				writeString(this.Soma_Receita_Arrecadada_Liquida, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("Ano=" + Ano);
+			sb.append(",Orgao_Cod_Desc=" + Orgao_Cod_Desc);
+			sb.append(",Data_Carga_Dados=" + Data_Carga_Dados);
+			sb.append(",Categoria_Economica_Cod_Desc=" + Categoria_Economica_Cod_Desc);
+			sb.append(",Origem_Cod_Desc=" + Origem_Cod_Desc);
+			sb.append(",Especie_Cod_Desc=" + Especie_Cod_Desc);
+			sb.append(",Alinea_Cod_Desc_Desdob=" + Alinea_Cod_Desc_Desdob);
+			sb.append(",Natureza_Receita_Cod_=" + Natureza_Receita_Cod_);
+			sb.append(",Natureza_Receita=" + Natureza_Receita);
+			sb.append(",Soma_Receita_Prevista=" + Soma_Receita_Prevista);
+			sb.append(",Soma_Receita_Arrecadada_Liquida=" + Soma_Receita_Arrecadada_Liquida);
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(row2Struct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(), object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public static class OnRowsEndStructtSortRow_1
+			implements routines.system.IPersistableRow<OnRowsEndStructtSortRow_1> {
+		final static byte[] commonByteArrayLock_RECEITAS_SENADO_job_elt_receitas = new byte[0];
+		static byte[] commonByteArray_RECEITAS_SENADO_job_elt_receitas = new byte[0];
+
+		public String Ano;
+
+		public String getAno() {
+			return this.Ano;
+		}
+
+		public String Orgao_Cod_Desc;
+
+		public String getOrgao_Cod_Desc() {
+			return this.Orgao_Cod_Desc;
+		}
+
+		public String Data_Carga_Dados;
+
+		public String getData_Carga_Dados() {
+			return this.Data_Carga_Dados;
+		}
+
+		public String Categoria_Economica_Cod_Desc;
+
+		public String getCategoria_Economica_Cod_Desc() {
+			return this.Categoria_Economica_Cod_Desc;
+		}
+
+		public String Origem_Cod_Desc;
+
+		public String getOrigem_Cod_Desc() {
+			return this.Origem_Cod_Desc;
+		}
+
+		public String Especie_Cod_Desc;
+
+		public String getEspecie_Cod_Desc() {
+			return this.Especie_Cod_Desc;
+		}
+
+		public String Alinea_Cod_Desc_Desdob;
+
+		public String getAlinea_Cod_Desc_Desdob() {
+			return this.Alinea_Cod_Desc_Desdob;
+		}
+
+		public String Natureza_Receita_Cod_;
+
+		public String getNatureza_Receita_Cod_() {
+			return this.Natureza_Receita_Cod_;
+		}
+
+		public String Natureza_Receita;
+
+		public String getNatureza_Receita() {
+			return this.Natureza_Receita;
+		}
+
+		public String Soma_Receita_Prevista;
+
+		public String getSoma_Receita_Prevista() {
+			return this.Soma_Receita_Prevista;
+		}
+
+		public String Soma_Receita_Arrecadada_Liquida;
+
+		public String getSoma_Receita_Arrecadada_Liquida() {
+			return this.Soma_Receita_Arrecadada_Liquida;
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_RECEITAS_SENADO_job_elt_receitas.length) {
+					if (length < 1024 && commonByteArray_RECEITAS_SENADO_job_elt_receitas.length == 0) {
+						commonByteArray_RECEITAS_SENADO_job_elt_receitas = new byte[1024];
+					} else {
+						commonByteArray_RECEITAS_SENADO_job_elt_receitas = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_RECEITAS_SENADO_job_elt_receitas, 0, length);
+				strReturn = new String(commonByteArray_RECEITAS_SENADO_job_elt_receitas, 0, length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos) throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_RECEITAS_SENADO_job_elt_receitas) {
+
+				try {
+
+					int length = 0;
+
+					this.Ano = readString(dis);
+
+					this.Orgao_Cod_Desc = readString(dis);
+
+					this.Data_Carga_Dados = readString(dis);
+
+					this.Categoria_Economica_Cod_Desc = readString(dis);
+
+					this.Origem_Cod_Desc = readString(dis);
+
+					this.Especie_Cod_Desc = readString(dis);
+
+					this.Alinea_Cod_Desc_Desdob = readString(dis);
+
+					this.Natureza_Receita_Cod_ = readString(dis);
+
+					this.Natureza_Receita = readString(dis);
+
+					this.Soma_Receita_Prevista = readString(dis);
+
+					this.Soma_Receita_Arrecadada_Liquida = readString(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// String
+
+				writeString(this.Ano, dos);
+
+				// String
+
+				writeString(this.Orgao_Cod_Desc, dos);
+
+				// String
+
+				writeString(this.Data_Carga_Dados, dos);
+
+				// String
+
+				writeString(this.Categoria_Economica_Cod_Desc, dos);
+
+				// String
+
+				writeString(this.Origem_Cod_Desc, dos);
+
+				// String
+
+				writeString(this.Especie_Cod_Desc, dos);
+
+				// String
+
+				writeString(this.Alinea_Cod_Desc_Desdob, dos);
+
+				// String
+
+				writeString(this.Natureza_Receita_Cod_, dos);
+
+				// String
+
+				writeString(this.Natureza_Receita, dos);
+
+				// String
+
+				writeString(this.Soma_Receita_Prevista, dos);
+
+				// String
+
+				writeString(this.Soma_Receita_Arrecadada_Liquida, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("Ano=" + Ano);
+			sb.append(",Orgao_Cod_Desc=" + Orgao_Cod_Desc);
+			sb.append(",Data_Carga_Dados=" + Data_Carga_Dados);
+			sb.append(",Categoria_Economica_Cod_Desc=" + Categoria_Economica_Cod_Desc);
+			sb.append(",Origem_Cod_Desc=" + Origem_Cod_Desc);
+			sb.append(",Especie_Cod_Desc=" + Especie_Cod_Desc);
+			sb.append(",Alinea_Cod_Desc_Desdob=" + Alinea_Cod_Desc_Desdob);
+			sb.append(",Natureza_Receita_Cod_=" + Natureza_Receita_Cod_);
+			sb.append(",Natureza_Receita=" + Natureza_Receita);
+			sb.append(",Soma_Receita_Prevista=" + Soma_Receita_Prevista);
+			sb.append(",Soma_Receita_Arrecadada_Liquida=" + Soma_Receita_Arrecadada_Liquida);
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(OnRowsEndStructtSortRow_1 other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(), object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public static class row1Struct implements routines.system.IPersistableRow<row1Struct> {
+		final static byte[] commonByteArrayLock_RECEITAS_SENADO_job_elt_receitas = new byte[0];
+		static byte[] commonByteArray_RECEITAS_SENADO_job_elt_receitas = new byte[0];
+
+		public String Ano;
+
+		public String getAno() {
+			return this.Ano;
+		}
+
+		public String Orgao_Cod_Desc;
+
+		public String getOrgao_Cod_Desc() {
+			return this.Orgao_Cod_Desc;
+		}
+
+		public String Data_Carga_Dados;
+
+		public String getData_Carga_Dados() {
+			return this.Data_Carga_Dados;
+		}
+
+		public String Categoria_Economica_Cod_Desc;
+
+		public String getCategoria_Economica_Cod_Desc() {
+			return this.Categoria_Economica_Cod_Desc;
+		}
+
+		public String Origem_Cod_Desc;
+
+		public String getOrigem_Cod_Desc() {
+			return this.Origem_Cod_Desc;
+		}
+
+		public String Especie_Cod_Desc;
+
+		public String getEspecie_Cod_Desc() {
+			return this.Especie_Cod_Desc;
+		}
+
+		public String Alinea_Cod_Desc_Desdob;
+
+		public String getAlinea_Cod_Desc_Desdob() {
+			return this.Alinea_Cod_Desc_Desdob;
+		}
+
+		public String Natureza_Receita_Cod_;
+
+		public String getNatureza_Receita_Cod_() {
+			return this.Natureza_Receita_Cod_;
+		}
+
+		public String Natureza_Receita;
+
+		public String getNatureza_Receita() {
+			return this.Natureza_Receita;
+		}
+
+		public String Soma_Receita_Prevista;
+
+		public String getSoma_Receita_Prevista() {
+			return this.Soma_Receita_Prevista;
+		}
+
+		public String Soma_Receita_Arrecadada_Liquida;
+
+		public String getSoma_Receita_Arrecadada_Liquida() {
+			return this.Soma_Receita_Arrecadada_Liquida;
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_RECEITAS_SENADO_job_elt_receitas.length) {
+					if (length < 1024 && commonByteArray_RECEITAS_SENADO_job_elt_receitas.length == 0) {
+						commonByteArray_RECEITAS_SENADO_job_elt_receitas = new byte[1024];
+					} else {
+						commonByteArray_RECEITAS_SENADO_job_elt_receitas = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_RECEITAS_SENADO_job_elt_receitas, 0, length);
+				strReturn = new String(commonByteArray_RECEITAS_SENADO_job_elt_receitas, 0, length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos) throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_RECEITAS_SENADO_job_elt_receitas) {
+
+				try {
+
+					int length = 0;
+
+					this.Ano = readString(dis);
+
+					this.Orgao_Cod_Desc = readString(dis);
+
+					this.Data_Carga_Dados = readString(dis);
+
+					this.Categoria_Economica_Cod_Desc = readString(dis);
+
+					this.Origem_Cod_Desc = readString(dis);
+
+					this.Especie_Cod_Desc = readString(dis);
+
+					this.Alinea_Cod_Desc_Desdob = readString(dis);
+
+					this.Natureza_Receita_Cod_ = readString(dis);
+
+					this.Natureza_Receita = readString(dis);
+
+					this.Soma_Receita_Prevista = readString(dis);
+
+					this.Soma_Receita_Arrecadada_Liquida = readString(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// String
+
+				writeString(this.Ano, dos);
+
+				// String
+
+				writeString(this.Orgao_Cod_Desc, dos);
+
+				// String
+
+				writeString(this.Data_Carga_Dados, dos);
+
+				// String
+
+				writeString(this.Categoria_Economica_Cod_Desc, dos);
+
+				// String
+
+				writeString(this.Origem_Cod_Desc, dos);
+
+				// String
+
+				writeString(this.Especie_Cod_Desc, dos);
+
+				// String
+
+				writeString(this.Alinea_Cod_Desc_Desdob, dos);
+
+				// String
+
+				writeString(this.Natureza_Receita_Cod_, dos);
+
+				// String
+
+				writeString(this.Natureza_Receita, dos);
+
+				// String
+
+				writeString(this.Soma_Receita_Prevista, dos);
+
+				// String
+
+				writeString(this.Soma_Receita_Arrecadada_Liquida, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("Ano=" + Ano);
+			sb.append(",Orgao_Cod_Desc=" + Orgao_Cod_Desc);
+			sb.append(",Data_Carga_Dados=" + Data_Carga_Dados);
+			sb.append(",Categoria_Economica_Cod_Desc=" + Categoria_Economica_Cod_Desc);
+			sb.append(",Origem_Cod_Desc=" + Origem_Cod_Desc);
+			sb.append(",Especie_Cod_Desc=" + Especie_Cod_Desc);
+			sb.append(",Alinea_Cod_Desc_Desdob=" + Alinea_Cod_Desc_Desdob);
+			sb.append(",Natureza_Receita_Cod_=" + Natureza_Receita_Cod_);
+			sb.append(",Natureza_Receita=" + Natureza_Receita);
+			sb.append(",Soma_Receita_Prevista=" + Soma_Receita_Prevista);
+			sb.append(",Soma_Receita_Arrecadada_Liquida=" + Soma_Receita_Arrecadada_Liquida);
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(row1Struct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(), object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public void tFileInputDelimited_1Process(final java.util.Map<String, Object> globalMap) throws TalendException {
+		globalMap.put("tFileInputDelimited_1_SUBPROCESS_STATE", 0);
 
 		final boolean execStat = this.execStat;
+		String currentVirtualComponent = null;
 
 		String iterateId = "";
 
@@ -382,102 +1658,1280 @@ public class job_elt_receitas implements TalendJob {
 			if (resumeIt || globalResumeTicket) { // start the resume
 				globalResumeTicket = true;
 
-				/**
-				 * [tCreateTable_1 begin ] start
-				 */
-
-				ok_Hash.put("tCreateTable_1", false);
-				start_Hash.put("tCreateTable_1", System.currentTimeMillis());
-
-				currentComponent = "tCreateTable_1";
-
-				int tos_count_tCreateTable_1 = 0;
+				row1Struct row1 = new row1Struct();
+				row2Struct row2 = new row2Struct();
+				out_caga_tb_receitas_senadoStruct out_caga_tb_receitas_senado = new out_caga_tb_receitas_senadoStruct();
 
 				/**
-				 * [tCreateTable_1 begin ] stop
+				 * [tSortRow_1_SortOut begin ] start
 				 */
 
-				/**
-				 * [tCreateTable_1 main ] start
-				 */
+				ok_Hash.put("tSortRow_1_SortOut", false);
+				start_Hash.put("tSortRow_1_SortOut", System.currentTimeMillis());
 
-				currentComponent = "tCreateTable_1";
+				currentVirtualComponent = "tSortRow_1";
 
-				try {
-					String driverClass_tCreateTable_1 = "org.postgresql.Driver";
-					String url_tCreateTable_1 = "jdbc:postgresql://" + context.con_Postgres_Server + ":"
-							+ context.con_Postgres_Port + "/" + context.con_Postgres_Database + "?"
-							+ context.con_Postgres_AdditionalParams;
-					String dbUser_tCreateTable_1 = context.con_Postgres_Login;
+				currentComponent = "tSortRow_1_SortOut";
 
-					String tableName_tCreateTable_1 = "tb_receitas_senado";
-					String dbSchema_tCreateTable_1 = context.con_Postgres_Schema;
-					if (dbSchema_tCreateTable_1 != null && dbSchema_tCreateTable_1.trim().length() != 0) {
-						tableName_tCreateTable_1 = dbSchema_tCreateTable_1 + "\".\"" + tableName_tCreateTable_1;
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null) {
+
+						if (execStat) {
+							runStat.updateStatOnConnection("row1" + iterateId, 0, 0);
+						}
+
 					}
-					java.lang.Class jdbcclazz_tCreateTable_1 = java.lang.Class.forName("org.postgresql.Driver");
-					final String decryptedPassword_tCreateTable_1 = context.con_Postgres_Password;
-					java.sql.Connection conn_tCreateTable_1 = java.sql.DriverManager.getConnection(url_tCreateTable_1,
-							dbUser_tCreateTable_1, decryptedPassword_tCreateTable_1);
-
-					java.sql.Statement stmt_tCreateTable_1 = conn_tCreateTable_1.createStatement();
-					stmt_tCreateTable_1.execute("CREATE TABLE \"" + tableName_tCreateTable_1
-							+ "\"(\"n_ano\" INT4  not null ,\"desc_cod_orgao\" VARCHAR(60)   not null ,\"dt_carga_dados\" DATE  not null ,\"desc_cod_categ_econ\" VARCHAR(100)   not null ,\"desc_cod_origem\" VARCHAR(100)   not null ,\"desc_cod_especie\" VARCHAR(160)   not null ,\"desc_cod_aliena_desd\" VARCHAR(160)   not null ,\"cod_natureza_receita\" INT4  not null ,\"desc_natureza_receita\" VARCHAR(120)  ,\"vlr_soma_receita_prevista\" NUMERIC(15,2)  ,\"vlr_soma_receita_liquidada\" NUMERIC(15,2)  ,\"desc_orgao\" VARCHAR(60)  ,\"cod_orgao\" INT4 ,\"desc_categ_econ\" VARCHAR(100)  ,\"cod_categ_econ\" INT4 ,\"desc_origem\" VARCHAR(100)  ,\"cod_origem\" INT4 ,\"desc_especie\" VARCHAR(100)  ,\"cod_especie\" INT4 ,\"desc_aliena_desd\" VARCHAR(100)  ,\"cod_aliena_desd\" INT4 ,primary key(\"n_ano\",\"dt_carga_dados\",\"cod_natureza_receita\",\"cod_origem\"))");
-
-					if (conn_tCreateTable_1 != null && !conn_tCreateTable_1.isClosed()) {
-						conn_tCreateTable_1.close();
-					}
-
-					globalMap.put("tCreateTable_1_QUERY", "CREATE TABLE \"" + tableName_tCreateTable_1
-							+ "\"(\"n_ano\" INT4  not null ,\"desc_cod_orgao\" VARCHAR(60)   not null ,\"dt_carga_dados\" DATE  not null ,\"desc_cod_categ_econ\" VARCHAR(100)   not null ,\"desc_cod_origem\" VARCHAR(100)   not null ,\"desc_cod_especie\" VARCHAR(160)   not null ,\"desc_cod_aliena_desd\" VARCHAR(160)   not null ,\"cod_natureza_receita\" INT4  not null ,\"desc_natureza_receita\" VARCHAR(120)  ,\"vlr_soma_receita_prevista\" NUMERIC(15,2)  ,\"vlr_soma_receita_liquidada\" NUMERIC(15,2)  ,\"desc_orgao\" VARCHAR(60)  ,\"cod_orgao\" INT4 ,\"desc_categ_econ\" VARCHAR(100)  ,\"cod_categ_econ\" INT4 ,\"desc_origem\" VARCHAR(100)  ,\"cod_origem\" INT4 ,\"desc_especie\" VARCHAR(100)  ,\"cod_especie\" INT4 ,\"desc_aliena_desd\" VARCHAR(100)  ,\"cod_aliena_desd\" INT4 ,primary key(\"n_ano\",\"dt_carga_dados\",\"cod_natureza_receita\",\"cod_origem\"))");
-				} catch (java.lang.Exception e) {
-					globalMap.put("tCreateTable_1_ERROR_MESSAGE", e.getMessage());
-					throw new RuntimeException("Creating table failed", e);
 				}
 
-				tos_count_tCreateTable_1++;
+				int tos_count_tSortRow_1_SortOut = 0;
+
+				class Comparablerow1Struct extends row1Struct implements Comparable<Comparablerow1Struct> {
+
+					public int compareTo(Comparablerow1Struct other) {
+
+						if (this.Ano == null && other.Ano != null) {
+							return -1;
+
+						} else if (this.Ano != null && other.Ano == null) {
+							return 1;
+
+						} else if (this.Ano != null && other.Ano != null) {
+							if (!this.Ano.equals(other.Ano)) {
+								return this.Ano.compareTo(other.Ano);
+							}
+						}
+						return 0;
+					}
+				}
+
+				java.util.List<Comparablerow1Struct> list_tSortRow_1_SortOut = new java.util.ArrayList<Comparablerow1Struct>();
 
 				/**
-				 * [tCreateTable_1 main ] stop
+				 * [tSortRow_1_SortOut begin ] stop
 				 */
 
 				/**
-				 * [tCreateTable_1 process_data_begin ] start
+				 * [tFileInputDelimited_1 begin ] start
 				 */
 
-				currentComponent = "tCreateTable_1";
+				ok_Hash.put("tFileInputDelimited_1", false);
+				start_Hash.put("tFileInputDelimited_1", System.currentTimeMillis());
+
+				currentComponent = "tFileInputDelimited_1";
+
+				int tos_count_tFileInputDelimited_1 = 0;
+
+				final routines.system.RowState rowstate_tFileInputDelimited_1 = new routines.system.RowState();
+
+				int nb_line_tFileInputDelimited_1 = 0;
+				int footer_tFileInputDelimited_1 = 0;
+				int totalLinetFileInputDelimited_1 = 0;
+				int limittFileInputDelimited_1 = -1;
+				int lastLinetFileInputDelimited_1 = -1;
+
+				char fieldSeparator_tFileInputDelimited_1[] = null;
+
+				// support passing value (property: Field Separator) by 'context.fs' or
+				// 'globalMap.get("fs")'.
+				if (((String) ";").length() > 0) {
+					fieldSeparator_tFileInputDelimited_1 = ((String) ";").toCharArray();
+				} else {
+					throw new IllegalArgumentException("Field Separator must be assigned a char.");
+				}
+
+				char rowSeparator_tFileInputDelimited_1[] = null;
+
+				// support passing value (property: Row Separator) by 'context.rs' or
+				// 'globalMap.get("rs")'.
+				if (((String) "\n").length() > 0) {
+					rowSeparator_tFileInputDelimited_1 = ((String) "\n").toCharArray();
+				} else {
+					throw new IllegalArgumentException("Row Separator must be assigned a char.");
+				}
+
+				Object filename_tFileInputDelimited_1 = /** Start field tFileInputDelimited_1:FILENAME */
+						"C:/GitHub/Talend_PowerBI/RECEITAS_SENADO/Arquivos/ReceitasSenado.csv"/**
+																								 * End field
+																								 * tFileInputDelimited_1:FILENAME
+																								 */
+				;
+				com.talend.csv.CSVReader csvReadertFileInputDelimited_1 = null;
+
+				try {
+
+					String[] rowtFileInputDelimited_1 = null;
+					int currentLinetFileInputDelimited_1 = 0;
+					int outputLinetFileInputDelimited_1 = 0;
+					try {// TD110 begin
+						if (filename_tFileInputDelimited_1 instanceof java.io.InputStream) {
+
+							int footer_value_tFileInputDelimited_1 = 0;
+							if (footer_value_tFileInputDelimited_1 > 0) {
+								throw new java.lang.Exception(
+										"When the input source is a stream,footer shouldn't be bigger than 0.");
+							}
+
+							csvReadertFileInputDelimited_1 = new com.talend.csv.CSVReader(
+									(java.io.InputStream) filename_tFileInputDelimited_1,
+									fieldSeparator_tFileInputDelimited_1[0], "windows-1252");
+						} else {
+							csvReadertFileInputDelimited_1 = new com.talend.csv.CSVReader(
+									new java.io.BufferedReader(new java.io.InputStreamReader(
+											new java.io.FileInputStream(String.valueOf(filename_tFileInputDelimited_1)),
+											"windows-1252")),
+									fieldSeparator_tFileInputDelimited_1[0]);
+						}
+
+						csvReadertFileInputDelimited_1.setTrimWhitespace(false);
+						if ((rowSeparator_tFileInputDelimited_1[0] != '\n')
+								&& (rowSeparator_tFileInputDelimited_1[0] != '\r'))
+							csvReadertFileInputDelimited_1.setLineEnd("" + rowSeparator_tFileInputDelimited_1[0]);
+
+						csvReadertFileInputDelimited_1.setQuoteChar('"');
+
+						csvReadertFileInputDelimited_1.setEscapeChar(csvReadertFileInputDelimited_1.getQuoteChar());
+
+						if (footer_tFileInputDelimited_1 > 0) {
+							for (totalLinetFileInputDelimited_1 = 0; totalLinetFileInputDelimited_1 < 2; totalLinetFileInputDelimited_1++) {
+								csvReadertFileInputDelimited_1.readNext();
+							}
+							csvReadertFileInputDelimited_1.setSkipEmptyRecords(true);
+							while (csvReadertFileInputDelimited_1.readNext()) {
+
+								rowtFileInputDelimited_1 = csvReadertFileInputDelimited_1.getValues();
+								if (!(rowtFileInputDelimited_1.length == 1
+										&& ("\015").equals(rowtFileInputDelimited_1[0]))) {// empty line when row
+																							// separator is '\n'
+
+									totalLinetFileInputDelimited_1++;
+
+								}
+
+							}
+							int lastLineTemptFileInputDelimited_1 = totalLinetFileInputDelimited_1
+									- footer_tFileInputDelimited_1 < 0 ? 0
+											: totalLinetFileInputDelimited_1 - footer_tFileInputDelimited_1;
+							if (lastLinetFileInputDelimited_1 > 0) {
+								lastLinetFileInputDelimited_1 = lastLinetFileInputDelimited_1 < lastLineTemptFileInputDelimited_1
+										? lastLinetFileInputDelimited_1
+										: lastLineTemptFileInputDelimited_1;
+							} else {
+								lastLinetFileInputDelimited_1 = lastLineTemptFileInputDelimited_1;
+							}
+
+							csvReadertFileInputDelimited_1.close();
+							if (filename_tFileInputDelimited_1 instanceof java.io.InputStream) {
+								csvReadertFileInputDelimited_1 = new com.talend.csv.CSVReader(
+										(java.io.InputStream) filename_tFileInputDelimited_1,
+										fieldSeparator_tFileInputDelimited_1[0], "windows-1252");
+							} else {
+								csvReadertFileInputDelimited_1 = new com.talend.csv.CSVReader(
+										new java.io.BufferedReader(new java.io.InputStreamReader(
+												new java.io.FileInputStream(
+														String.valueOf(filename_tFileInputDelimited_1)),
+												"windows-1252")),
+										fieldSeparator_tFileInputDelimited_1[0]);
+							}
+							csvReadertFileInputDelimited_1.setTrimWhitespace(false);
+							if ((rowSeparator_tFileInputDelimited_1[0] != '\n')
+									&& (rowSeparator_tFileInputDelimited_1[0] != '\r'))
+								csvReadertFileInputDelimited_1.setLineEnd("" + rowSeparator_tFileInputDelimited_1[0]);
+
+							csvReadertFileInputDelimited_1.setQuoteChar('"');
+
+							csvReadertFileInputDelimited_1.setEscapeChar(csvReadertFileInputDelimited_1.getQuoteChar());
+
+						}
+
+						if (limittFileInputDelimited_1 != 0) {
+							for (currentLinetFileInputDelimited_1 = 0; currentLinetFileInputDelimited_1 < 2; currentLinetFileInputDelimited_1++) {
+								csvReadertFileInputDelimited_1.readNext();
+							}
+						}
+						csvReadertFileInputDelimited_1.setSkipEmptyRecords(true);
+
+					} catch (java.lang.Exception e) {
+
+						System.err.println(e.getMessage());
+
+					} // TD110 end
+
+					while (limittFileInputDelimited_1 != 0 && csvReadertFileInputDelimited_1 != null
+							&& csvReadertFileInputDelimited_1.readNext()) {
+						rowstate_tFileInputDelimited_1.reset();
+
+						rowtFileInputDelimited_1 = csvReadertFileInputDelimited_1.getValues();
+
+						if (rowtFileInputDelimited_1.length == 1 && ("\015").equals(rowtFileInputDelimited_1[0])) {// empty
+																													// line
+																													// when
+																													// row
+																													// separator
+																													// is
+																													// '\n'
+							continue;
+						}
+
+						currentLinetFileInputDelimited_1++;
+
+						if (lastLinetFileInputDelimited_1 > -1
+								&& currentLinetFileInputDelimited_1 > lastLinetFileInputDelimited_1) {
+							break;
+						}
+						outputLinetFileInputDelimited_1++;
+						if (limittFileInputDelimited_1 > 0
+								&& outputLinetFileInputDelimited_1 > limittFileInputDelimited_1) {
+							break;
+						}
+
+						row1 = null;
+
+						boolean whetherReject_tFileInputDelimited_1 = false;
+						row1 = new row1Struct();
+						try {
+
+							char fieldSeparator_tFileInputDelimited_1_ListType[] = null;
+							// support passing value (property: Field Separator) by 'context.fs' or
+							// 'globalMap.get("fs")'.
+							if (((String) ";").length() > 0) {
+								fieldSeparator_tFileInputDelimited_1_ListType = ((String) ";").toCharArray();
+							} else {
+								throw new IllegalArgumentException("Field Separator must be assigned a char.");
+							}
+							if (rowtFileInputDelimited_1.length == 1 && ("\015").equals(rowtFileInputDelimited_1[0])) {// empty
+																														// line
+																														// when
+																														// row
+																														// separator
+																														// is
+																														// '\n'
+
+								row1.Ano = null;
+
+								row1.Orgao_Cod_Desc = null;
+
+								row1.Data_Carga_Dados = null;
+
+								row1.Categoria_Economica_Cod_Desc = null;
+
+								row1.Origem_Cod_Desc = null;
+
+								row1.Especie_Cod_Desc = null;
+
+								row1.Alinea_Cod_Desc_Desdob = null;
+
+								row1.Natureza_Receita_Cod_ = null;
+
+								row1.Natureza_Receita = null;
+
+								row1.Soma_Receita_Prevista = null;
+
+								row1.Soma_Receita_Arrecadada_Liquida = null;
+
+							} else {
+
+								int columnIndexWithD_tFileInputDelimited_1 = 0; // Column Index
+
+								columnIndexWithD_tFileInputDelimited_1 = 0;
+
+								if (columnIndexWithD_tFileInputDelimited_1 < rowtFileInputDelimited_1.length) {
+
+									rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1] = rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1]
+											.trim();
+
+									row1.Ano = rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1];
+
+								} else {
+
+									row1.Ano = null;
+
+								}
+
+								columnIndexWithD_tFileInputDelimited_1 = 1;
+
+								if (columnIndexWithD_tFileInputDelimited_1 < rowtFileInputDelimited_1.length) {
+
+									rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1] = rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1]
+											.trim();
+
+									row1.Orgao_Cod_Desc = rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1];
+
+								} else {
+
+									row1.Orgao_Cod_Desc = null;
+
+								}
+
+								columnIndexWithD_tFileInputDelimited_1 = 2;
+
+								if (columnIndexWithD_tFileInputDelimited_1 < rowtFileInputDelimited_1.length) {
+
+									rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1] = rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1]
+											.trim();
+
+									row1.Data_Carga_Dados = rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1];
+
+								} else {
+
+									row1.Data_Carga_Dados = null;
+
+								}
+
+								columnIndexWithD_tFileInputDelimited_1 = 3;
+
+								if (columnIndexWithD_tFileInputDelimited_1 < rowtFileInputDelimited_1.length) {
+
+									rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1] = rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1]
+											.trim();
+
+									row1.Categoria_Economica_Cod_Desc = rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1];
+
+								} else {
+
+									row1.Categoria_Economica_Cod_Desc = null;
+
+								}
+
+								columnIndexWithD_tFileInputDelimited_1 = 4;
+
+								if (columnIndexWithD_tFileInputDelimited_1 < rowtFileInputDelimited_1.length) {
+
+									rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1] = rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1]
+											.trim();
+
+									row1.Origem_Cod_Desc = rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1];
+
+								} else {
+
+									row1.Origem_Cod_Desc = null;
+
+								}
+
+								columnIndexWithD_tFileInputDelimited_1 = 5;
+
+								if (columnIndexWithD_tFileInputDelimited_1 < rowtFileInputDelimited_1.length) {
+
+									rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1] = rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1]
+											.trim();
+
+									row1.Especie_Cod_Desc = rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1];
+
+								} else {
+
+									row1.Especie_Cod_Desc = null;
+
+								}
+
+								columnIndexWithD_tFileInputDelimited_1 = 6;
+
+								if (columnIndexWithD_tFileInputDelimited_1 < rowtFileInputDelimited_1.length) {
+
+									rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1] = rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1]
+											.trim();
+
+									row1.Alinea_Cod_Desc_Desdob = rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1];
+
+								} else {
+
+									row1.Alinea_Cod_Desc_Desdob = null;
+
+								}
+
+								columnIndexWithD_tFileInputDelimited_1 = 7;
+
+								if (columnIndexWithD_tFileInputDelimited_1 < rowtFileInputDelimited_1.length) {
+
+									rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1] = rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1]
+											.trim();
+
+									row1.Natureza_Receita_Cod_ = rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1];
+
+								} else {
+
+									row1.Natureza_Receita_Cod_ = null;
+
+								}
+
+								columnIndexWithD_tFileInputDelimited_1 = 8;
+
+								if (columnIndexWithD_tFileInputDelimited_1 < rowtFileInputDelimited_1.length) {
+
+									rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1] = rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1]
+											.trim();
+
+									row1.Natureza_Receita = rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1];
+
+								} else {
+
+									row1.Natureza_Receita = null;
+
+								}
+
+								columnIndexWithD_tFileInputDelimited_1 = 9;
+
+								if (columnIndexWithD_tFileInputDelimited_1 < rowtFileInputDelimited_1.length) {
+
+									rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1] = rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1]
+											.trim();
+
+									row1.Soma_Receita_Prevista = rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1];
+
+								} else {
+
+									row1.Soma_Receita_Prevista = null;
+
+								}
+
+								columnIndexWithD_tFileInputDelimited_1 = 10;
+
+								if (columnIndexWithD_tFileInputDelimited_1 < rowtFileInputDelimited_1.length) {
+
+									rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1] = rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1]
+											.trim();
+
+									row1.Soma_Receita_Arrecadada_Liquida = rowtFileInputDelimited_1[columnIndexWithD_tFileInputDelimited_1];
+
+								} else {
+
+									row1.Soma_Receita_Arrecadada_Liquida = null;
+
+								}
+
+							}
+
+							if (rowstate_tFileInputDelimited_1.getException() != null) {
+								throw rowstate_tFileInputDelimited_1.getException();
+							}
+
+						} catch (java.lang.Exception e) {
+							whetherReject_tFileInputDelimited_1 = true;
+
+							System.err.println(e.getMessage());
+							row1 = null;
+
+						}
+
+						/**
+						 * [tFileInputDelimited_1 begin ] stop
+						 */
+
+						/**
+						 * [tFileInputDelimited_1 main ] start
+						 */
+
+						currentComponent = "tFileInputDelimited_1";
+
+						tos_count_tFileInputDelimited_1++;
+
+						/**
+						 * [tFileInputDelimited_1 main ] stop
+						 */
+
+						/**
+						 * [tFileInputDelimited_1 process_data_begin ] start
+						 */
+
+						currentComponent = "tFileInputDelimited_1";
+
+						/**
+						 * [tFileInputDelimited_1 process_data_begin ] stop
+						 */
+// Start of branch "row1"
+						if (row1 != null) {
+
+							/**
+							 * [tSortRow_1_SortOut main ] start
+							 */
+
+							currentVirtualComponent = "tSortRow_1";
+
+							currentComponent = "tSortRow_1_SortOut";
+
+							// row1
+							// row1
+
+							if (execStat) {
+								runStat.updateStatOnConnection("row1" + iterateId, 1, 1);
+							}
+
+							Comparablerow1Struct arrayRowtSortRow_1_SortOut = new Comparablerow1Struct();
+
+							arrayRowtSortRow_1_SortOut.Ano = row1.Ano;
+							arrayRowtSortRow_1_SortOut.Orgao_Cod_Desc = row1.Orgao_Cod_Desc;
+							arrayRowtSortRow_1_SortOut.Data_Carga_Dados = row1.Data_Carga_Dados;
+							arrayRowtSortRow_1_SortOut.Categoria_Economica_Cod_Desc = row1.Categoria_Economica_Cod_Desc;
+							arrayRowtSortRow_1_SortOut.Origem_Cod_Desc = row1.Origem_Cod_Desc;
+							arrayRowtSortRow_1_SortOut.Especie_Cod_Desc = row1.Especie_Cod_Desc;
+							arrayRowtSortRow_1_SortOut.Alinea_Cod_Desc_Desdob = row1.Alinea_Cod_Desc_Desdob;
+							arrayRowtSortRow_1_SortOut.Natureza_Receita_Cod_ = row1.Natureza_Receita_Cod_;
+							arrayRowtSortRow_1_SortOut.Natureza_Receita = row1.Natureza_Receita;
+							arrayRowtSortRow_1_SortOut.Soma_Receita_Prevista = row1.Soma_Receita_Prevista;
+							arrayRowtSortRow_1_SortOut.Soma_Receita_Arrecadada_Liquida = row1.Soma_Receita_Arrecadada_Liquida;
+							list_tSortRow_1_SortOut.add(arrayRowtSortRow_1_SortOut);
+
+							tos_count_tSortRow_1_SortOut++;
+
+							/**
+							 * [tSortRow_1_SortOut main ] stop
+							 */
+
+							/**
+							 * [tSortRow_1_SortOut process_data_begin ] start
+							 */
+
+							currentVirtualComponent = "tSortRow_1";
+
+							currentComponent = "tSortRow_1_SortOut";
+
+							/**
+							 * [tSortRow_1_SortOut process_data_begin ] stop
+							 */
+
+							/**
+							 * [tSortRow_1_SortOut process_data_end ] start
+							 */
+
+							currentVirtualComponent = "tSortRow_1";
+
+							currentComponent = "tSortRow_1_SortOut";
+
+							/**
+							 * [tSortRow_1_SortOut process_data_end ] stop
+							 */
+
+						} // End of branch "row1"
+
+						/**
+						 * [tFileInputDelimited_1 process_data_end ] start
+						 */
+
+						currentComponent = "tFileInputDelimited_1";
+
+						/**
+						 * [tFileInputDelimited_1 process_data_end ] stop
+						 */
+
+						/**
+						 * [tFileInputDelimited_1 end ] start
+						 */
+
+						currentComponent = "tFileInputDelimited_1";
+
+						nb_line_tFileInputDelimited_1++;
+					}
+
+				} finally {
+					if (!(filename_tFileInputDelimited_1 instanceof java.io.InputStream)) {
+						if (csvReadertFileInputDelimited_1 != null) {
+							csvReadertFileInputDelimited_1.close();
+						}
+					}
+					if (csvReadertFileInputDelimited_1 != null) {
+						globalMap.put("tFileInputDelimited_1_NB_LINE", nb_line_tFileInputDelimited_1);
+					}
+
+				}
+
+				ok_Hash.put("tFileInputDelimited_1", true);
+				end_Hash.put("tFileInputDelimited_1", System.currentTimeMillis());
 
 				/**
-				 * [tCreateTable_1 process_data_begin ] stop
+				 * [tFileInputDelimited_1 end ] stop
 				 */
 
 				/**
-				 * [tCreateTable_1 process_data_end ] start
+				 * [tSortRow_1_SortOut end ] start
 				 */
 
-				currentComponent = "tCreateTable_1";
+				currentVirtualComponent = "tSortRow_1";
+
+				currentComponent = "tSortRow_1_SortOut";
+
+				row1Struct[] array_tSortRow_1_SortOut = list_tSortRow_1_SortOut.toArray(new Comparablerow1Struct[0]);
+
+				java.util.Arrays.sort(array_tSortRow_1_SortOut);
+
+				globalMap.put("tSortRow_1", array_tSortRow_1_SortOut);
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null || !((Boolean) resourceMap.get("inIterateVComp"))) {
+						runStat.updateStatOnConnection("row1" + iterateId, 2, 0);
+					}
+				}
+
+				ok_Hash.put("tSortRow_1_SortOut", true);
+				end_Hash.put("tSortRow_1_SortOut", System.currentTimeMillis());
 
 				/**
-				 * [tCreateTable_1 process_data_end ] stop
+				 * [tSortRow_1_SortOut end ] stop
 				 */
 
 				/**
-				 * [tCreateTable_1 end ] start
+				 * [tDBOutput_1 begin ] start
 				 */
 
-				currentComponent = "tCreateTable_1";
+				ok_Hash.put("tDBOutput_1", false);
+				start_Hash.put("tDBOutput_1", System.currentTimeMillis());
 
-				ok_Hash.put("tCreateTable_1", true);
-				end_Hash.put("tCreateTable_1", System.currentTimeMillis());
+				currentComponent = "tDBOutput_1";
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null) {
+
+						if (execStat) {
+							runStat.updateStatOnConnection("out_caga_tb_receitas_senado" + iterateId, 0, 0);
+						}
+
+					}
+				}
+
+				int tos_count_tDBOutput_1 = 0;
+
+				String dbschema_tDBOutput_1 = null;
+				dbschema_tDBOutput_1 = context.con_Postgres_Schema;
+
+				String tableName_tDBOutput_1 = null;
+				if (dbschema_tDBOutput_1 == null || dbschema_tDBOutput_1.trim().length() == 0) {
+					tableName_tDBOutput_1 = "tb_receitas_senado";
+				} else {
+					tableName_tDBOutput_1 = dbschema_tDBOutput_1 + "\".\"" + "tb_receitas_senado";
+				}
+
+				int nb_line_tDBOutput_1 = 0;
+				int nb_line_update_tDBOutput_1 = 0;
+				int nb_line_inserted_tDBOutput_1 = 0;
+				int nb_line_deleted_tDBOutput_1 = 0;
+				int nb_line_rejected_tDBOutput_1 = 0;
+
+				int deletedCount_tDBOutput_1 = 0;
+				int updatedCount_tDBOutput_1 = 0;
+				int insertedCount_tDBOutput_1 = 0;
+				int rejectedCount_tDBOutput_1 = 0;
+
+				boolean whetherReject_tDBOutput_1 = false;
+
+				java.sql.Connection conn_tDBOutput_1 = null;
+				String dbUser_tDBOutput_1 = null;
+
+				java.lang.Class.forName("org.postgresql.Driver");
+
+				String url_tDBOutput_1 = "jdbc:postgresql://" + context.con_Postgres_Server + ":"
+						+ context.con_Postgres_Port + "/" + context.con_Postgres_Database + "?"
+						+ context.con_Postgres_AdditionalParams;
+				dbUser_tDBOutput_1 = context.con_Postgres_Login;
+
+				final String decryptedPassword_tDBOutput_1 = context.con_Postgres_Password;
+
+				String dbPwd_tDBOutput_1 = decryptedPassword_tDBOutput_1;
+
+				conn_tDBOutput_1 = java.sql.DriverManager.getConnection(url_tDBOutput_1, dbUser_tDBOutput_1,
+						dbPwd_tDBOutput_1);
+
+				resourceMap.put("conn_tDBOutput_1", conn_tDBOutput_1);
+				conn_tDBOutput_1.setAutoCommit(false);
+				int commitEvery_tDBOutput_1 = 10000;
+				int commitCounter_tDBOutput_1 = 0;
+
+				int batchSize_tDBOutput_1 = 10000;
+				int batchSizeCounter_tDBOutput_1 = 0;
+
+				int count_tDBOutput_1 = 0;
+				int rsTruncCountNumber_tDBOutput_1 = 0;
+				try (java.sql.Statement stmtTruncCount_tDBOutput_1 = conn_tDBOutput_1.createStatement()) {
+					try (java.sql.ResultSet rsTruncCount_tDBOutput_1 = stmtTruncCount_tDBOutput_1
+							.executeQuery("SELECT COUNT(1) FROM \"" + tableName_tDBOutput_1 + "\"")) {
+						if (rsTruncCount_tDBOutput_1.next()) {
+							rsTruncCountNumber_tDBOutput_1 = rsTruncCount_tDBOutput_1.getInt(1);
+						}
+					}
+				}
+				try (java.sql.Statement stmtTrunc_tDBOutput_1 = conn_tDBOutput_1.createStatement()) {
+					stmtTrunc_tDBOutput_1.executeUpdate("TRUNCATE TABLE \"" + tableName_tDBOutput_1 + "\"");
+					deletedCount_tDBOutput_1 += rsTruncCountNumber_tDBOutput_1;
+				}
+				String insert_tDBOutput_1 = "INSERT INTO \"" + tableName_tDBOutput_1
+						+ "\" (\"n_ano\",\"desc_cod_orgao\",\"dt_carga_dados\",\"desc_cod_categ_econ\",\"desc_cod_origem\",\"desc_cod_especie\",\"desc_cod_aliena_desd\",\"cod_natureza_receita\",\"desc_natureza_receita\",\"vlr_soma_receita_prevista\",\"vlr_soma_receita_liquidada\",\"desc_orgao\",\"cod_orgao\",\"desc_categ_econ\",\"cod_categ_econ\",\"desc_origem\",\"cod_origem\",\"desc_especie\",\"cod_especie\",\"desc_aliena_desd\",\"cod_aliena_desd\") VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+
+				java.sql.PreparedStatement pstmt_tDBOutput_1 = conn_tDBOutput_1.prepareStatement(insert_tDBOutput_1);
+				resourceMap.put("pstmt_tDBOutput_1", pstmt_tDBOutput_1);
 
 				/**
-				 * [tCreateTable_1 end ] stop
+				 * [tDBOutput_1 begin ] stop
 				 */
+
+				/**
+				 * [tMap_1 begin ] start
+				 */
+
+				ok_Hash.put("tMap_1", false);
+				start_Hash.put("tMap_1", System.currentTimeMillis());
+
+				currentComponent = "tMap_1";
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null) {
+
+						if (execStat) {
+							runStat.updateStatOnConnection("row2" + iterateId, 0, 0);
+						}
+
+					}
+				}
+
+				int tos_count_tMap_1 = 0;
+
+// ###############################
+// # Lookup's keys initialization
+// ###############################        
+
+// ###############################
+// # Vars initialization
+				class Var__tMap_1__Struct {
+					String v_cod_orgao;
+				}
+				Var__tMap_1__Struct Var__tMap_1 = new Var__tMap_1__Struct();
+// ###############################
+
+// ###############################
+// # Outputs initialization
+				out_caga_tb_receitas_senadoStruct out_caga_tb_receitas_senado_tmp = new out_caga_tb_receitas_senadoStruct();
+// ###############################
+
+				/**
+				 * [tMap_1 begin ] stop
+				 */
+
+				/**
+				 * [tSortRow_1_SortIn begin ] start
+				 */
+
+				ok_Hash.put("tSortRow_1_SortIn", false);
+				start_Hash.put("tSortRow_1_SortIn", System.currentTimeMillis());
+
+				currentVirtualComponent = "tSortRow_1";
+
+				currentComponent = "tSortRow_1_SortIn";
+
+				int tos_count_tSortRow_1_SortIn = 0;
+
+				row1Struct[] array_tSortRow_1_SortIn = (row1Struct[]) globalMap.remove("tSortRow_1");
+
+				int nb_line_tSortRow_1_SortIn = 0;
+
+				row1Struct current_tSortRow_1_SortIn = null;
+
+				for (int i_tSortRow_1_SortIn = 0; i_tSortRow_1_SortIn < array_tSortRow_1_SortIn.length; i_tSortRow_1_SortIn++) {
+					current_tSortRow_1_SortIn = array_tSortRow_1_SortIn[i_tSortRow_1_SortIn];
+					row2.Ano = current_tSortRow_1_SortIn.Ano;
+					row2.Orgao_Cod_Desc = current_tSortRow_1_SortIn.Orgao_Cod_Desc;
+					row2.Data_Carga_Dados = current_tSortRow_1_SortIn.Data_Carga_Dados;
+					row2.Categoria_Economica_Cod_Desc = current_tSortRow_1_SortIn.Categoria_Economica_Cod_Desc;
+					row2.Origem_Cod_Desc = current_tSortRow_1_SortIn.Origem_Cod_Desc;
+					row2.Especie_Cod_Desc = current_tSortRow_1_SortIn.Especie_Cod_Desc;
+					row2.Alinea_Cod_Desc_Desdob = current_tSortRow_1_SortIn.Alinea_Cod_Desc_Desdob;
+					row2.Natureza_Receita_Cod_ = current_tSortRow_1_SortIn.Natureza_Receita_Cod_;
+					row2.Natureza_Receita = current_tSortRow_1_SortIn.Natureza_Receita;
+					row2.Soma_Receita_Prevista = current_tSortRow_1_SortIn.Soma_Receita_Prevista;
+					row2.Soma_Receita_Arrecadada_Liquida = current_tSortRow_1_SortIn.Soma_Receita_Arrecadada_Liquida;
+					// increase number of line sorted
+					nb_line_tSortRow_1_SortIn++;
+
+					/**
+					 * [tSortRow_1_SortIn begin ] stop
+					 */
+
+					/**
+					 * [tSortRow_1_SortIn main ] start
+					 */
+
+					currentVirtualComponent = "tSortRow_1";
+
+					currentComponent = "tSortRow_1_SortIn";
+
+					tos_count_tSortRow_1_SortIn++;
+
+					/**
+					 * [tSortRow_1_SortIn main ] stop
+					 */
+
+					/**
+					 * [tSortRow_1_SortIn process_data_begin ] start
+					 */
+
+					currentVirtualComponent = "tSortRow_1";
+
+					currentComponent = "tSortRow_1_SortIn";
+
+					/**
+					 * [tSortRow_1_SortIn process_data_begin ] stop
+					 */
+
+					/**
+					 * [tMap_1 main ] start
+					 */
+
+					currentComponent = "tMap_1";
+
+					// row2
+					// row2
+
+					if (execStat) {
+						runStat.updateStatOnConnection("row2" + iterateId, 1, 1);
+					}
+
+					boolean hasCasePrimitiveKeyWithNull_tMap_1 = false;
+
+					// ###############################
+					// # Input tables (lookups)
+					boolean rejectedInnerJoin_tMap_1 = false;
+					boolean mainRowRejected_tMap_1 = false;
+
+					// ###############################
+					{ // start of Var scope
+
+						// ###############################
+						// # Vars tables
+
+						Var__tMap_1__Struct Var = Var__tMap_1;
+						Var.v_cod_orgao = StringHandling.LEFT(row2.Orgao_Cod_Desc, 5);// ###############################
+						// ###############################
+						// # Output tables
+
+						out_caga_tb_receitas_senado = null;
+
+// # Output table : 'out_caga_tb_receitas_senado'
+						out_caga_tb_receitas_senado_tmp.n_ano = row2.Ano;
+						out_caga_tb_receitas_senado_tmp.desc_cod_orgao = row2.Orgao_Cod_Desc;
+						out_caga_tb_receitas_senado_tmp.dt_carga_dados = row2.Data_Carga_Dados;
+						out_caga_tb_receitas_senado_tmp.desc_cod_categ_econ = row2.Categoria_Economica_Cod_Desc;
+						out_caga_tb_receitas_senado_tmp.desc_cod_origem = row2.Origem_Cod_Desc;
+						out_caga_tb_receitas_senado_tmp.desc_cod_especie = row2.Especie_Cod_Desc;
+						out_caga_tb_receitas_senado_tmp.desc_cod_aliena_desd = row2.Alinea_Cod_Desc_Desdob;
+						out_caga_tb_receitas_senado_tmp.cod_natureza_receita = row2.Natureza_Receita_Cod_;
+						out_caga_tb_receitas_senado_tmp.desc_natureza_receita = row2.Natureza_Receita;
+						out_caga_tb_receitas_senado_tmp.vlr_soma_receita_prevista = row2.Soma_Receita_Prevista;
+						out_caga_tb_receitas_senado_tmp.vlr_soma_receita_liquidada = row2.Soma_Receita_Arrecadada_Liquida;
+						out_caga_tb_receitas_senado_tmp.desc_orgao = Var.v_cod_orgao;
+						out_caga_tb_receitas_senado_tmp.cod_orgao = 0;
+						out_caga_tb_receitas_senado_tmp.desc_categ_econ = null;
+						out_caga_tb_receitas_senado_tmp.cod_categ_econ = 0;
+						out_caga_tb_receitas_senado_tmp.desc_origem = null;
+						out_caga_tb_receitas_senado_tmp.cod_origem = 0;
+						out_caga_tb_receitas_senado_tmp.desc_especie = null;
+						out_caga_tb_receitas_senado_tmp.cod_especie = 0;
+						out_caga_tb_receitas_senado_tmp.desc_aliena_desd = null;
+						out_caga_tb_receitas_senado_tmp.cod_aliena_desd = 0;
+						out_caga_tb_receitas_senado = out_caga_tb_receitas_senado_tmp;
+// ###############################
+
+					} // end of Var scope
+
+					rejectedInnerJoin_tMap_1 = false;
+
+					tos_count_tMap_1++;
+
+					/**
+					 * [tMap_1 main ] stop
+					 */
+
+					/**
+					 * [tMap_1 process_data_begin ] start
+					 */
+
+					currentComponent = "tMap_1";
+
+					/**
+					 * [tMap_1 process_data_begin ] stop
+					 */
+// Start of branch "out_caga_tb_receitas_senado"
+					if (out_caga_tb_receitas_senado != null) {
+
+						/**
+						 * [tDBOutput_1 main ] start
+						 */
+
+						currentComponent = "tDBOutput_1";
+
+						// out_caga_tb_receitas_senado
+						// out_caga_tb_receitas_senado
+
+						if (execStat) {
+							runStat.updateStatOnConnection("out_caga_tb_receitas_senado" + iterateId, 1, 1);
+						}
+
+						whetherReject_tDBOutput_1 = false;
+						if (out_caga_tb_receitas_senado.n_ano == null) {
+							pstmt_tDBOutput_1.setNull(1, java.sql.Types.VARCHAR);
+						} else {
+							pstmt_tDBOutput_1.setString(1, out_caga_tb_receitas_senado.n_ano);
+						}
+
+						if (out_caga_tb_receitas_senado.desc_cod_orgao == null) {
+							pstmt_tDBOutput_1.setNull(2, java.sql.Types.VARCHAR);
+						} else {
+							pstmt_tDBOutput_1.setString(2, out_caga_tb_receitas_senado.desc_cod_orgao);
+						}
+
+						if (out_caga_tb_receitas_senado.dt_carga_dados == null) {
+							pstmt_tDBOutput_1.setNull(3, java.sql.Types.VARCHAR);
+						} else {
+							pstmt_tDBOutput_1.setString(3, out_caga_tb_receitas_senado.dt_carga_dados);
+						}
+
+						if (out_caga_tb_receitas_senado.desc_cod_categ_econ == null) {
+							pstmt_tDBOutput_1.setNull(4, java.sql.Types.VARCHAR);
+						} else {
+							pstmt_tDBOutput_1.setString(4, out_caga_tb_receitas_senado.desc_cod_categ_econ);
+						}
+
+						if (out_caga_tb_receitas_senado.desc_cod_origem == null) {
+							pstmt_tDBOutput_1.setNull(5, java.sql.Types.VARCHAR);
+						} else {
+							pstmt_tDBOutput_1.setString(5, out_caga_tb_receitas_senado.desc_cod_origem);
+						}
+
+						if (out_caga_tb_receitas_senado.desc_cod_especie == null) {
+							pstmt_tDBOutput_1.setNull(6, java.sql.Types.VARCHAR);
+						} else {
+							pstmt_tDBOutput_1.setString(6, out_caga_tb_receitas_senado.desc_cod_especie);
+						}
+
+						if (out_caga_tb_receitas_senado.desc_cod_aliena_desd == null) {
+							pstmt_tDBOutput_1.setNull(7, java.sql.Types.VARCHAR);
+						} else {
+							pstmt_tDBOutput_1.setString(7, out_caga_tb_receitas_senado.desc_cod_aliena_desd);
+						}
+
+						if (out_caga_tb_receitas_senado.cod_natureza_receita == null) {
+							pstmt_tDBOutput_1.setNull(8, java.sql.Types.VARCHAR);
+						} else {
+							pstmt_tDBOutput_1.setString(8, out_caga_tb_receitas_senado.cod_natureza_receita);
+						}
+
+						if (out_caga_tb_receitas_senado.desc_natureza_receita == null) {
+							pstmt_tDBOutput_1.setNull(9, java.sql.Types.VARCHAR);
+						} else {
+							pstmt_tDBOutput_1.setString(9, out_caga_tb_receitas_senado.desc_natureza_receita);
+						}
+
+						if (out_caga_tb_receitas_senado.vlr_soma_receita_prevista == null) {
+							pstmt_tDBOutput_1.setNull(10, java.sql.Types.VARCHAR);
+						} else {
+							pstmt_tDBOutput_1.setString(10, out_caga_tb_receitas_senado.vlr_soma_receita_prevista);
+						}
+
+						if (out_caga_tb_receitas_senado.vlr_soma_receita_liquidada == null) {
+							pstmt_tDBOutput_1.setNull(11, java.sql.Types.VARCHAR);
+						} else {
+							pstmt_tDBOutput_1.setString(11, out_caga_tb_receitas_senado.vlr_soma_receita_liquidada);
+						}
+
+						if (out_caga_tb_receitas_senado.desc_orgao == null) {
+							pstmt_tDBOutput_1.setNull(12, java.sql.Types.VARCHAR);
+						} else {
+							pstmt_tDBOutput_1.setString(12, out_caga_tb_receitas_senado.desc_orgao);
+						}
+
+						pstmt_tDBOutput_1.setInt(13, out_caga_tb_receitas_senado.cod_orgao);
+
+						if (out_caga_tb_receitas_senado.desc_categ_econ == null) {
+							pstmt_tDBOutput_1.setNull(14, java.sql.Types.VARCHAR);
+						} else {
+							pstmt_tDBOutput_1.setString(14, out_caga_tb_receitas_senado.desc_categ_econ);
+						}
+
+						pstmt_tDBOutput_1.setInt(15, out_caga_tb_receitas_senado.cod_categ_econ);
+
+						if (out_caga_tb_receitas_senado.desc_origem == null) {
+							pstmt_tDBOutput_1.setNull(16, java.sql.Types.VARCHAR);
+						} else {
+							pstmt_tDBOutput_1.setString(16, out_caga_tb_receitas_senado.desc_origem);
+						}
+
+						pstmt_tDBOutput_1.setInt(17, out_caga_tb_receitas_senado.cod_origem);
+
+						if (out_caga_tb_receitas_senado.desc_especie == null) {
+							pstmt_tDBOutput_1.setNull(18, java.sql.Types.VARCHAR);
+						} else {
+							pstmt_tDBOutput_1.setString(18, out_caga_tb_receitas_senado.desc_especie);
+						}
+
+						pstmt_tDBOutput_1.setInt(19, out_caga_tb_receitas_senado.cod_especie);
+
+						if (out_caga_tb_receitas_senado.desc_aliena_desd == null) {
+							pstmt_tDBOutput_1.setNull(20, java.sql.Types.VARCHAR);
+						} else {
+							pstmt_tDBOutput_1.setString(20, out_caga_tb_receitas_senado.desc_aliena_desd);
+						}
+
+						pstmt_tDBOutput_1.setInt(21, out_caga_tb_receitas_senado.cod_aliena_desd);
+
+						pstmt_tDBOutput_1.addBatch();
+						nb_line_tDBOutput_1++;
+
+						batchSizeCounter_tDBOutput_1++;
+
+						if ((batchSize_tDBOutput_1 > 0) && (batchSize_tDBOutput_1 <= batchSizeCounter_tDBOutput_1)) {
+							try {
+								int countSum_tDBOutput_1 = 0;
+
+								for (int countEach_tDBOutput_1 : pstmt_tDBOutput_1.executeBatch()) {
+									countSum_tDBOutput_1 += (countEach_tDBOutput_1 < 0 ? 0 : countEach_tDBOutput_1);
+								}
+
+								insertedCount_tDBOutput_1 += countSum_tDBOutput_1;
+
+								batchSizeCounter_tDBOutput_1 = 0;
+							} catch (java.sql.BatchUpdateException e_tDBOutput_1) {
+								java.sql.SQLException ne_tDBOutput_1 = e_tDBOutput_1.getNextException(),
+										sqle_tDBOutput_1 = null;
+								String errormessage_tDBOutput_1;
+								if (ne_tDBOutput_1 != null) {
+									// build new exception to provide the original cause
+									sqle_tDBOutput_1 = new java.sql.SQLException(
+											e_tDBOutput_1.getMessage() + "\ncaused by: " + ne_tDBOutput_1.getMessage(),
+											ne_tDBOutput_1.getSQLState(), ne_tDBOutput_1.getErrorCode(),
+											ne_tDBOutput_1);
+									errormessage_tDBOutput_1 = sqle_tDBOutput_1.getMessage();
+								} else {
+									errormessage_tDBOutput_1 = e_tDBOutput_1.getMessage();
+								}
+
+								int countSum_tDBOutput_1 = 0;
+								for (int countEach_tDBOutput_1 : e_tDBOutput_1.getUpdateCounts()) {
+									countSum_tDBOutput_1 += (countEach_tDBOutput_1 < 0 ? 0 : countEach_tDBOutput_1);
+								}
+
+								insertedCount_tDBOutput_1 += countSum_tDBOutput_1;
+
+								System.err.println(errormessage_tDBOutput_1);
+
+							}
+						}
+
+						commitCounter_tDBOutput_1++;
+						if (commitEvery_tDBOutput_1 <= commitCounter_tDBOutput_1) {
+							if ((batchSize_tDBOutput_1 > 0) && (batchSizeCounter_tDBOutput_1 > 0)) {
+								try {
+									int countSum_tDBOutput_1 = 0;
+
+									for (int countEach_tDBOutput_1 : pstmt_tDBOutput_1.executeBatch()) {
+										countSum_tDBOutput_1 += (countEach_tDBOutput_1 < 0 ? 0 : countEach_tDBOutput_1);
+									}
+
+									insertedCount_tDBOutput_1 += countSum_tDBOutput_1;
+
+									batchSizeCounter_tDBOutput_1 = 0;
+								} catch (java.sql.BatchUpdateException e_tDBOutput_1) {
+									java.sql.SQLException ne_tDBOutput_1 = e_tDBOutput_1.getNextException(),
+											sqle_tDBOutput_1 = null;
+									String errormessage_tDBOutput_1;
+									if (ne_tDBOutput_1 != null) {
+										// build new exception to provide the original cause
+										sqle_tDBOutput_1 = new java.sql.SQLException(
+												e_tDBOutput_1.getMessage() + "\ncaused by: "
+														+ ne_tDBOutput_1.getMessage(),
+												ne_tDBOutput_1.getSQLState(), ne_tDBOutput_1.getErrorCode(),
+												ne_tDBOutput_1);
+										errormessage_tDBOutput_1 = sqle_tDBOutput_1.getMessage();
+									} else {
+										errormessage_tDBOutput_1 = e_tDBOutput_1.getMessage();
+									}
+
+									int countSum_tDBOutput_1 = 0;
+									for (int countEach_tDBOutput_1 : e_tDBOutput_1.getUpdateCounts()) {
+										countSum_tDBOutput_1 += (countEach_tDBOutput_1 < 0 ? 0 : countEach_tDBOutput_1);
+									}
+
+									insertedCount_tDBOutput_1 += countSum_tDBOutput_1;
+
+									System.err.println(errormessage_tDBOutput_1);
+
+								}
+							}
+							conn_tDBOutput_1.commit();
+
+							commitCounter_tDBOutput_1 = 0;
+						}
+
+						tos_count_tDBOutput_1++;
+
+						/**
+						 * [tDBOutput_1 main ] stop
+						 */
+
+						/**
+						 * [tDBOutput_1 process_data_begin ] start
+						 */
+
+						currentComponent = "tDBOutput_1";
+
+						/**
+						 * [tDBOutput_1 process_data_begin ] stop
+						 */
+
+						/**
+						 * [tDBOutput_1 process_data_end ] start
+						 */
+
+						currentComponent = "tDBOutput_1";
+
+						/**
+						 * [tDBOutput_1 process_data_end ] stop
+						 */
+
+					} // End of branch "out_caga_tb_receitas_senado"
+
+					/**
+					 * [tMap_1 process_data_end ] start
+					 */
+
+					currentComponent = "tMap_1";
+
+					/**
+					 * [tMap_1 process_data_end ] stop
+					 */
+
+					/**
+					 * [tSortRow_1_SortIn process_data_end ] start
+					 */
+
+					currentVirtualComponent = "tSortRow_1";
+
+					currentComponent = "tSortRow_1_SortIn";
+
+					/**
+					 * [tSortRow_1_SortIn process_data_end ] stop
+					 */
+
+					/**
+					 * [tSortRow_1_SortIn end ] start
+					 */
+
+					currentVirtualComponent = "tSortRow_1";
+
+					currentComponent = "tSortRow_1_SortIn";
+
+				}
+
+				globalMap.put("tSortRow_1_SortIn_NB_LINE", nb_line_tSortRow_1_SortIn);
+
+				ok_Hash.put("tSortRow_1_SortIn", true);
+				end_Hash.put("tSortRow_1_SortIn", System.currentTimeMillis());
+
+				/**
+				 * [tSortRow_1_SortIn end ] stop
+				 */
+
+				/**
+				 * [tMap_1 end ] start
+				 */
+
+				currentComponent = "tMap_1";
+
+// ###############################
+// # Lookup hashes releasing
+// ###############################      
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null || !((Boolean) resourceMap.get("inIterateVComp"))) {
+						runStat.updateStatOnConnection("row2" + iterateId, 2, 0);
+					}
+				}
+
+				ok_Hash.put("tMap_1", true);
+				end_Hash.put("tMap_1", System.currentTimeMillis());
+
+				/**
+				 * [tMap_1 end ] stop
+				 */
+
+				/**
+				 * [tDBOutput_1 end ] start
+				 */
+
+				currentComponent = "tDBOutput_1";
+
+				try {
+					int countSum_tDBOutput_1 = 0;
+					if (pstmt_tDBOutput_1 != null && batchSizeCounter_tDBOutput_1 > 0) {
+
+						for (int countEach_tDBOutput_1 : pstmt_tDBOutput_1.executeBatch()) {
+							countSum_tDBOutput_1 += (countEach_tDBOutput_1 < 0 ? 0 : countEach_tDBOutput_1);
+						}
+
+					}
+
+					insertedCount_tDBOutput_1 += countSum_tDBOutput_1;
+
+				} catch (java.sql.BatchUpdateException e_tDBOutput_1) {
+					java.sql.SQLException ne_tDBOutput_1 = e_tDBOutput_1.getNextException(), sqle_tDBOutput_1 = null;
+					String errormessage_tDBOutput_1;
+					if (ne_tDBOutput_1 != null) {
+						// build new exception to provide the original cause
+						sqle_tDBOutput_1 = new java.sql.SQLException(
+								e_tDBOutput_1.getMessage() + "\ncaused by: " + ne_tDBOutput_1.getMessage(),
+								ne_tDBOutput_1.getSQLState(), ne_tDBOutput_1.getErrorCode(), ne_tDBOutput_1);
+						errormessage_tDBOutput_1 = sqle_tDBOutput_1.getMessage();
+					} else {
+						errormessage_tDBOutput_1 = e_tDBOutput_1.getMessage();
+					}
+
+					int countSum_tDBOutput_1 = 0;
+					for (int countEach_tDBOutput_1 : e_tDBOutput_1.getUpdateCounts()) {
+						countSum_tDBOutput_1 += (countEach_tDBOutput_1 < 0 ? 0 : countEach_tDBOutput_1);
+					}
+
+					insertedCount_tDBOutput_1 += countSum_tDBOutput_1;
+
+					System.err.println(errormessage_tDBOutput_1);
+
+				}
+
+				if (pstmt_tDBOutput_1 != null) {
+
+					pstmt_tDBOutput_1.close();
+					resourceMap.remove("pstmt_tDBOutput_1");
+				}
+				resourceMap.put("statementClosed_tDBOutput_1", true);
+
+				conn_tDBOutput_1.commit();
+
+				conn_tDBOutput_1.close();
+
+				resourceMap.put("finish_tDBOutput_1", true);
+
+				nb_line_deleted_tDBOutput_1 = nb_line_deleted_tDBOutput_1 + deletedCount_tDBOutput_1;
+				nb_line_update_tDBOutput_1 = nb_line_update_tDBOutput_1 + updatedCount_tDBOutput_1;
+				nb_line_inserted_tDBOutput_1 = nb_line_inserted_tDBOutput_1 + insertedCount_tDBOutput_1;
+				nb_line_rejected_tDBOutput_1 = nb_line_rejected_tDBOutput_1 + rejectedCount_tDBOutput_1;
+
+				globalMap.put("tDBOutput_1_NB_LINE", nb_line_tDBOutput_1);
+				globalMap.put("tDBOutput_1_NB_LINE_UPDATED", nb_line_update_tDBOutput_1);
+				globalMap.put("tDBOutput_1_NB_LINE_INSERTED", nb_line_inserted_tDBOutput_1);
+				globalMap.put("tDBOutput_1_NB_LINE_DELETED", nb_line_deleted_tDBOutput_1);
+				globalMap.put("tDBOutput_1_NB_LINE_REJECTED", nb_line_rejected_tDBOutput_1);
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null || !((Boolean) resourceMap.get("inIterateVComp"))) {
+						runStat.updateStatOnConnection("out_caga_tb_receitas_senado" + iterateId, 2, 0);
+					}
+				}
+
+				ok_Hash.put("tDBOutput_1", true);
+				end_Hash.put("tDBOutput_1", System.currentTimeMillis());
+
+				/**
+				 * [tDBOutput_1 end ] stop
+				 */
+
 			} // end the resume
 
 		} catch (java.lang.Exception e) {
 
 			TalendException te = new TalendException(e, currentComponent, globalMap);
+
+			te.setVirtualComponentName(currentVirtualComponent);
 
 			throw te;
 		} catch (java.lang.Error error) {
@@ -487,17 +2941,88 @@ public class job_elt_receitas implements TalendJob {
 			throw error;
 		} finally {
 
+			// free memory for "tSortRow_1_SortIn"
+			globalMap.remove("tSortRow_1");
+
 			try {
 
 				/**
-				 * [tCreateTable_1 finally ] start
+				 * [tFileInputDelimited_1 finally ] start
 				 */
 
-				currentComponent = "tCreateTable_1";
+				currentComponent = "tFileInputDelimited_1";
 
 				/**
-				 * [tCreateTable_1 finally ] stop
+				 * [tFileInputDelimited_1 finally ] stop
 				 */
+
+				/**
+				 * [tSortRow_1_SortOut finally ] start
+				 */
+
+				currentVirtualComponent = "tSortRow_1";
+
+				currentComponent = "tSortRow_1_SortOut";
+
+				/**
+				 * [tSortRow_1_SortOut finally ] stop
+				 */
+
+				/**
+				 * [tSortRow_1_SortIn finally ] start
+				 */
+
+				currentVirtualComponent = "tSortRow_1";
+
+				currentComponent = "tSortRow_1_SortIn";
+
+				/**
+				 * [tSortRow_1_SortIn finally ] stop
+				 */
+
+				/**
+				 * [tMap_1 finally ] start
+				 */
+
+				currentComponent = "tMap_1";
+
+				/**
+				 * [tMap_1 finally ] stop
+				 */
+
+				/**
+				 * [tDBOutput_1 finally ] start
+				 */
+
+				currentComponent = "tDBOutput_1";
+
+				try {
+					if (resourceMap.get("statementClosed_tDBOutput_1") == null) {
+						java.sql.PreparedStatement pstmtToClose_tDBOutput_1 = null;
+						if ((pstmtToClose_tDBOutput_1 = (java.sql.PreparedStatement) resourceMap
+								.remove("pstmt_tDBOutput_1")) != null) {
+							pstmtToClose_tDBOutput_1.close();
+						}
+					}
+				} finally {
+					if (resourceMap.get("finish_tDBOutput_1") == null) {
+						java.sql.Connection ctn_tDBOutput_1 = null;
+						if ((ctn_tDBOutput_1 = (java.sql.Connection) resourceMap.get("conn_tDBOutput_1")) != null) {
+							try {
+								ctn_tDBOutput_1.close();
+							} catch (java.sql.SQLException sqlEx_tDBOutput_1) {
+								String errorMessage_tDBOutput_1 = "failed to close the connection in tDBOutput_1 :"
+										+ sqlEx_tDBOutput_1.getMessage();
+								System.err.println(errorMessage_tDBOutput_1);
+							}
+						}
+					}
+				}
+
+				/**
+				 * [tDBOutput_1 finally ] stop
+				 */
+
 			} catch (java.lang.Exception e) {
 				// ignore
 			} catch (java.lang.Error error) {
@@ -506,7 +3031,7 @@ public class job_elt_receitas implements TalendJob {
 			resourceMap = null;
 		}
 
-		globalMap.put("tCreateTable_1_SUBPROCESS_STATE", 1);
+		globalMap.put("tFileInputDelimited_1_SUBPROCESS_STATE", 1);
 	}
 
 	public String resuming_logs_dir_path = null;
@@ -755,14 +3280,14 @@ public class job_elt_receitas implements TalendJob {
 
 		try {
 			errorCode = null;
-			tCreateTable_1Process(globalMap);
+			tFileInputDelimited_1Process(globalMap);
 			if (!"failure".equals(status)) {
 				status = "end";
 			}
-		} catch (TalendException e_tCreateTable_1) {
-			globalMap.put("tCreateTable_1_SUBPROCESS_STATE", -1);
+		} catch (TalendException e_tFileInputDelimited_1) {
+			globalMap.put("tFileInputDelimited_1_SUBPROCESS_STATE", -1);
 
-			e_tCreateTable_1.printStackTrace();
+			e_tFileInputDelimited_1.printStackTrace();
 
 		}
 
@@ -919,6 +3444,6 @@ public class job_elt_receitas implements TalendJob {
 	ResumeUtil resumeUtil = null;
 }
 /************************************************************************************************
- * 33670 characters generated by Talend Open Studio for Data Integration on the
- * 24 de Março de 2020 8h49min9s BRT
+ * 110327 characters generated by Talend Open Studio for Data Integration on the
+ * 24 de Março de 2020 12h26min45s BRT
  ************************************************************************************************/
