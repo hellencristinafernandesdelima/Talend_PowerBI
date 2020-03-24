@@ -1,0 +1,2 @@
+TOS_Jobs_Records={"RECEITAS_SENADO"\:{"projects"\:{"CONTEXT"\:{"nb"\:1,"nb.used"\:1},"METADATA_CONNECTIONS"\:{"nb"\:1,"nb.used"\:1,"types"\:{"PostgreSQL"\:1}},"METADATA_FILE_DELIMITED"\:{"nb"\:1,"nb.used"\:0},"PROCESS"\:{"details"\:{"components"\:[{"component_name"\:"tCreateTable","count"\:1}],"nb.components"\:1,"nb.contextVars"\:7},"nb"\:1}},"type"\:"local"}}
+eclipse.preferences.version=1
