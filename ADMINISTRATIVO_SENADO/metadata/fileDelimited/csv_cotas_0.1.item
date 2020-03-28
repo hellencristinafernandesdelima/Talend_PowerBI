@@ -5,14 +5,16 @@
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_5CjxsW3dEeqG4Zj3SVZ_Vw" id="_80uGoG3bEeqG4Zj3SVZ_Vw" comment="Referente a arquivo de cotas para exercicio da atividade parlamentar" label="csv_cotas">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5Cjxsm3dEeqG4Zj3SVZ_Vw" label="ANO" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5Cjxs23dEeqG4Zj3SVZ_Vw" label="MES" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5CjxtG3dEeqG4Zj3SVZ_Vw" label="SENADOR" length="60" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5CjxtW3dEeqG4Zj3SVZ_Vw" label="TIPO_DESPESA" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5CjxtG3dEeqG4Zj3SVZ_Vw" label="SENADOR" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5CjxtW3dEeqG4Zj3SVZ_Vw" label="TIPO_DESPESA" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5Cjxtm3dEeqG4Zj3SVZ_Vw" label="CNPJ_CPF" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5Cjxt23dEeqG4Zj3SVZ_Vw" label="FORNECEDOR" length="60" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5CjxuG3dEeqG4Zj3SVZ_Vw" label="DOCUMENTO" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5CjxuW3dEeqG4Zj3SVZ_Vw" label="DATA" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5Cjxum3dEeqG4Zj3SVZ_Vw" label="DETALHAMENTO" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5Cjxu23dEeqG4Zj3SVZ_Vw" label="VALOR_REEMBOLSADO" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5Cjxt23dEeqG4Zj3SVZ_Vw" label="FORNECEDOR" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5CjxuG3dEeqG4Zj3SVZ_Vw" label="DOCUMENTO" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5CjxuW3dEeqG4Zj3SVZ_Vw" label="DATA" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5Cjxum3dEeqG4Zj3SVZ_Vw" label="DETALHAMENTO" length="1200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_rZtf4HEeEeqANtWP0LSjJg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5Cjxu23dEeqG4Zj3SVZ_Vw" label="VALOR_REEMBOLSADO" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_5CkYwG3dEeqG4Zj3SVZ_Vw" body=""/>
       </feature>
     </ownedElement>

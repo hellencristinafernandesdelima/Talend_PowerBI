@@ -1,0 +1,13 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="StringHandling.BTRIM(row1.VALOR_REEMBOLSADO )">
+  <variables name="row1.ANO" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.MES" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.SENADOR" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.TIPO_DESPESA" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.CNPJ_CPF" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.FORNECEDOR" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.DOCUMENTO" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.DATA" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.DETALHAMENTO" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.VALOR_REEMBOLSADO" value="null" talendType="id_String" nullable="true"/>
+</expression:EMFExpression>

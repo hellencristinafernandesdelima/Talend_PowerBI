@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_5Clm4G3dEeqG4Zj3SVZ_Vw" id="_5CYykG3dEeqG4Zj3SVZ_Vw" label="csv_cotas" purpose="csv_cotas" description="Arquivo referente a cotas para exercicios das atividades palarmentares." version="0.1" statusCode="" item="_5Clm4m3dEeqG4Zj3SVZ_Vw" displayName="csv_cotas">
+    <author href="../../talend.project#_D-WtsW3aEeqG4Zj3SVZ_Vw"/>
+    <additionalProperties xmi:id="_5CpRQG3dEeqG4Zj3SVZ_Vw" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_5CpRQW3dEeqG4Zj3SVZ_Vw" key="created_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_5CpRQm3dEeqG4Zj3SVZ_Vw" key="created_date" value="2020-03-24T11:43:57.140-0300"/>
+    <additionalProperties xmi:id="_5CpRQ23dEeqG4Zj3SVZ_Vw" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_5CpRRG3dEeqG4Zj3SVZ_Vw" key="modified_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_5CpRRW3dEeqG4Zj3SVZ_Vw" key="modified_date" value="2020-03-28T15:00:49.746-0300"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_5Clm4W3dEeqG4Zj3SVZ_Vw" path=""/>
+  <TalendProperties:DelimitedFileConnectionItem xmi:id="_5Clm4m3dEeqG4Zj3SVZ_Vw" property="_5Clm4G3dEeqG4Zj3SVZ_Vw" state="_5Clm4W3dEeqG4Zj3SVZ_Vw">
+    <connection href="csv_cotas_0.1.item#_5CgHUG3dEeqG4Zj3SVZ_Vw"/>
+  </TalendProperties:DelimitedFileConnectionItem>
+</xmi:XMI>

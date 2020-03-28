@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_5CgHUG3dEeqG4Zj3SVZ_Vw" name="csv_cotas" id="_5CYykG3dEeqG4Zj3SVZ_Vw" dataPackage="_5CjxsG3dEeqG4Zj3SVZ_Vw" Server="Localhost 127.0.0.1" FilePath="C:/GitHub/Talend_PowerBI/ADMINISTRATIVO_SENADO/Arquivos/Cotas_Exer_Atv_Parlamentar/2008.csv" Format="WINDOWS" Encoding="windows-1252" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="2" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_5CjxsG3dEeqG4Zj3SVZ_Vw" name="default" dataManager="_5CgHUG3dEeqG4Zj3SVZ_Vw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_5CjxsW3dEeqG4Zj3SVZ_Vw" id="_80uGoG3bEeqG4Zj3SVZ_Vw" comment="Referente a arquivo de cotas para exercicio da atividade parlamentar" label="csv_cotas">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5Cjxsm3dEeqG4Zj3SVZ_Vw" label="ANO" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5Cjxs23dEeqG4Zj3SVZ_Vw" label="MES" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5CjxtG3dEeqG4Zj3SVZ_Vw" label="SENADOR" length="120" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5CjxtW3dEeqG4Zj3SVZ_Vw" label="TIPO_DESPESA" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5Cjxtm3dEeqG4Zj3SVZ_Vw" label="CNPJ_CPF" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5Cjxt23dEeqG4Zj3SVZ_Vw" label="FORNECEDOR" length="120" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5CjxuG3dEeqG4Zj3SVZ_Vw" label="DOCUMENTO" length="60" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5CjxuW3dEeqG4Zj3SVZ_Vw" label="DATA" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5Cjxum3dEeqG4Zj3SVZ_Vw" label="DETALHAMENTO" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5Cjxu23dEeqG4Zj3SVZ_Vw" label="VALOR_REEMBOLSADO" length="60" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_5CkYwG3dEeqG4Zj3SVZ_Vw" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

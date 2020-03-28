@@ -119,15 +119,9 @@ public class job_cotas implements TalendJob {
 
 		public void synchronizeContext() {
 
-			if (con_Postgres_Login != null) {
+			if (con_Postgres_AdditionalParams != null) {
 
-				this.setProperty("con_Postgres_Login", con_Postgres_Login.toString());
-
-			}
-
-			if (con_Postgres_Schema != null) {
-
-				this.setProperty("con_Postgres_Schema", con_Postgres_Schema.toString());
+				this.setProperty("con_Postgres_AdditionalParams", con_Postgres_AdditionalParams.toString());
 
 			}
 
@@ -137,15 +131,9 @@ public class job_cotas implements TalendJob {
 
 			}
 
-			if (con_Postgres_AdditionalParams != null) {
+			if (con_Postgres_Login != null) {
 
-				this.setProperty("con_Postgres_AdditionalParams", con_Postgres_AdditionalParams.toString());
-
-			}
-
-			if (con_Postgres_Server != null) {
-
-				this.setProperty("con_Postgres_Server", con_Postgres_Server.toString());
+				this.setProperty("con_Postgres_Login", con_Postgres_Login.toString());
 
 			}
 
@@ -161,24 +149,36 @@ public class job_cotas implements TalendJob {
 
 			}
 
-		}
+			if (con_Postgres_Schema != null) {
 
-		public String con_Postgres_Login;
+				this.setProperty("con_Postgres_Schema", con_Postgres_Schema.toString());
 
-		public String getCon_Postgres_Login() {
-			return this.con_Postgres_Login;
-		}
+			}
 
-		public String con_Postgres_Schema;
+			if (con_Postgres_Server != null) {
 
-		public String getCon_Postgres_Schema() {
-			return this.con_Postgres_Schema;
-		}
+				this.setProperty("con_Postgres_Server", con_Postgres_Server.toString());
 
-		public String con_Postgres_Database;
+			}
 
-		public String getCon_Postgres_Database() {
-			return this.con_Postgres_Database;
+			if (processado != null) {
+
+				this.setProperty("processado", processado.toString());
+
+			}
+
+			if (processar != null) {
+
+				this.setProperty("processar", processar.toString());
+
+			}
+
+			if (saida != null) {
+
+				this.setProperty("saida", saida.toString());
+
+			}
+
 		}
 
 		public String con_Postgres_AdditionalParams;
@@ -187,10 +187,16 @@ public class job_cotas implements TalendJob {
 			return this.con_Postgres_AdditionalParams;
 		}
 
-		public String con_Postgres_Server;
+		public String con_Postgres_Database;
 
-		public String getCon_Postgres_Server() {
-			return this.con_Postgres_Server;
+		public String getCon_Postgres_Database() {
+			return this.con_Postgres_Database;
+		}
+
+		public String con_Postgres_Login;
+
+		public String getCon_Postgres_Login() {
+			return this.con_Postgres_Login;
 		}
 
 		public java.lang.String con_Postgres_Password;
@@ -203,6 +209,36 @@ public class job_cotas implements TalendJob {
 
 		public String getCon_Postgres_Port() {
 			return this.con_Postgres_Port;
+		}
+
+		public String con_Postgres_Schema;
+
+		public String getCon_Postgres_Schema() {
+			return this.con_Postgres_Schema;
+		}
+
+		public String con_Postgres_Server;
+
+		public String getCon_Postgres_Server() {
+			return this.con_Postgres_Server;
+		}
+
+		public String processado;
+
+		public String getProcessado() {
+			return this.processado;
+		}
+
+		public String processar;
+
+		public String getProcessar() {
+			return this.processar;
+		}
+
+		public String saida;
+
+		public String getSaida() {
+			return this.saida;
 		}
 	}
 
@@ -344,17 +380,57 @@ public class job_cotas implements TalendJob {
 		}
 	}
 
-	public void tCreateTable_1_error(Exception exception, String errorComponent,
+	public void tFileList_1_error(Exception exception, String errorComponent,
 			final java.util.Map<String, Object> globalMap) throws TalendException {
 
 		end_Hash.put(errorComponent, System.currentTimeMillis());
 
 		status = "failure";
 
-		tCreateTable_1_onSubJobError(exception, errorComponent, globalMap);
+		tFileList_1_onSubJobError(exception, errorComponent, globalMap);
 	}
 
-	public void tCreateTable_1_onSubJobError(Exception exception, String errorComponent,
+	public void tFileInputDelimited_1_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap) throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileList_1_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tMap_1_error(Exception exception, String errorComponent, final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileList_1_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tDBOutput_1_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap) throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileList_1_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tFileCopy_1_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap) throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileCopy_1_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tFileList_1_onSubJobError(Exception exception, String errorComponent,
 			final java.util.Map<String, Object> globalMap) throws TalendException {
 
 		resumeUtil.addLog("SYSTEM_LOG", "NODE:" + errorComponent, "", Thread.currentThread().getId() + "", "FATAL", "",
@@ -362,8 +438,1484 @@ public class job_cotas implements TalendJob {
 
 	}
 
-	public void tCreateTable_1Process(final java.util.Map<String, Object> globalMap) throws TalendException {
-		globalMap.put("tCreateTable_1_SUBPROCESS_STATE", 0);
+	public void tFileCopy_1_onSubJobError(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap) throws TalendException {
+
+		resumeUtil.addLog("SYSTEM_LOG", "NODE:" + errorComponent, "", Thread.currentThread().getId() + "", "FATAL", "",
+				exception.getMessage(), ResumeUtil.getExceptionStackTrace(exception), "");
+
+	}
+
+	public static class out_saidaStruct implements routines.system.IPersistableRow<out_saidaStruct> {
+		final static byte[] commonByteArrayLock_ADMINISTRATIVO_SENADO_job_cotas = new byte[0];
+		static byte[] commonByteArray_ADMINISTRATIVO_SENADO_job_cotas = new byte[0];
+
+		public String ANO;
+
+		public String getANO() {
+			return this.ANO;
+		}
+
+		public String MES;
+
+		public String getMES() {
+			return this.MES;
+		}
+
+		public String SENADOR;
+
+		public String getSENADOR() {
+			return this.SENADOR;
+		}
+
+		public String TIPO_DESPESA;
+
+		public String getTIPO_DESPESA() {
+			return this.TIPO_DESPESA;
+		}
+
+		public String CNPJ_CPF;
+
+		public String getCNPJ_CPF() {
+			return this.CNPJ_CPF;
+		}
+
+		public String FORNECEDOR;
+
+		public String getFORNECEDOR() {
+			return this.FORNECEDOR;
+		}
+
+		public String DOCUMENTO;
+
+		public String getDOCUMENTO() {
+			return this.DOCUMENTO;
+		}
+
+		public String DATA;
+
+		public String getDATA() {
+			return this.DATA;
+		}
+
+		public String DETALHAMENTO;
+
+		public String getDETALHAMENTO() {
+			return this.DETALHAMENTO;
+		}
+
+		public String VALOR_REEMBOLSADO;
+
+		public String getVALOR_REEMBOLSADO() {
+			return this.VALOR_REEMBOLSADO;
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_ADMINISTRATIVO_SENADO_job_cotas.length) {
+					if (length < 1024 && commonByteArray_ADMINISTRATIVO_SENADO_job_cotas.length == 0) {
+						commonByteArray_ADMINISTRATIVO_SENADO_job_cotas = new byte[1024];
+					} else {
+						commonByteArray_ADMINISTRATIVO_SENADO_job_cotas = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_ADMINISTRATIVO_SENADO_job_cotas, 0, length);
+				strReturn = new String(commonByteArray_ADMINISTRATIVO_SENADO_job_cotas, 0, length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos) throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_ADMINISTRATIVO_SENADO_job_cotas) {
+
+				try {
+
+					int length = 0;
+
+					this.ANO = readString(dis);
+
+					this.MES = readString(dis);
+
+					this.SENADOR = readString(dis);
+
+					this.TIPO_DESPESA = readString(dis);
+
+					this.CNPJ_CPF = readString(dis);
+
+					this.FORNECEDOR = readString(dis);
+
+					this.DOCUMENTO = readString(dis);
+
+					this.DATA = readString(dis);
+
+					this.DETALHAMENTO = readString(dis);
+
+					this.VALOR_REEMBOLSADO = readString(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// String
+
+				writeString(this.ANO, dos);
+
+				// String
+
+				writeString(this.MES, dos);
+
+				// String
+
+				writeString(this.SENADOR, dos);
+
+				// String
+
+				writeString(this.TIPO_DESPESA, dos);
+
+				// String
+
+				writeString(this.CNPJ_CPF, dos);
+
+				// String
+
+				writeString(this.FORNECEDOR, dos);
+
+				// String
+
+				writeString(this.DOCUMENTO, dos);
+
+				// String
+
+				writeString(this.DATA, dos);
+
+				// String
+
+				writeString(this.DETALHAMENTO, dos);
+
+				// String
+
+				writeString(this.VALOR_REEMBOLSADO, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("ANO=" + ANO);
+			sb.append(",MES=" + MES);
+			sb.append(",SENADOR=" + SENADOR);
+			sb.append(",TIPO_DESPESA=" + TIPO_DESPESA);
+			sb.append(",CNPJ_CPF=" + CNPJ_CPF);
+			sb.append(",FORNECEDOR=" + FORNECEDOR);
+			sb.append(",DOCUMENTO=" + DOCUMENTO);
+			sb.append(",DATA=" + DATA);
+			sb.append(",DETALHAMENTO=" + DETALHAMENTO);
+			sb.append(",VALOR_REEMBOLSADO=" + VALOR_REEMBOLSADO);
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(out_saidaStruct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(), object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public static class row1Struct implements routines.system.IPersistableRow<row1Struct> {
+		final static byte[] commonByteArrayLock_ADMINISTRATIVO_SENADO_job_cotas = new byte[0];
+		static byte[] commonByteArray_ADMINISTRATIVO_SENADO_job_cotas = new byte[0];
+
+		public String ANO;
+
+		public String getANO() {
+			return this.ANO;
+		}
+
+		public String MES;
+
+		public String getMES() {
+			return this.MES;
+		}
+
+		public String SENADOR;
+
+		public String getSENADOR() {
+			return this.SENADOR;
+		}
+
+		public String TIPO_DESPESA;
+
+		public String getTIPO_DESPESA() {
+			return this.TIPO_DESPESA;
+		}
+
+		public String CNPJ_CPF;
+
+		public String getCNPJ_CPF() {
+			return this.CNPJ_CPF;
+		}
+
+		public String FORNECEDOR;
+
+		public String getFORNECEDOR() {
+			return this.FORNECEDOR;
+		}
+
+		public String DOCUMENTO;
+
+		public String getDOCUMENTO() {
+			return this.DOCUMENTO;
+		}
+
+		public String DATA;
+
+		public String getDATA() {
+			return this.DATA;
+		}
+
+		public String DETALHAMENTO;
+
+		public String getDETALHAMENTO() {
+			return this.DETALHAMENTO;
+		}
+
+		public String VALOR_REEMBOLSADO;
+
+		public String getVALOR_REEMBOLSADO() {
+			return this.VALOR_REEMBOLSADO;
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_ADMINISTRATIVO_SENADO_job_cotas.length) {
+					if (length < 1024 && commonByteArray_ADMINISTRATIVO_SENADO_job_cotas.length == 0) {
+						commonByteArray_ADMINISTRATIVO_SENADO_job_cotas = new byte[1024];
+					} else {
+						commonByteArray_ADMINISTRATIVO_SENADO_job_cotas = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_ADMINISTRATIVO_SENADO_job_cotas, 0, length);
+				strReturn = new String(commonByteArray_ADMINISTRATIVO_SENADO_job_cotas, 0, length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos) throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_ADMINISTRATIVO_SENADO_job_cotas) {
+
+				try {
+
+					int length = 0;
+
+					this.ANO = readString(dis);
+
+					this.MES = readString(dis);
+
+					this.SENADOR = readString(dis);
+
+					this.TIPO_DESPESA = readString(dis);
+
+					this.CNPJ_CPF = readString(dis);
+
+					this.FORNECEDOR = readString(dis);
+
+					this.DOCUMENTO = readString(dis);
+
+					this.DATA = readString(dis);
+
+					this.DETALHAMENTO = readString(dis);
+
+					this.VALOR_REEMBOLSADO = readString(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// String
+
+				writeString(this.ANO, dos);
+
+				// String
+
+				writeString(this.MES, dos);
+
+				// String
+
+				writeString(this.SENADOR, dos);
+
+				// String
+
+				writeString(this.TIPO_DESPESA, dos);
+
+				// String
+
+				writeString(this.CNPJ_CPF, dos);
+
+				// String
+
+				writeString(this.FORNECEDOR, dos);
+
+				// String
+
+				writeString(this.DOCUMENTO, dos);
+
+				// String
+
+				writeString(this.DATA, dos);
+
+				// String
+
+				writeString(this.DETALHAMENTO, dos);
+
+				// String
+
+				writeString(this.VALOR_REEMBOLSADO, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("ANO=" + ANO);
+			sb.append(",MES=" + MES);
+			sb.append(",SENADOR=" + SENADOR);
+			sb.append(",TIPO_DESPESA=" + TIPO_DESPESA);
+			sb.append(",CNPJ_CPF=" + CNPJ_CPF);
+			sb.append(",FORNECEDOR=" + FORNECEDOR);
+			sb.append(",DOCUMENTO=" + DOCUMENTO);
+			sb.append(",DATA=" + DATA);
+			sb.append(",DETALHAMENTO=" + DETALHAMENTO);
+			sb.append(",VALOR_REEMBOLSADO=" + VALOR_REEMBOLSADO);
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(row1Struct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(), object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public void tFileList_1Process(final java.util.Map<String, Object> globalMap) throws TalendException {
+		globalMap.put("tFileList_1_SUBPROCESS_STATE", 0);
+
+		final boolean execStat = this.execStat;
+
+		String iterateId = "";
+
+		String currentComponent = "";
+		java.util.Map<String, Object> resourceMap = new java.util.HashMap<String, Object>();
+
+		try {
+			// TDI-39566 avoid throwing an useless Exception
+			boolean resumeIt = true;
+			if (globalResumeTicket == false && resumeEntryMethodName != null) {
+				String currentMethodName = new java.lang.Exception().getStackTrace()[0].getMethodName();
+				resumeIt = resumeEntryMethodName.equals(currentMethodName);
+			}
+			if (resumeIt || globalResumeTicket) { // start the resume
+				globalResumeTicket = true;
+
+				row1Struct row1 = new row1Struct();
+				out_saidaStruct out_saida = new out_saidaStruct();
+
+				/**
+				 * [tFileList_1 begin ] start
+				 */
+
+				int NB_ITERATE_tFileInputDelimited_1 = 0; // for statistics
+
+				ok_Hash.put("tFileList_1", false);
+				start_Hash.put("tFileList_1", System.currentTimeMillis());
+
+				currentComponent = "tFileList_1";
+
+				int tos_count_tFileList_1 = 0;
+
+				String directory_tFileList_1 = context.processar;
+				final java.util.List<String> maskList_tFileList_1 = new java.util.ArrayList<String>();
+				final java.util.List<java.util.regex.Pattern> patternList_tFileList_1 = new java.util.ArrayList<java.util.regex.Pattern>();
+				maskList_tFileList_1.add("*.csv");
+				for (final String filemask_tFileList_1 : maskList_tFileList_1) {
+					String filemask_compile_tFileList_1 = filemask_tFileList_1;
+
+					filemask_compile_tFileList_1 = org.apache.oro.text.GlobCompiler.globToPerl5(
+							filemask_tFileList_1.toCharArray(), org.apache.oro.text.GlobCompiler.DEFAULT_MASK);
+
+					java.util.regex.Pattern fileNamePattern_tFileList_1 = java.util.regex.Pattern
+							.compile(filemask_compile_tFileList_1);
+					patternList_tFileList_1.add(fileNamePattern_tFileList_1);
+				}
+				int NB_FILEtFileList_1 = 0;
+
+				final boolean case_sensitive_tFileList_1 = true;
+				final java.util.List<java.io.File> list_tFileList_1 = new java.util.ArrayList<java.io.File>();
+				final java.util.Set<String> filePath_tFileList_1 = new java.util.HashSet<String>();
+				java.io.File file_tFileList_1 = new java.io.File(directory_tFileList_1);
+
+				file_tFileList_1.listFiles(new java.io.FilenameFilter() {
+					public boolean accept(java.io.File dir, String name) {
+						java.io.File file = new java.io.File(dir, name);
+						if (!file.isDirectory()) {
+
+							String fileName_tFileList_1 = file.getName();
+							for (final java.util.regex.Pattern fileNamePattern_tFileList_1 : patternList_tFileList_1) {
+								if (fileNamePattern_tFileList_1.matcher(fileName_tFileList_1).matches()) {
+									if (!filePath_tFileList_1.contains(file.getAbsolutePath())) {
+										list_tFileList_1.add(file);
+										filePath_tFileList_1.add(file.getAbsolutePath());
+									}
+								}
+							}
+						}
+						return true;
+					}
+				});
+				Comparator<java.io.File> fileNameASC_tFileList_1 = new Comparator<java.io.File>() {
+
+					public int compare(java.io.File o1, java.io.File o2) {
+						boolean bO1IsFile = o1.isFile();
+						boolean bO2IsFile = o2.isFile();
+
+						if (bO1IsFile && bO2IsFile) {
+							return (o1.getName()).compareTo(o2.getName());
+						} else if (bO1IsFile && (!bO2IsFile)) {
+							return 1;
+						} else if ((!bO1IsFile) && bO2IsFile) {
+							return -1;
+						} else if (!bO1IsFile && !bO2IsFile) {
+							return (o1.getName()).compareTo(o2.getName());
+						} else {
+							return 0;
+						}
+					}
+				};
+				java.util.Collections.sort(list_tFileList_1, fileNameASC_tFileList_1);
+
+				for (int i_tFileList_1 = 0; i_tFileList_1 < list_tFileList_1.size(); i_tFileList_1++) {
+					java.io.File files_tFileList_1 = list_tFileList_1.get(i_tFileList_1);
+					String fileName_tFileList_1 = files_tFileList_1.getName();
+
+					String currentFileName_tFileList_1 = files_tFileList_1.getName();
+					String currentFilePath_tFileList_1 = files_tFileList_1.getAbsolutePath();
+					String currentFileDirectory_tFileList_1 = files_tFileList_1.getParent();
+					String currentFileExtension_tFileList_1 = null;
+
+					if (files_tFileList_1.getName().contains(".") && files_tFileList_1.isFile()) {
+						currentFileExtension_tFileList_1 = files_tFileList_1.getName()
+								.substring(files_tFileList_1.getName().lastIndexOf(".") + 1);
+					} else {
+						currentFileExtension_tFileList_1 = "";
+					}
+
+					NB_FILEtFileList_1++;
+					globalMap.put("tFileList_1_CURRENT_FILE", currentFileName_tFileList_1);
+					globalMap.put("tFileList_1_CURRENT_FILEPATH", currentFilePath_tFileList_1);
+					globalMap.put("tFileList_1_CURRENT_FILEDIRECTORY", currentFileDirectory_tFileList_1);
+					globalMap.put("tFileList_1_CURRENT_FILEEXTENSION", currentFileExtension_tFileList_1);
+					globalMap.put("tFileList_1_NB_FILE", NB_FILEtFileList_1);
+
+					/**
+					 * [tFileList_1 begin ] stop
+					 */
+
+					/**
+					 * [tFileList_1 main ] start
+					 */
+
+					currentComponent = "tFileList_1";
+
+					tos_count_tFileList_1++;
+
+					/**
+					 * [tFileList_1 main ] stop
+					 */
+
+					/**
+					 * [tFileList_1 process_data_begin ] start
+					 */
+
+					currentComponent = "tFileList_1";
+
+					/**
+					 * [tFileList_1 process_data_begin ] stop
+					 */
+					NB_ITERATE_tFileInputDelimited_1++;
+
+					if (execStat) {
+						runStat.updateStatOnConnection("row1", 3, 0);
+					}
+
+					if (execStat) {
+						runStat.updateStatOnConnection("OnComponentOk1", 3, 0);
+					}
+
+					if (execStat) {
+						runStat.updateStatOnConnection("out_saida", 3, 0);
+					}
+
+					if (execStat) {
+						runStat.updateStatOnConnection("iterate1", 1, "exec" + NB_ITERATE_tFileInputDelimited_1);
+						// Thread.sleep(1000);
+					}
+
+					/**
+					 * [tDBOutput_1 begin ] start
+					 */
+
+					ok_Hash.put("tDBOutput_1", false);
+					start_Hash.put("tDBOutput_1", System.currentTimeMillis());
+
+					currentComponent = "tDBOutput_1";
+
+					if (execStat) {
+						if (resourceMap.get("inIterateVComp") == null) {
+
+							if (execStat) {
+								runStat.updateStatOnConnection("out_saida" + iterateId, 0, 0);
+							}
+
+						}
+					}
+
+					int tos_count_tDBOutput_1 = 0;
+
+					String dbschema_tDBOutput_1 = null;
+					dbschema_tDBOutput_1 = context.con_Postgres_Schema;
+
+					String tableName_tDBOutput_1 = null;
+					if (dbschema_tDBOutput_1 == null || dbschema_tDBOutput_1.trim().length() == 0) {
+						tableName_tDBOutput_1 = "tb_extracao_cotas_ativ_parlamentar";
+					} else {
+						tableName_tDBOutput_1 = dbschema_tDBOutput_1 + "\".\"" + "tb_extracao_cotas_ativ_parlamentar";
+					}
+
+					int nb_line_tDBOutput_1 = 0;
+					int nb_line_update_tDBOutput_1 = 0;
+					int nb_line_inserted_tDBOutput_1 = 0;
+					int nb_line_deleted_tDBOutput_1 = 0;
+					int nb_line_rejected_tDBOutput_1 = 0;
+
+					int deletedCount_tDBOutput_1 = 0;
+					int updatedCount_tDBOutput_1 = 0;
+					int insertedCount_tDBOutput_1 = 0;
+					int rejectedCount_tDBOutput_1 = 0;
+
+					boolean whetherReject_tDBOutput_1 = false;
+
+					java.sql.Connection conn_tDBOutput_1 = null;
+					String dbUser_tDBOutput_1 = null;
+
+					java.lang.Class.forName("org.postgresql.Driver");
+
+					String url_tDBOutput_1 = "jdbc:postgresql://" + context.con_Postgres_Server + ":"
+							+ context.con_Postgres_Port + "/" + context.con_Postgres_Database + "?"
+							+ context.con_Postgres_AdditionalParams;
+					dbUser_tDBOutput_1 = context.con_Postgres_Login;
+
+					final String decryptedPassword_tDBOutput_1 = context.con_Postgres_Password;
+
+					String dbPwd_tDBOutput_1 = decryptedPassword_tDBOutput_1;
+
+					conn_tDBOutput_1 = java.sql.DriverManager.getConnection(url_tDBOutput_1, dbUser_tDBOutput_1,
+							dbPwd_tDBOutput_1);
+
+					resourceMap.put("conn_tDBOutput_1", conn_tDBOutput_1);
+					conn_tDBOutput_1.setAutoCommit(false);
+					int commitEvery_tDBOutput_1 = 10000;
+					int commitCounter_tDBOutput_1 = 0;
+
+					int batchSize_tDBOutput_1 = 10000;
+					int batchSizeCounter_tDBOutput_1 = 0;
+
+					int count_tDBOutput_1 = 0;
+					java.sql.DatabaseMetaData dbMetaData_tDBOutput_1 = conn_tDBOutput_1.getMetaData();
+					boolean whetherExist_tDBOutput_1 = false;
+					try (java.sql.ResultSet rsTable_tDBOutput_1 = dbMetaData_tDBOutput_1.getTables(null, null, null,
+							new String[] { "TABLE" })) {
+						String defaultSchema_tDBOutput_1 = "public";
+						if (dbschema_tDBOutput_1 == null || dbschema_tDBOutput_1.trim().length() == 0) {
+							try (java.sql.Statement stmtSchema_tDBOutput_1 = conn_tDBOutput_1.createStatement();
+									java.sql.ResultSet rsSchema_tDBOutput_1 = stmtSchema_tDBOutput_1
+											.executeQuery("select current_schema() ")) {
+								while (rsSchema_tDBOutput_1.next()) {
+									defaultSchema_tDBOutput_1 = rsSchema_tDBOutput_1.getString("current_schema");
+								}
+							}
+						}
+						while (rsTable_tDBOutput_1.next()) {
+							String table_tDBOutput_1 = rsTable_tDBOutput_1.getString("TABLE_NAME");
+							String schema_tDBOutput_1 = rsTable_tDBOutput_1.getString("TABLE_SCHEM");
+							if (table_tDBOutput_1.equals("tb_extracao_cotas_ativ_parlamentar") && (schema_tDBOutput_1
+									.equals(dbschema_tDBOutput_1)
+									|| ((dbschema_tDBOutput_1 == null || dbschema_tDBOutput_1.trim().length() == 0)
+											&& defaultSchema_tDBOutput_1.equals(schema_tDBOutput_1)))) {
+								whetherExist_tDBOutput_1 = true;
+								break;
+							}
+						}
+					}
+					if (whetherExist_tDBOutput_1) {
+						try (java.sql.Statement stmtDrop_tDBOutput_1 = conn_tDBOutput_1.createStatement()) {
+							stmtDrop_tDBOutput_1.execute("DROP TABLE \"" + tableName_tDBOutput_1 + "\"");
+						}
+					}
+					try (java.sql.Statement stmtCreate_tDBOutput_1 = conn_tDBOutput_1.createStatement()) {
+						stmtCreate_tDBOutput_1.execute("CREATE TABLE \"" + tableName_tDBOutput_1
+								+ "\"(\"ANO\" VARCHAR(4)  ,\"MES\" VARCHAR(2)  ,\"SENADOR\" VARCHAR(500)  ,\"TIPO_DESPESA\" VARCHAR(500)  ,\"CNPJ_CPF\" VARCHAR(18)  ,\"FORNECEDOR\" VARCHAR(500)  ,\"DOCUMENTO\" VARCHAR(500)  ,\"DATA\" VARCHAR(12)  ,\"DETALHAMENTO\" VARCHAR(2000)  ,\"VALOR_REEMBOLSADO\" VARCHAR(500)  )");
+					}
+					String insert_tDBOutput_1 = "INSERT INTO \"" + tableName_tDBOutput_1
+							+ "\" (\"ANO\",\"MES\",\"SENADOR\",\"TIPO_DESPESA\",\"CNPJ_CPF\",\"FORNECEDOR\",\"DOCUMENTO\",\"DATA\",\"DETALHAMENTO\",\"VALOR_REEMBOLSADO\") VALUES (?,?,?,?,?,?,?,?,?,?)";
+
+					java.sql.PreparedStatement pstmt_tDBOutput_1 = conn_tDBOutput_1
+							.prepareStatement(insert_tDBOutput_1);
+					resourceMap.put("pstmt_tDBOutput_1", pstmt_tDBOutput_1);
+
+					/**
+					 * [tDBOutput_1 begin ] stop
+					 */
+
+					/**
+					 * [tMap_1 begin ] start
+					 */
+
+					ok_Hash.put("tMap_1", false);
+					start_Hash.put("tMap_1", System.currentTimeMillis());
+
+					currentComponent = "tMap_1";
+
+					if (execStat) {
+						if (resourceMap.get("inIterateVComp") == null) {
+
+							if (execStat) {
+								runStat.updateStatOnConnection("row1" + iterateId, 0, 0);
+							}
+
+						}
+					}
+
+					int tos_count_tMap_1 = 0;
+
+// ###############################
+// # Lookup's keys initialization
+// ###############################        
+
+// ###############################
+// # Vars initialization
+					class Var__tMap_1__Struct {
+					}
+					Var__tMap_1__Struct Var__tMap_1 = new Var__tMap_1__Struct();
+// ###############################
+
+// ###############################
+// # Outputs initialization
+					out_saidaStruct out_saida_tmp = new out_saidaStruct();
+// ###############################
+
+					/**
+					 * [tMap_1 begin ] stop
+					 */
+
+					/**
+					 * [tFileInputDelimited_1 begin ] start
+					 */
+
+					ok_Hash.put("tFileInputDelimited_1", false);
+					start_Hash.put("tFileInputDelimited_1", System.currentTimeMillis());
+
+					currentComponent = "tFileInputDelimited_1";
+
+					int tos_count_tFileInputDelimited_1 = 0;
+
+					final routines.system.RowState rowstate_tFileInputDelimited_1 = new routines.system.RowState();
+
+					int nb_line_tFileInputDelimited_1 = 0;
+					org.talend.fileprocess.FileInputDelimited fid_tFileInputDelimited_1 = null;
+					int limit_tFileInputDelimited_1 = -1;
+					try {
+
+						Object filename_tFileInputDelimited_1 = ((String) globalMap
+								.get("tFileList_1_CURRENT_FILEPATH"));
+						if (filename_tFileInputDelimited_1 instanceof java.io.InputStream) {
+
+							int footer_value_tFileInputDelimited_1 = 0, random_value_tFileInputDelimited_1 = -1;
+							if (footer_value_tFileInputDelimited_1 > 0 || random_value_tFileInputDelimited_1 > 0) {
+								throw new java.lang.Exception(
+										"When the input source is a stream,footer and random shouldn't be bigger than 0.");
+							}
+
+						}
+						try {
+							fid_tFileInputDelimited_1 = new org.talend.fileprocess.FileInputDelimited(
+									((String) globalMap.get("tFileList_1_CURRENT_FILEPATH")), "windows-1252", ";", "\n",
+									true, 2, 0, limit_tFileInputDelimited_1, -1, false);
+						} catch (java.lang.Exception e) {
+
+							System.err.println(e.getMessage());
+
+						}
+
+						while (fid_tFileInputDelimited_1 != null && fid_tFileInputDelimited_1.nextRecord()) {
+							rowstate_tFileInputDelimited_1.reset();
+
+							row1 = null;
+
+							boolean whetherReject_tFileInputDelimited_1 = false;
+							row1 = new row1Struct();
+							try {
+
+								int columnIndexWithD_tFileInputDelimited_1 = 0;
+
+								columnIndexWithD_tFileInputDelimited_1 = 0;
+
+								row1.ANO = fid_tFileInputDelimited_1.get(columnIndexWithD_tFileInputDelimited_1).trim();
+
+								columnIndexWithD_tFileInputDelimited_1 = 1;
+
+								row1.MES = fid_tFileInputDelimited_1.get(columnIndexWithD_tFileInputDelimited_1).trim();
+
+								columnIndexWithD_tFileInputDelimited_1 = 2;
+
+								row1.SENADOR = fid_tFileInputDelimited_1.get(columnIndexWithD_tFileInputDelimited_1)
+										.trim();
+
+								columnIndexWithD_tFileInputDelimited_1 = 3;
+
+								row1.TIPO_DESPESA = fid_tFileInputDelimited_1
+										.get(columnIndexWithD_tFileInputDelimited_1).trim();
+
+								columnIndexWithD_tFileInputDelimited_1 = 4;
+
+								row1.CNPJ_CPF = fid_tFileInputDelimited_1.get(columnIndexWithD_tFileInputDelimited_1)
+										.trim();
+
+								columnIndexWithD_tFileInputDelimited_1 = 5;
+
+								row1.FORNECEDOR = fid_tFileInputDelimited_1.get(columnIndexWithD_tFileInputDelimited_1)
+										.trim();
+
+								columnIndexWithD_tFileInputDelimited_1 = 6;
+
+								row1.DOCUMENTO = fid_tFileInputDelimited_1.get(columnIndexWithD_tFileInputDelimited_1)
+										.trim();
+
+								columnIndexWithD_tFileInputDelimited_1 = 7;
+
+								row1.DATA = fid_tFileInputDelimited_1.get(columnIndexWithD_tFileInputDelimited_1)
+										.trim();
+
+								columnIndexWithD_tFileInputDelimited_1 = 8;
+
+								row1.DETALHAMENTO = fid_tFileInputDelimited_1
+										.get(columnIndexWithD_tFileInputDelimited_1).trim();
+
+								columnIndexWithD_tFileInputDelimited_1 = 9;
+
+								row1.VALOR_REEMBOLSADO = fid_tFileInputDelimited_1
+										.get(columnIndexWithD_tFileInputDelimited_1).trim();
+
+								if (rowstate_tFileInputDelimited_1.getException() != null) {
+									throw rowstate_tFileInputDelimited_1.getException();
+								}
+
+							} catch (java.lang.Exception e) {
+								whetherReject_tFileInputDelimited_1 = true;
+
+								System.err.println(e.getMessage());
+								row1 = null;
+
+							}
+
+							/**
+							 * [tFileInputDelimited_1 begin ] stop
+							 */
+
+							/**
+							 * [tFileInputDelimited_1 main ] start
+							 */
+
+							currentComponent = "tFileInputDelimited_1";
+
+							tos_count_tFileInputDelimited_1++;
+
+							/**
+							 * [tFileInputDelimited_1 main ] stop
+							 */
+
+							/**
+							 * [tFileInputDelimited_1 process_data_begin ] start
+							 */
+
+							currentComponent = "tFileInputDelimited_1";
+
+							/**
+							 * [tFileInputDelimited_1 process_data_begin ] stop
+							 */
+// Start of branch "row1"
+							if (row1 != null) {
+
+								/**
+								 * [tMap_1 main ] start
+								 */
+
+								currentComponent = "tMap_1";
+
+								// row1
+								// row1
+
+								if (execStat) {
+									runStat.updateStatOnConnection("row1" + iterateId, 1, 1);
+								}
+
+								boolean hasCasePrimitiveKeyWithNull_tMap_1 = false;
+
+								// ###############################
+								// # Input tables (lookups)
+								boolean rejectedInnerJoin_tMap_1 = false;
+								boolean mainRowRejected_tMap_1 = false;
+
+								// ###############################
+								{ // start of Var scope
+
+									// ###############################
+									// # Vars tables
+
+									Var__tMap_1__Struct Var = Var__tMap_1;// ###############################
+									// ###############################
+									// # Output tables
+
+									out_saida = null;
+
+// # Output table : 'out_saida'
+									out_saida_tmp.ANO = row1.ANO;
+									out_saida_tmp.MES = row1.MES;
+									out_saida_tmp.SENADOR = row1.SENADOR;
+									out_saida_tmp.TIPO_DESPESA = row1.TIPO_DESPESA;
+									out_saida_tmp.CNPJ_CPF = row1.CNPJ_CPF;
+									out_saida_tmp.FORNECEDOR = row1.FORNECEDOR;
+									out_saida_tmp.DOCUMENTO = row1.DOCUMENTO;
+									out_saida_tmp.DATA = row1.DATA;
+									out_saida_tmp.DETALHAMENTO = row1.DETALHAMENTO;
+									out_saida_tmp.VALOR_REEMBOLSADO = row1.VALOR_REEMBOLSADO;
+									out_saida = out_saida_tmp;
+// ###############################
+
+								} // end of Var scope
+
+								rejectedInnerJoin_tMap_1 = false;
+
+								tos_count_tMap_1++;
+
+								/**
+								 * [tMap_1 main ] stop
+								 */
+
+								/**
+								 * [tMap_1 process_data_begin ] start
+								 */
+
+								currentComponent = "tMap_1";
+
+								/**
+								 * [tMap_1 process_data_begin ] stop
+								 */
+// Start of branch "out_saida"
+								if (out_saida != null) {
+
+									/**
+									 * [tDBOutput_1 main ] start
+									 */
+
+									currentComponent = "tDBOutput_1";
+
+									// out_saida
+									// out_saida
+
+									if (execStat) {
+										runStat.updateStatOnConnection("out_saida" + iterateId, 1, 1);
+									}
+
+									whetherReject_tDBOutput_1 = false;
+									if (out_saida.ANO == null) {
+										pstmt_tDBOutput_1.setNull(1, java.sql.Types.VARCHAR);
+									} else {
+										pstmt_tDBOutput_1.setString(1, out_saida.ANO);
+									}
+
+									if (out_saida.MES == null) {
+										pstmt_tDBOutput_1.setNull(2, java.sql.Types.VARCHAR);
+									} else {
+										pstmt_tDBOutput_1.setString(2, out_saida.MES);
+									}
+
+									if (out_saida.SENADOR == null) {
+										pstmt_tDBOutput_1.setNull(3, java.sql.Types.VARCHAR);
+									} else {
+										pstmt_tDBOutput_1.setString(3, out_saida.SENADOR);
+									}
+
+									if (out_saida.TIPO_DESPESA == null) {
+										pstmt_tDBOutput_1.setNull(4, java.sql.Types.VARCHAR);
+									} else {
+										pstmt_tDBOutput_1.setString(4, out_saida.TIPO_DESPESA);
+									}
+
+									if (out_saida.CNPJ_CPF == null) {
+										pstmt_tDBOutput_1.setNull(5, java.sql.Types.VARCHAR);
+									} else {
+										pstmt_tDBOutput_1.setString(5, out_saida.CNPJ_CPF);
+									}
+
+									if (out_saida.FORNECEDOR == null) {
+										pstmt_tDBOutput_1.setNull(6, java.sql.Types.VARCHAR);
+									} else {
+										pstmt_tDBOutput_1.setString(6, out_saida.FORNECEDOR);
+									}
+
+									if (out_saida.DOCUMENTO == null) {
+										pstmt_tDBOutput_1.setNull(7, java.sql.Types.VARCHAR);
+									} else {
+										pstmt_tDBOutput_1.setString(7, out_saida.DOCUMENTO);
+									}
+
+									if (out_saida.DATA == null) {
+										pstmt_tDBOutput_1.setNull(8, java.sql.Types.VARCHAR);
+									} else {
+										pstmt_tDBOutput_1.setString(8, out_saida.DATA);
+									}
+
+									if (out_saida.DETALHAMENTO == null) {
+										pstmt_tDBOutput_1.setNull(9, java.sql.Types.VARCHAR);
+									} else {
+										pstmt_tDBOutput_1.setString(9, out_saida.DETALHAMENTO);
+									}
+
+									if (out_saida.VALOR_REEMBOLSADO == null) {
+										pstmt_tDBOutput_1.setNull(10, java.sql.Types.VARCHAR);
+									} else {
+										pstmt_tDBOutput_1.setString(10, out_saida.VALOR_REEMBOLSADO);
+									}
+
+									pstmt_tDBOutput_1.addBatch();
+									nb_line_tDBOutput_1++;
+
+									batchSizeCounter_tDBOutput_1++;
+
+									if (!whetherReject_tDBOutput_1) {
+									}
+									if ((batchSize_tDBOutput_1 > 0)
+											&& (batchSize_tDBOutput_1 <= batchSizeCounter_tDBOutput_1)) {
+										try {
+											int countSum_tDBOutput_1 = 0;
+
+											for (int countEach_tDBOutput_1 : pstmt_tDBOutput_1.executeBatch()) {
+												countSum_tDBOutput_1 += (countEach_tDBOutput_1 < 0 ? 0
+														: countEach_tDBOutput_1);
+											}
+
+											insertedCount_tDBOutput_1 += countSum_tDBOutput_1;
+
+											batchSizeCounter_tDBOutput_1 = 0;
+										} catch (java.sql.BatchUpdateException e_tDBOutput_1) {
+											java.sql.SQLException ne_tDBOutput_1 = e_tDBOutput_1.getNextException(),
+													sqle_tDBOutput_1 = null;
+											String errormessage_tDBOutput_1;
+											if (ne_tDBOutput_1 != null) {
+												// build new exception to provide the original cause
+												sqle_tDBOutput_1 = new java.sql.SQLException(
+														e_tDBOutput_1.getMessage() + "\ncaused by: "
+																+ ne_tDBOutput_1.getMessage(),
+														ne_tDBOutput_1.getSQLState(), ne_tDBOutput_1.getErrorCode(),
+														ne_tDBOutput_1);
+												errormessage_tDBOutput_1 = sqle_tDBOutput_1.getMessage();
+											} else {
+												errormessage_tDBOutput_1 = e_tDBOutput_1.getMessage();
+											}
+
+											int countSum_tDBOutput_1 = 0;
+											for (int countEach_tDBOutput_1 : e_tDBOutput_1.getUpdateCounts()) {
+												countSum_tDBOutput_1 += (countEach_tDBOutput_1 < 0 ? 0
+														: countEach_tDBOutput_1);
+											}
+
+											insertedCount_tDBOutput_1 += countSum_tDBOutput_1;
+
+											System.err.println(errormessage_tDBOutput_1);
+
+										}
+									}
+
+									commitCounter_tDBOutput_1++;
+									if (commitEvery_tDBOutput_1 <= commitCounter_tDBOutput_1) {
+										if ((batchSize_tDBOutput_1 > 0) && (batchSizeCounter_tDBOutput_1 > 0)) {
+											try {
+												int countSum_tDBOutput_1 = 0;
+
+												for (int countEach_tDBOutput_1 : pstmt_tDBOutput_1.executeBatch()) {
+													countSum_tDBOutput_1 += (countEach_tDBOutput_1 < 0 ? 0
+															: countEach_tDBOutput_1);
+												}
+
+												insertedCount_tDBOutput_1 += countSum_tDBOutput_1;
+
+												batchSizeCounter_tDBOutput_1 = 0;
+											} catch (java.sql.BatchUpdateException e_tDBOutput_1) {
+												java.sql.SQLException ne_tDBOutput_1 = e_tDBOutput_1.getNextException(),
+														sqle_tDBOutput_1 = null;
+												String errormessage_tDBOutput_1;
+												if (ne_tDBOutput_1 != null) {
+													// build new exception to provide the original cause
+													sqle_tDBOutput_1 = new java.sql.SQLException(
+															e_tDBOutput_1.getMessage() + "\ncaused by: "
+																	+ ne_tDBOutput_1.getMessage(),
+															ne_tDBOutput_1.getSQLState(), ne_tDBOutput_1.getErrorCode(),
+															ne_tDBOutput_1);
+													errormessage_tDBOutput_1 = sqle_tDBOutput_1.getMessage();
+												} else {
+													errormessage_tDBOutput_1 = e_tDBOutput_1.getMessage();
+												}
+
+												int countSum_tDBOutput_1 = 0;
+												for (int countEach_tDBOutput_1 : e_tDBOutput_1.getUpdateCounts()) {
+													countSum_tDBOutput_1 += (countEach_tDBOutput_1 < 0 ? 0
+															: countEach_tDBOutput_1);
+												}
+
+												insertedCount_tDBOutput_1 += countSum_tDBOutput_1;
+
+												System.err.println(errormessage_tDBOutput_1);
+
+											}
+										}
+										conn_tDBOutput_1.commit();
+
+										commitCounter_tDBOutput_1 = 0;
+									}
+
+									tos_count_tDBOutput_1++;
+
+									/**
+									 * [tDBOutput_1 main ] stop
+									 */
+
+									/**
+									 * [tDBOutput_1 process_data_begin ] start
+									 */
+
+									currentComponent = "tDBOutput_1";
+
+									/**
+									 * [tDBOutput_1 process_data_begin ] stop
+									 */
+
+									/**
+									 * [tDBOutput_1 process_data_end ] start
+									 */
+
+									currentComponent = "tDBOutput_1";
+
+									/**
+									 * [tDBOutput_1 process_data_end ] stop
+									 */
+
+								} // End of branch "out_saida"
+
+								/**
+								 * [tMap_1 process_data_end ] start
+								 */
+
+								currentComponent = "tMap_1";
+
+								/**
+								 * [tMap_1 process_data_end ] stop
+								 */
+
+							} // End of branch "row1"
+
+							/**
+							 * [tFileInputDelimited_1 process_data_end ] start
+							 */
+
+							currentComponent = "tFileInputDelimited_1";
+
+							/**
+							 * [tFileInputDelimited_1 process_data_end ] stop
+							 */
+
+							/**
+							 * [tFileInputDelimited_1 end ] start
+							 */
+
+							currentComponent = "tFileInputDelimited_1";
+
+						}
+					} finally {
+						if (!((Object) (((String) globalMap
+								.get("tFileList_1_CURRENT_FILEPATH"))) instanceof java.io.InputStream)) {
+							if (fid_tFileInputDelimited_1 != null) {
+								fid_tFileInputDelimited_1.close();
+							}
+						}
+						if (fid_tFileInputDelimited_1 != null) {
+							globalMap.put("tFileInputDelimited_1_NB_LINE", fid_tFileInputDelimited_1.getRowNumber());
+
+						}
+					}
+
+					ok_Hash.put("tFileInputDelimited_1", true);
+					end_Hash.put("tFileInputDelimited_1", System.currentTimeMillis());
+
+					/**
+					 * [tFileInputDelimited_1 end ] stop
+					 */
+
+					/**
+					 * [tMap_1 end ] start
+					 */
+
+					currentComponent = "tMap_1";
+
+// ###############################
+// # Lookup hashes releasing
+// ###############################      
+
+					if (execStat) {
+						if (resourceMap.get("inIterateVComp") == null
+								|| !((Boolean) resourceMap.get("inIterateVComp"))) {
+							runStat.updateStatOnConnection("row1" + iterateId, 2, 0);
+						}
+					}
+
+					ok_Hash.put("tMap_1", true);
+					end_Hash.put("tMap_1", System.currentTimeMillis());
+
+					/**
+					 * [tMap_1 end ] stop
+					 */
+
+					/**
+					 * [tDBOutput_1 end ] start
+					 */
+
+					currentComponent = "tDBOutput_1";
+
+					try {
+						int countSum_tDBOutput_1 = 0;
+						if (pstmt_tDBOutput_1 != null && batchSizeCounter_tDBOutput_1 > 0) {
+
+							for (int countEach_tDBOutput_1 : pstmt_tDBOutput_1.executeBatch()) {
+								countSum_tDBOutput_1 += (countEach_tDBOutput_1 < 0 ? 0 : countEach_tDBOutput_1);
+							}
+
+						}
+
+						insertedCount_tDBOutput_1 += countSum_tDBOutput_1;
+
+					} catch (java.sql.BatchUpdateException e_tDBOutput_1) {
+						java.sql.SQLException ne_tDBOutput_1 = e_tDBOutput_1.getNextException(),
+								sqle_tDBOutput_1 = null;
+						String errormessage_tDBOutput_1;
+						if (ne_tDBOutput_1 != null) {
+							// build new exception to provide the original cause
+							sqle_tDBOutput_1 = new java.sql.SQLException(
+									e_tDBOutput_1.getMessage() + "\ncaused by: " + ne_tDBOutput_1.getMessage(),
+									ne_tDBOutput_1.getSQLState(), ne_tDBOutput_1.getErrorCode(), ne_tDBOutput_1);
+							errormessage_tDBOutput_1 = sqle_tDBOutput_1.getMessage();
+						} else {
+							errormessage_tDBOutput_1 = e_tDBOutput_1.getMessage();
+						}
+
+						int countSum_tDBOutput_1 = 0;
+						for (int countEach_tDBOutput_1 : e_tDBOutput_1.getUpdateCounts()) {
+							countSum_tDBOutput_1 += (countEach_tDBOutput_1 < 0 ? 0 : countEach_tDBOutput_1);
+						}
+
+						insertedCount_tDBOutput_1 += countSum_tDBOutput_1;
+
+						System.err.println(errormessage_tDBOutput_1);
+
+					}
+
+					if (pstmt_tDBOutput_1 != null) {
+
+						pstmt_tDBOutput_1.close();
+						resourceMap.remove("pstmt_tDBOutput_1");
+					}
+					resourceMap.put("statementClosed_tDBOutput_1", true);
+
+					conn_tDBOutput_1.commit();
+
+					conn_tDBOutput_1.close();
+
+					resourceMap.put("finish_tDBOutput_1", true);
+
+					nb_line_deleted_tDBOutput_1 = nb_line_deleted_tDBOutput_1 + deletedCount_tDBOutput_1;
+					nb_line_update_tDBOutput_1 = nb_line_update_tDBOutput_1 + updatedCount_tDBOutput_1;
+					nb_line_inserted_tDBOutput_1 = nb_line_inserted_tDBOutput_1 + insertedCount_tDBOutput_1;
+					nb_line_rejected_tDBOutput_1 = nb_line_rejected_tDBOutput_1 + rejectedCount_tDBOutput_1;
+
+					globalMap.put("tDBOutput_1_NB_LINE", nb_line_tDBOutput_1);
+					globalMap.put("tDBOutput_1_NB_LINE_UPDATED", nb_line_update_tDBOutput_1);
+					globalMap.put("tDBOutput_1_NB_LINE_INSERTED", nb_line_inserted_tDBOutput_1);
+					globalMap.put("tDBOutput_1_NB_LINE_DELETED", nb_line_deleted_tDBOutput_1);
+					globalMap.put("tDBOutput_1_NB_LINE_REJECTED", nb_line_rejected_tDBOutput_1);
+
+					if (execStat) {
+						if (resourceMap.get("inIterateVComp") == null
+								|| !((Boolean) resourceMap.get("inIterateVComp"))) {
+							runStat.updateStatOnConnection("out_saida" + iterateId, 2, 0);
+						}
+					}
+
+					ok_Hash.put("tDBOutput_1", true);
+					end_Hash.put("tDBOutput_1", System.currentTimeMillis());
+
+					if (execStat) {
+						runStat.updateStatOnConnection("OnComponentOk1", 0, "ok");
+					}
+					tFileCopy_1Process(globalMap);
+
+					/**
+					 * [tDBOutput_1 end ] stop
+					 */
+
+					if (execStat) {
+						runStat.updateStatOnConnection("iterate1", 2, "exec" + NB_ITERATE_tFileInputDelimited_1);
+					}
+
+					/**
+					 * [tFileList_1 process_data_end ] start
+					 */
+
+					currentComponent = "tFileList_1";
+
+					/**
+					 * [tFileList_1 process_data_end ] stop
+					 */
+
+					/**
+					 * [tFileList_1 end ] start
+					 */
+
+					currentComponent = "tFileList_1";
+
+				}
+				globalMap.put("tFileList_1_NB_FILE", NB_FILEtFileList_1);
+
+				ok_Hash.put("tFileList_1", true);
+				end_Hash.put("tFileList_1", System.currentTimeMillis());
+
+				/**
+				 * [tFileList_1 end ] stop
+				 */
+			} // end the resume
+
+		} catch (java.lang.Exception e) {
+
+			TalendException te = new TalendException(e, currentComponent, globalMap);
+
+			throw te;
+		} catch (java.lang.Error error) {
+
+			runStat.stopThreadStat();
+
+			throw error;
+		} finally {
+
+			try {
+
+				/**
+				 * [tFileList_1 finally ] start
+				 */
+
+				currentComponent = "tFileList_1";
+
+				/**
+				 * [tFileList_1 finally ] stop
+				 */
+
+				/**
+				 * [tFileInputDelimited_1 finally ] start
+				 */
+
+				currentComponent = "tFileInputDelimited_1";
+
+				/**
+				 * [tFileInputDelimited_1 finally ] stop
+				 */
+
+				/**
+				 * [tMap_1 finally ] start
+				 */
+
+				currentComponent = "tMap_1";
+
+				/**
+				 * [tMap_1 finally ] stop
+				 */
+
+				/**
+				 * [tDBOutput_1 finally ] start
+				 */
+
+				currentComponent = "tDBOutput_1";
+
+				try {
+					if (resourceMap.get("statementClosed_tDBOutput_1") == null) {
+						java.sql.PreparedStatement pstmtToClose_tDBOutput_1 = null;
+						if ((pstmtToClose_tDBOutput_1 = (java.sql.PreparedStatement) resourceMap
+								.remove("pstmt_tDBOutput_1")) != null) {
+							pstmtToClose_tDBOutput_1.close();
+						}
+					}
+				} finally {
+					if (resourceMap.get("finish_tDBOutput_1") == null) {
+						java.sql.Connection ctn_tDBOutput_1 = null;
+						if ((ctn_tDBOutput_1 = (java.sql.Connection) resourceMap.get("conn_tDBOutput_1")) != null) {
+							try {
+								ctn_tDBOutput_1.close();
+							} catch (java.sql.SQLException sqlEx_tDBOutput_1) {
+								String errorMessage_tDBOutput_1 = "failed to close the connection in tDBOutput_1 :"
+										+ sqlEx_tDBOutput_1.getMessage();
+								System.err.println(errorMessage_tDBOutput_1);
+							}
+						}
+					}
+				}
+
+				/**
+				 * [tDBOutput_1 finally ] stop
+				 */
+
+			} catch (java.lang.Exception e) {
+				// ignore
+			} catch (java.lang.Error error) {
+				// ignore
+			}
+			resourceMap = null;
+		}
+
+		globalMap.put("tFileList_1_SUBPROCESS_STATE", 1);
+	}
+
+	public void tFileCopy_1Process(final java.util.Map<String, Object> globalMap) throws TalendException {
+		globalMap.put("tFileCopy_1_SUBPROCESS_STATE", 0);
 
 		final boolean execStat = this.execStat;
 
@@ -383,95 +1935,111 @@ public class job_cotas implements TalendJob {
 				globalResumeTicket = true;
 
 				/**
-				 * [tCreateTable_1 begin ] start
+				 * [tFileCopy_1 begin ] start
 				 */
 
-				ok_Hash.put("tCreateTable_1", false);
-				start_Hash.put("tCreateTable_1", System.currentTimeMillis());
+				ok_Hash.put("tFileCopy_1", false);
+				start_Hash.put("tFileCopy_1", System.currentTimeMillis());
 
-				currentComponent = "tCreateTable_1";
+				currentComponent = "tFileCopy_1";
 
-				int tos_count_tCreateTable_1 = 0;
+				int tos_count_tFileCopy_1 = 0;
 
 				/**
-				 * [tCreateTable_1 begin ] stop
+				 * [tFileCopy_1 begin ] stop
 				 */
 
 				/**
-				 * [tCreateTable_1 main ] start
+				 * [tFileCopy_1 main ] start
 				 */
 
-				currentComponent = "tCreateTable_1";
+				currentComponent = "tFileCopy_1";
 
-				try {
-					String driverClass_tCreateTable_1 = "org.postgresql.Driver";
-					String url_tCreateTable_1 = "jdbc:postgresql://" + context.con_Postgres_Server + ":"
-							+ context.con_Postgres_Port + "/" + context.con_Postgres_Database + "?"
-							+ context.con_Postgres_AdditionalParams;
-					String dbUser_tCreateTable_1 = context.con_Postgres_Login;
+				String srcFileName_tFileCopy_1 = ((String) globalMap.get("tFileList_1_CURRENT_FILEPATH"));
 
-					String tableName_tCreateTable_1 = "tb_cotas_ativ_parlamentar";
-					String dbSchema_tCreateTable_1 = context.con_Postgres_Schema;
-					if (dbSchema_tCreateTable_1 != null && dbSchema_tCreateTable_1.trim().length() != 0) {
-						tableName_tCreateTable_1 = dbSchema_tCreateTable_1 + "\".\"" + tableName_tCreateTable_1;
-					}
-					java.lang.Class jdbcclazz_tCreateTable_1 = java.lang.Class.forName("org.postgresql.Driver");
-					final String decryptedPassword_tCreateTable_1 = context.con_Postgres_Password;
-					java.sql.Connection conn_tCreateTable_1 = java.sql.DriverManager.getConnection(url_tCreateTable_1,
-							dbUser_tCreateTable_1, decryptedPassword_tCreateTable_1);
+				java.io.File srcFile_tFileCopy_1 = new java.io.File(srcFileName_tFileCopy_1);
 
-					java.sql.Statement stmt_tCreateTable_1 = conn_tCreateTable_1.createStatement();
-					stmt_tCreateTable_1.execute("CREATE TABLE \"" + tableName_tCreateTable_1
-							+ "\"(\"ANO\" INT4 ,\"MES\" INT4 ,\"SENADOR\" VARCHAR(60)  ,\"TIPO_DESPESA\" VARCHAR(255)  ,\"CNPJ_CPF\" VARCHAR(18)  ,\"FORNECEDOR\" VARCHAR(60)  ,\"DOCUMENTO\" VARCHAR(20)  ,\"DATA\" DATE ,\"DETALHAMENTO\" VARCHAR(255)  ,\"VALOR_REEMBOLSADO\" NUMERIC(15,2)  )");
+				// here need check first, before mkdirs().
+				if (!srcFile_tFileCopy_1.exists() || !srcFile_tFileCopy_1.isFile()) {
+					String errorMessageFileDoesnotExistsOrIsNotAFile_tFileCopy_1 = String
+							.format("The source File \"%s\" does not exist or is not a file.", srcFileName_tFileCopy_1);
+					System.err.println(errorMessageFileDoesnotExistsOrIsNotAFile_tFileCopy_1);
+				}
+				String desDirName_tFileCopy_1 = context.processado;
 
-					if (conn_tCreateTable_1 != null && !conn_tCreateTable_1.isClosed()) {
-						conn_tCreateTable_1.close();
-					}
+				String desFileName_tFileCopy_1 = srcFile_tFileCopy_1.getName();
 
-					globalMap.put("tCreateTable_1_QUERY", "CREATE TABLE \"" + tableName_tCreateTable_1
-							+ "\"(\"ANO\" INT4 ,\"MES\" INT4 ,\"SENADOR\" VARCHAR(60)  ,\"TIPO_DESPESA\" VARCHAR(255)  ,\"CNPJ_CPF\" VARCHAR(18)  ,\"FORNECEDOR\" VARCHAR(60)  ,\"DOCUMENTO\" VARCHAR(20)  ,\"DATA\" DATE ,\"DETALHAMENTO\" VARCHAR(255)  ,\"VALOR_REEMBOLSADO\" NUMERIC(15,2)  )");
-				} catch (java.lang.Exception e) {
-					globalMap.put("tCreateTable_1_ERROR_MESSAGE", e.getMessage());
-					throw new RuntimeException("Creating table failed", e);
+				if (desFileName_tFileCopy_1 != null && ("").equals(desFileName_tFileCopy_1.trim())) {
+					desFileName_tFileCopy_1 = "NewName.temp";
 				}
 
-				tos_count_tCreateTable_1++;
+				java.io.File desFile_tFileCopy_1 = new java.io.File(desDirName_tFileCopy_1, desFileName_tFileCopy_1);
+
+				if (!srcFile_tFileCopy_1.getPath().equals(desFile_tFileCopy_1.getPath())) {
+					java.io.File parentFile_tFileCopy_1 = desFile_tFileCopy_1.getParentFile();
+
+					if (parentFile_tFileCopy_1 != null && !parentFile_tFileCopy_1.exists()) {
+						parentFile_tFileCopy_1.mkdirs();
+					}
+					try {
+						org.talend.FileCopy.copyFile(srcFile_tFileCopy_1.getPath(), desFile_tFileCopy_1.getPath(),
+								true);
+					} catch (Exception e) {
+						System.err.println("tFileCopy_1 " + e.getMessage());
+					}
+					java.io.File isRemoved_tFileCopy_1 = new java.io.File(
+							((String) globalMap.get("tFileList_1_CURRENT_FILEPATH")));
+					if (isRemoved_tFileCopy_1.exists()) {
+						String errorMessageCouldNotRemoveFile_tFileCopy_1 = String.format(
+								"tFileCopy_1 - The source file \"%s\" could not be removed from the folder because it is open or you only have read-only rights.",
+								srcFileName_tFileCopy_1);
+						System.err.println(errorMessageCouldNotRemoveFile_tFileCopy_1 + "\n");
+					}
+
+				}
+				globalMap.put("tFileCopy_1_DESTINATION_FILEPATH", desFile_tFileCopy_1.getPath());
+				globalMap.put("tFileCopy_1_DESTINATION_FILENAME", desFile_tFileCopy_1.getName());
+
+				globalMap.put("tFileCopy_1_SOURCE_DIRECTORY", srcFile_tFileCopy_1.getParent());
+				globalMap.put("tFileCopy_1_DESTINATION_DIRECTORY", desFile_tFileCopy_1.getParent());
+
+				tos_count_tFileCopy_1++;
 
 				/**
-				 * [tCreateTable_1 main ] stop
+				 * [tFileCopy_1 main ] stop
 				 */
 
 				/**
-				 * [tCreateTable_1 process_data_begin ] start
+				 * [tFileCopy_1 process_data_begin ] start
 				 */
 
-				currentComponent = "tCreateTable_1";
+				currentComponent = "tFileCopy_1";
 
 				/**
-				 * [tCreateTable_1 process_data_begin ] stop
-				 */
-
-				/**
-				 * [tCreateTable_1 process_data_end ] start
-				 */
-
-				currentComponent = "tCreateTable_1";
-
-				/**
-				 * [tCreateTable_1 process_data_end ] stop
+				 * [tFileCopy_1 process_data_begin ] stop
 				 */
 
 				/**
-				 * [tCreateTable_1 end ] start
+				 * [tFileCopy_1 process_data_end ] start
 				 */
 
-				currentComponent = "tCreateTable_1";
-
-				ok_Hash.put("tCreateTable_1", true);
-				end_Hash.put("tCreateTable_1", System.currentTimeMillis());
+				currentComponent = "tFileCopy_1";
 
 				/**
-				 * [tCreateTable_1 end ] stop
+				 * [tFileCopy_1 process_data_end ] stop
+				 */
+
+				/**
+				 * [tFileCopy_1 end ] start
+				 */
+
+				currentComponent = "tFileCopy_1";
+
+				ok_Hash.put("tFileCopy_1", true);
+				end_Hash.put("tFileCopy_1", System.currentTimeMillis());
+
+				/**
+				 * [tFileCopy_1 end ] stop
 				 */
 			} // end the resume
 
@@ -490,13 +2058,13 @@ public class job_cotas implements TalendJob {
 			try {
 
 				/**
-				 * [tCreateTable_1 finally ] start
+				 * [tFileCopy_1 finally ] start
 				 */
 
-				currentComponent = "tCreateTable_1";
+				currentComponent = "tFileCopy_1";
 
 				/**
-				 * [tCreateTable_1 finally ] stop
+				 * [tFileCopy_1 finally ] stop
 				 */
 			} catch (java.lang.Exception e) {
 				// ignore
@@ -506,7 +2074,7 @@ public class job_cotas implements TalendJob {
 			resourceMap = null;
 		}
 
-		globalMap.put("tCreateTable_1_SUBPROCESS_STATE", 1);
+		globalMap.put("tFileCopy_1_SUBPROCESS_STATE", 1);
 	}
 
 	public String resuming_logs_dir_path = null;
@@ -649,17 +2217,13 @@ public class job_cotas implements TalendJob {
 			}
 			class ContextProcessing {
 				private void processContext_0() {
-					context.setContextType("con_Postgres_Login", "id_String");
-					context.con_Postgres_Login = (String) context.getProperty("con_Postgres_Login");
-					context.setContextType("con_Postgres_Schema", "id_String");
-					context.con_Postgres_Schema = (String) context.getProperty("con_Postgres_Schema");
-					context.setContextType("con_Postgres_Database", "id_String");
-					context.con_Postgres_Database = (String) context.getProperty("con_Postgres_Database");
 					context.setContextType("con_Postgres_AdditionalParams", "id_String");
 					context.con_Postgres_AdditionalParams = (String) context
 							.getProperty("con_Postgres_AdditionalParams");
-					context.setContextType("con_Postgres_Server", "id_String");
-					context.con_Postgres_Server = (String) context.getProperty("con_Postgres_Server");
+					context.setContextType("con_Postgres_Database", "id_String");
+					context.con_Postgres_Database = (String) context.getProperty("con_Postgres_Database");
+					context.setContextType("con_Postgres_Login", "id_String");
+					context.con_Postgres_Login = (String) context.getProperty("con_Postgres_Login");
 					context.setContextType("con_Postgres_Password", "id_Password");
 					String pwd_con_Postgres_Password_value = context.getProperty("con_Postgres_Password");
 					context.con_Postgres_Password = null;
@@ -680,6 +2244,16 @@ public class job_cotas implements TalendJob {
 					}
 					context.setContextType("con_Postgres_Port", "id_String");
 					context.con_Postgres_Port = (String) context.getProperty("con_Postgres_Port");
+					context.setContextType("con_Postgres_Schema", "id_String");
+					context.con_Postgres_Schema = (String) context.getProperty("con_Postgres_Schema");
+					context.setContextType("con_Postgres_Server", "id_String");
+					context.con_Postgres_Server = (String) context.getProperty("con_Postgres_Server");
+					context.setContextType("processado", "id_String");
+					context.processado = (String) context.getProperty("processado");
+					context.setContextType("processar", "id_String");
+					context.processar = (String) context.getProperty("processar");
+					context.setContextType("saida", "id_String");
+					context.saida = (String) context.getProperty("saida");
 				}
 
 				public void processAllContext() {
@@ -695,26 +2269,35 @@ public class job_cotas implements TalendJob {
 
 		// get context value from parent directly
 		if (parentContextMap != null && !parentContextMap.isEmpty()) {
-			if (parentContextMap.containsKey("con_Postgres_Login")) {
-				context.con_Postgres_Login = (String) parentContextMap.get("con_Postgres_Login");
-			}
-			if (parentContextMap.containsKey("con_Postgres_Schema")) {
-				context.con_Postgres_Schema = (String) parentContextMap.get("con_Postgres_Schema");
+			if (parentContextMap.containsKey("con_Postgres_AdditionalParams")) {
+				context.con_Postgres_AdditionalParams = (String) parentContextMap.get("con_Postgres_AdditionalParams");
 			}
 			if (parentContextMap.containsKey("con_Postgres_Database")) {
 				context.con_Postgres_Database = (String) parentContextMap.get("con_Postgres_Database");
 			}
-			if (parentContextMap.containsKey("con_Postgres_AdditionalParams")) {
-				context.con_Postgres_AdditionalParams = (String) parentContextMap.get("con_Postgres_AdditionalParams");
-			}
-			if (parentContextMap.containsKey("con_Postgres_Server")) {
-				context.con_Postgres_Server = (String) parentContextMap.get("con_Postgres_Server");
+			if (parentContextMap.containsKey("con_Postgres_Login")) {
+				context.con_Postgres_Login = (String) parentContextMap.get("con_Postgres_Login");
 			}
 			if (parentContextMap.containsKey("con_Postgres_Password")) {
 				context.con_Postgres_Password = (java.lang.String) parentContextMap.get("con_Postgres_Password");
 			}
 			if (parentContextMap.containsKey("con_Postgres_Port")) {
 				context.con_Postgres_Port = (String) parentContextMap.get("con_Postgres_Port");
+			}
+			if (parentContextMap.containsKey("con_Postgres_Schema")) {
+				context.con_Postgres_Schema = (String) parentContextMap.get("con_Postgres_Schema");
+			}
+			if (parentContextMap.containsKey("con_Postgres_Server")) {
+				context.con_Postgres_Server = (String) parentContextMap.get("con_Postgres_Server");
+			}
+			if (parentContextMap.containsKey("processado")) {
+				context.processado = (String) parentContextMap.get("processado");
+			}
+			if (parentContextMap.containsKey("processar")) {
+				context.processar = (String) parentContextMap.get("processar");
+			}
+			if (parentContextMap.containsKey("saida")) {
+				context.saida = (String) parentContextMap.get("saida");
 			}
 		}
 
@@ -755,14 +2338,14 @@ public class job_cotas implements TalendJob {
 
 		try {
 			errorCode = null;
-			tCreateTable_1Process(globalMap);
+			tFileList_1Process(globalMap);
 			if (!"failure".equals(status)) {
 				status = "end";
 			}
-		} catch (TalendException e_tCreateTable_1) {
-			globalMap.put("tCreateTable_1_SUBPROCESS_STATE", -1);
+		} catch (TalendException e_tFileList_1) {
+			globalMap.put("tFileList_1_SUBPROCESS_STATE", -1);
 
-			e_tCreateTable_1.printStackTrace();
+			e_tFileList_1.printStackTrace();
 
 		}
 
@@ -918,6 +2501,6 @@ public class job_cotas implements TalendJob {
 	ResumeUtil resumeUtil = null;
 }
 /************************************************************************************************
- * 32482 characters generated by Talend Open Studio for Data Integration on the
- * 24 de Março de 2020 14h39min44s BRT
+ * 80078 characters generated by Talend Open Studio for Data Integration on the
+ * 28 de Março de 2020 16h12min37s BRT
  ************************************************************************************************/
