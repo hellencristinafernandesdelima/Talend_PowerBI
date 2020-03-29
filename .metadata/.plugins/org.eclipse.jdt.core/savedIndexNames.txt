@@ -1,7 +1,1 @@
 INDEX VERSION 1.131+C:\GitHub\Talend_PowerBI\.metadata\.plugins\org.eclipse.jdt.core
-3848238292.index
-524136368.index
-2641377792.index
-315665023.index
-1064939835.index
-1242787514.index
