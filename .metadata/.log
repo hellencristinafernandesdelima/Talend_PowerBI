@@ -9882,3 +9882,1100 @@ There may be some other errors caused by JVM compatibility. Make sure your JVM s
 !ENTRY org.talend.platform.logging 1 0 2020-03-28 19:01:55.772
 !MESSAGE 2020-03-28 19:01:55,772 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/ADMINISTRATIVO_SENADO/poms/jobs/process/job_cotas_0.1/target/classpath.jar; administrativo_senado.job_cotas_0_1.job_cotas --context=Default --stat_port=3880 %*
 
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:39:47.975
+!MESSAGE 2020-03-28 21:39:47,974 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:39:48.195
+!MESSAGE 2020-03-28 21:39:48,195 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; administrativo_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:40:10.534
+!MESSAGE 2020-03-28 21:40:10,533 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:40:10.668
+!MESSAGE 2020-03-28 21:40:10,666 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:40:10.898
+!MESSAGE 2020-03-28 21:40:10,897 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:40:10.899
+!MESSAGE 2020-03-28 21:40:10,899 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:40:10.901
+!MESSAGE 2020-03-28 21:40:10,900 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:40:10.902
+!MESSAGE 2020-03-28 21:40:10,902 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:40:11.019
+!MESSAGE 2020-03-28 21:40:11,017 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:40:11.345
+!MESSAGE 2020-03-28 21:40:11,344 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:40:11.502
+!MESSAGE 2020-03-28 21:40:11,501 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/ADMINISTRATIVO_SENADO/poms/jobs/process/job_cotas_0.1/target/classpath.jar; administrativo_senado.job_cotas_0_1.job_cotas --context=Default --stat_port=3453 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:45:54.330
+!MESSAGE 2020-03-28 21:45:54,329 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:45:54.546
+!MESSAGE 2020-03-28 21:45:54,545 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:45:54.573
+!MESSAGE 2020-03-28 21:45:54,573 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; administrativo_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 4 0 2020-03-28 21:45:56.091
+!MESSAGE 2020-03-28 21:45:56,090 ERROR org.talend.commons.exception.CommonExceptionHandler  - Widget is disposed
+
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.setText(StyledText.java:10425)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.feedBackTestResult(ExpressionTestMain.java:167)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.access$1(ExpressionTestMain.java:153)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain$1$1.run(ExpressionTestMain.java:128)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:171)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:273)
+	at org.talend.designer.core.ui.editor.nodes.NodePart.performRequest(NodePart.java:572)
+	at org.eclipse.gef.tools.SelectEditPartTracker.performOpen(SelectEditPartTracker.java:194)
+	at org.eclipse.gef.tools.SelectEditPartTracker.handleDoubleClick(SelectEditPartTracker.java:137)
+	at org.eclipse.gef.tools.AbstractTool.mouseDoubleClick(AbstractTool.java:1069)
+	at org.eclipse.gef.tools.SelectionTool.mouseDoubleClick(SelectionTool.java:527)
+	at org.eclipse.gef.EditDomain.mouseDoubleClick(EditDomain.java:231)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseDoubleClicked(DomainEventDispatcher.java:291)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseDoubleClick(LightweightSystem.java:518)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:200)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:277)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2020-03-28 21:45:56.092
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.talend.commons.exception.FatalException: org.eclipse.swt.SWTException: Widget is disposed
+	at org.talend.commons.ui.runtime.exception.RuntimeExceptionHandler.process(RuntimeExceptionHandler.java:38)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.feedBackTestResult(ExpressionTestMain.java:176)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.access$1(ExpressionTestMain.java:153)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain$1$1.run(ExpressionTestMain.java:128)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:171)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:273)
+	at org.talend.designer.core.ui.editor.nodes.NodePart.performRequest(NodePart.java:572)
+	at org.eclipse.gef.tools.SelectEditPartTracker.performOpen(SelectEditPartTracker.java:194)
+	at org.eclipse.gef.tools.SelectEditPartTracker.handleDoubleClick(SelectEditPartTracker.java:137)
+	at org.eclipse.gef.tools.AbstractTool.mouseDoubleClick(AbstractTool.java:1069)
+	at org.eclipse.gef.tools.SelectionTool.mouseDoubleClick(SelectionTool.java:527)
+	at org.eclipse.gef.EditDomain.mouseDoubleClick(EditDomain.java:231)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseDoubleClicked(DomainEventDispatcher.java:291)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseDoubleClick(LightweightSystem.java:518)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:200)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:277)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.setText(StyledText.java:10425)
+	at org.talend.expressionbuilder.test.shadow.ExpressionTestMain.feedBackTestResult(ExpressionTestMain.java:167)
+	... 43 more
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:45:59.469
+!MESSAGE 2020-03-28 21:45:59,468 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:45:59.689
+!MESSAGE 2020-03-28 21:45:59,688 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:46:00.066
+!MESSAGE 2020-03-28 21:46:00,065 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:46:00.067
+!MESSAGE 2020-03-28 21:46:00,066 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:46:00.069
+!MESSAGE 2020-03-28 21:46:00,068 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:46:00.071
+!MESSAGE 2020-03-28 21:46:00,070 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:46:00.181
+!MESSAGE 2020-03-28 21:46:00,179 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:46:00.388
+!MESSAGE 2020-03-28 21:46:00,387 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:46:00.553
+!MESSAGE 2020-03-28 21:46:00,552 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/ADMINISTRATIVO_SENADO/poms/jobs/process/job_cotas_0.1/target/classpath.jar; administrativo_senado.job_cotas_0_1.job_cotas --context=Default --stat_port=4073 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:46:31.826
+!MESSAGE 2020-03-28 21:46:31,825 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:46:31.944
+!MESSAGE 2020-03-28 21:46:31,944 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:46:32.168
+!MESSAGE 2020-03-28 21:46:32,167 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:46:32.169
+!MESSAGE 2020-03-28 21:46:32,168 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:46:32.171
+!MESSAGE 2020-03-28 21:46:32,171 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:46:32.173
+!MESSAGE 2020-03-28 21:46:32,172 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:46:32.287
+!MESSAGE 2020-03-28 21:46:32,286 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:46:32.507
+!MESSAGE 2020-03-28 21:46:32,507 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:46:32.646
+!MESSAGE 2020-03-28 21:46:32,645 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/ADMINISTRATIVO_SENADO/poms/jobs/process/job_cotas_0.1/target/classpath.jar; administrativo_senado.job_cotas_0_1.job_cotas --context=Default --stat_port=3644 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:47:59.561
+!MESSAGE 2020-03-28 21:47:59,560 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:47:59.683
+!MESSAGE 2020-03-28 21:47:59,682 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:47:59.885
+!MESSAGE 2020-03-28 21:47:59,884 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:47:59.886
+!MESSAGE 2020-03-28 21:47:59,885 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:47:59.888
+!MESSAGE 2020-03-28 21:47:59,887 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:47:59.890
+!MESSAGE 2020-03-28 21:47:59,889 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:48:00.054
+!MESSAGE 2020-03-28 21:48:00,053 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:48:00.292
+!MESSAGE 2020-03-28 21:48:00,291 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:48:00.442
+!MESSAGE 2020-03-28 21:48:00,441 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/ADMINISTRATIVO_SENADO/poms/jobs/process/job_cotas_0.1/target/classpath.jar; administrativo_senado.job_cotas_0_1.job_cotas --context=Default --stat_port=3379 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:48:06.922
+!MESSAGE 2020-03-28 21:48:06,921 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:48:07.054
+!MESSAGE 2020-03-28 21:48:07,053 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:48:07.245
+!MESSAGE 2020-03-28 21:48:07,245 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:48:07.247
+!MESSAGE 2020-03-28 21:48:07,246 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:48:07.249
+!MESSAGE 2020-03-28 21:48:07,248 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:48:07.250
+!MESSAGE 2020-03-28 21:48:07,249 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:48:07.362
+!MESSAGE 2020-03-28 21:48:07,361 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:48:07.608
+!MESSAGE 2020-03-28 21:48:07,607 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:48:07.755
+!MESSAGE 2020-03-28 21:48:07,755 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/ADMINISTRATIVO_SENADO/poms/jobs/process/job_cotas_0.1/target/classpath.jar; administrativo_senado.job_cotas_0_1.job_cotas --context=Default --stat_port=3998 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:50:24.731
+!MESSAGE 2020-03-28 21:50:24,730 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:50:24.866
+!MESSAGE 2020-03-28 21:50:24,865 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:50:25.128
+!MESSAGE 2020-03-28 21:50:25,127 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:50:25.130
+!MESSAGE 2020-03-28 21:50:25,129 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:50:25.139
+!MESSAGE 2020-03-28 21:50:25,138 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:50:25.140
+!MESSAGE 2020-03-28 21:50:25,139 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:50:25.261
+!MESSAGE 2020-03-28 21:50:25,259 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:50:25.482
+!MESSAGE 2020-03-28 21:50:25,481 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:50:25.647
+!MESSAGE 2020-03-28 21:50:25,646 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/ADMINISTRATIVO_SENADO/poms/jobs/process/job_cotas_0.1/target/classpath.jar; administrativo_senado.job_cotas_0_1.job_cotas --context=Default --stat_port=3531 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:51:47.707
+!MESSAGE 2020-03-28 21:51:47,706 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:51:47.935
+!MESSAGE 2020-03-28 21:51:47,934 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:51:48.161
+!MESSAGE 2020-03-28 21:51:48,160 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:51:48.162
+!MESSAGE 2020-03-28 21:51:48,161 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:51:48.164
+!MESSAGE 2020-03-28 21:51:48,163 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:51:48.165
+!MESSAGE 2020-03-28 21:51:48,164 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:51:48.279
+!MESSAGE 2020-03-28 21:51:48,278 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:51:48.493
+!MESSAGE 2020-03-28 21:51:48,492 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:51:48.636
+!MESSAGE 2020-03-28 21:51:48,636 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/ADMINISTRATIVO_SENADO/poms/jobs/process/job_cotas_0.1/target/classpath.jar; administrativo_senado.job_cotas_0_1.job_cotas --context=Default --stat_port=3554 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:53:55.636
+!MESSAGE 2020-03-28 21:53:55,635 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:53:55.862
+!MESSAGE 2020-03-28 21:53:55,861 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:53:56.096
+!MESSAGE 2020-03-28 21:53:56,095 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:53:56.097
+!MESSAGE 2020-03-28 21:53:56,096 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:53:56.112
+!MESSAGE 2020-03-28 21:53:56,111 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:53:56.113
+!MESSAGE 2020-03-28 21:53:56,113 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:53:56.218
+!MESSAGE 2020-03-28 21:53:56,217 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:53:56.441
+!MESSAGE 2020-03-28 21:53:56,440 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:53:56.597
+!MESSAGE 2020-03-28 21:53:56,596 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/ADMINISTRATIVO_SENADO/poms/jobs/process/job_cotas_0.1/target/classpath.jar; administrativo_senado.job_cotas_0_1.job_cotas --context=Default --stat_port=3576 %*
+
+
+!ENTRY org.eclipse.ui 4 0 2020-03-28 21:56:11.656
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4576)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.custom.StyledText.getTextBounds(StyledText.java:5234)
+	at org.eclipse.jface.text.CursorLinePainter.drawHighlightLine(CursorLinePainter.java:194)
+	at org.eclipse.jface.text.CursorLinePainter.paint(CursorLinePainter.java:252)
+	at org.eclipse.jface.text.PaintManager.paint(PaintManager.java:305)
+	at org.eclipse.jface.text.PaintManager.keyPressed(PaintManager.java:310)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:171)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1106)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1102)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1489)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4888)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:353)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4768)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3545)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.talend.expressionbuilder.ui.ExpressionBuilderDialog.openDialog(ExpressionBuilderDialog.java:448)
+	at org.talend.commons.ui.runtime.swt.tableviewer.celleditor.CellEditorDialogBehavior$1.mouseUp(CellEditorDialogBehavior.java:115)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:171)
+	at org.talend.designer.mapper.MapperComponent.open(MapperComponent.java:273)
+	at org.talend.designer.core.ui.editor.nodes.NodePart.performRequest(NodePart.java:572)
+	at org.eclipse.gef.tools.SelectEditPartTracker.performOpen(SelectEditPartTracker.java:194)
+	at org.eclipse.gef.tools.SelectEditPartTracker.handleDoubleClick(SelectEditPartTracker.java:137)
+	at org.eclipse.gef.tools.AbstractTool.mouseDoubleClick(AbstractTool.java:1069)
+	at org.eclipse.gef.tools.SelectionTool.mouseDoubleClick(SelectionTool.java:527)
+	at org.eclipse.gef.EditDomain.mouseDoubleClick(EditDomain.java:231)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseDoubleClicked(DomainEventDispatcher.java:291)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseDoubleClick(LightweightSystem.java:518)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:200)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:277)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:57:26.915
+!MESSAGE 2020-03-28 21:57:26,914 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:57:27.031
+!MESSAGE 2020-03-28 21:57:27,030 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:57:27.245
+!MESSAGE 2020-03-28 21:57:27,244 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:57:27.246
+!MESSAGE 2020-03-28 21:57:27,245 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:57:27.248
+!MESSAGE 2020-03-28 21:57:27,247 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:57:27.249
+!MESSAGE 2020-03-28 21:57:27,249 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:57:27.377
+!MESSAGE 2020-03-28 21:57:27,376 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:57:27.585
+!MESSAGE 2020-03-28 21:57:27,585 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:57:27.729
+!MESSAGE 2020-03-28 21:57:27,728 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/ADMINISTRATIVO_SENADO/poms/jobs/process/job_cotas_0.1/target/classpath.jar; administrativo_senado.job_cotas_0_1.job_cotas --context=Default --stat_port=3779 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:59:41.583
+!MESSAGE 2020-03-28 21:59:41,582 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:59:41.700
+!MESSAGE 2020-03-28 21:59:41,699 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:59:41.923
+!MESSAGE 2020-03-28 21:59:41,922 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:59:41.924
+!MESSAGE 2020-03-28 21:59:41,923 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:59:41.927
+!MESSAGE 2020-03-28 21:59:41,926 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:59:41.928
+!MESSAGE 2020-03-28 21:59:41,927 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:59:42.181
+!MESSAGE 2020-03-28 21:59:42,176 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:59:42.397
+!MESSAGE 2020-03-28 21:59:42,396 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2020-03-28 21:59:42.415
+!MESSAGE 2020-03-28 21:59:42,414 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "job_cotas" has a compile errors, please fix and export again.
+Error Line: 2423
+Detail Message: The method formatDateLocale(String, Date, String) in the type TalendDate is not applicable for the arguments (String, String, String)
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "job_cotas" has a compile errors, please fix and export again.
+Error Line: 2423
+Detail Message: The method formatDateLocale(String, Date, String) in the type TalendDate is not applicable for the arguments (String, String, String)
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:338)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:533)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:316)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:826)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:609)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1951)
+	at org.talend.designer.runprocess.RunProcessContext$1.run(RunProcessContext.java:601)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:440)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:356)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:474)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:240)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:966)
+	at org.talend.designer.runprocess.RunProcessContext.exec(RunProcessContext.java:548)
+	at org.talend.designer.runprocess.ui.ProcessComposite.exec(ProcessComposite.java:1444)
+	at org.talend.designer.runprocess.ui.views.ProcessView$RunAction.run(ProcessView.java:700)
+	at org.talend.designer.runprocess.ui.actions.RunProcessAction.run(RunProcessAction.java:58)
+	at org.talend.designer.core.debug.JobLaunchConfigurationDelegate$1.run(JobLaunchConfigurationDelegate.java:85)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:277)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:59:49.378
+!MESSAGE 2020-03-28 21:59:49,377 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:59:49.642
+!MESSAGE 2020-03-28 21:59:49,641 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:59:49.866
+!MESSAGE 2020-03-28 21:59:49,865 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:59:49.867
+!MESSAGE 2020-03-28 21:59:49,866 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:59:49.870
+!MESSAGE 2020-03-28 21:59:49,869 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:59:49.872
+!MESSAGE 2020-03-28 21:59:49,871 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:59:50.018
+!MESSAGE 2020-03-28 21:59:50,016 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 21:59:50.207
+!MESSAGE 2020-03-28 21:59:50,206 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2020-03-28 21:59:50.222
+!MESSAGE 2020-03-28 21:59:50,221 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "job_cotas" has a compile errors, please fix and export again.
+Error Line: 2423
+Detail Message: The method formatDateLocale(String, Date, String) in the type TalendDate is not applicable for the arguments (String, String, String)
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "job_cotas" has a compile errors, please fix and export again.
+Error Line: 2423
+Detail Message: The method formatDateLocale(String, Date, String) in the type TalendDate is not applicable for the arguments (String, String, String)
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:338)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:533)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:316)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:826)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1189)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:961)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1983)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:277)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:00:46.574
+!MESSAGE 2020-03-28 22:00:46,573 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:00:46.781
+!MESSAGE 2020-03-28 22:00:46,780 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; administrativo_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:01:34.106
+!MESSAGE 2020-03-28 22:01:34,105 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:01:34.288
+!MESSAGE 2020-03-28 22:01:34,287 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; administrativo_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:01:39.065
+!MESSAGE 2020-03-28 22:01:39,063 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:01:39.177
+!MESSAGE 2020-03-28 22:01:39,176 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:01:39.383
+!MESSAGE 2020-03-28 22:01:39,382 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:01:39.385
+!MESSAGE 2020-03-28 22:01:39,383 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:01:39.387
+!MESSAGE 2020-03-28 22:01:39,386 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:01:39.389
+!MESSAGE 2020-03-28 22:01:39,388 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:01:39.502
+!MESSAGE 2020-03-28 22:01:39,501 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:01:39.690
+!MESSAGE 2020-03-28 22:01:39,689 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2020-03-28 22:01:39.708
+!MESSAGE 2020-03-28 22:01:39,707 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "job_cotas" has a compile errors, please fix and export again.
+Error Line: 2423
+Detail Message: The method formatDateLocale(String, Date, String) in the type TalendDate is not applicable for the arguments (String, String, String)
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "job_cotas" has a compile errors, please fix and export again.
+Error Line: 2423
+Detail Message: The method formatDateLocale(String, Date, String) in the type TalendDate is not applicable for the arguments (String, String, String)
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:338)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:533)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:316)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:826)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:609)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1951)
+	at org.talend.designer.runprocess.RunProcessContext$1.run(RunProcessContext.java:601)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:440)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:356)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:474)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:240)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:966)
+	at org.talend.designer.runprocess.RunProcessContext.exec(RunProcessContext.java:548)
+	at org.talend.designer.runprocess.ui.ProcessComposite.exec(ProcessComposite.java:1444)
+	at org.talend.designer.runprocess.ui.views.ProcessView$RunAction.run(ProcessView.java:700)
+	at org.talend.designer.runprocess.ui.actions.RunProcessAction.run(RunProcessAction.java:58)
+	at org.talend.designer.core.debug.JobLaunchConfigurationDelegate$1.run(JobLaunchConfigurationDelegate.java:85)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:277)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:03:04.332
+!MESSAGE 2020-03-28 22:03:04,331 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:03:04.573
+!MESSAGE 2020-03-28 22:03:04,572 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; administrativo_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:03:55.218
+!MESSAGE 2020-03-28 22:03:55,217 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:03:55.399
+!MESSAGE 2020-03-28 22:03:55,399 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; administrativo_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:04:02.214
+!MESSAGE 2020-03-28 22:04:02,213 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:04:02.404
+!MESSAGE 2020-03-28 22:04:02,404 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/.Java/target/classpath.jar; administrativo_senado.expression_builder_rowgenerator2.Expression_builder_RowGenerator2 --context=Preview %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:04:14.537
+!MESSAGE 2020-03-28 22:04:14,536 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:04:14.667
+!MESSAGE 2020-03-28 22:04:14,666 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:04:14.892
+!MESSAGE 2020-03-28 22:04:14,891 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:04:14.893
+!MESSAGE 2020-03-28 22:04:14,892 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:04:14.902
+!MESSAGE 2020-03-28 22:04:14,901 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:04:14.903
+!MESSAGE 2020-03-28 22:04:14,902 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:04:15.018
+!MESSAGE 2020-03-28 22:04:15,017 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:04:15.222
+!MESSAGE 2020-03-28 22:04:15,221 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:04:15.366
+!MESSAGE 2020-03-28 22:04:15,365 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/ADMINISTRATIVO_SENADO/poms/jobs/process/job_cotas_0.1/target/classpath.jar; administrativo_senado.job_cotas_0_1.job_cotas --context=Default --stat_port=3437 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:05:40.982
+!MESSAGE 2020-03-28 22:05:40,981 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:05:41.115
+!MESSAGE 2020-03-28 22:05:41,114 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:05:41.375
+!MESSAGE 2020-03-28 22:05:41,374 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:05:41.377
+!MESSAGE 2020-03-28 22:05:41,376 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:05:41.379
+!MESSAGE 2020-03-28 22:05:41,378 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:05:41.380
+!MESSAGE 2020-03-28 22:05:41,380 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:05:41.497
+!MESSAGE 2020-03-28 22:05:41,496 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:05:41.703
+!MESSAGE 2020-03-28 22:05:41,702 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:05:41.866
+!MESSAGE 2020-03-28 22:05:41,865 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/ADMINISTRATIVO_SENADO/poms/jobs/process/job_cotas_0.1/target/classpath.jar; administrativo_senado.job_cotas_0_1.job_cotas --context=Default --stat_port=3888 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:06:44.797
+!MESSAGE 2020-03-28 22:06:44,796 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:06:44.916
+!MESSAGE 2020-03-28 22:06:44,915 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:06:45.238
+!MESSAGE 2020-03-28 22:06:45,237 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:06:45.240
+!MESSAGE 2020-03-28 22:06:45,239 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:06:45.242
+!MESSAGE 2020-03-28 22:06:45,241 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:06:45.243
+!MESSAGE 2020-03-28 22:06:45,242 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:06:45.361
+!MESSAGE 2020-03-28 22:06:45,360 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:06:45.564
+!MESSAGE 2020-03-28 22:06:45,563 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:06:45.704
+!MESSAGE 2020-03-28 22:06:45,703 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/ADMINISTRATIVO_SENADO/poms/jobs/process/job_cotas_0.1/target/classpath.jar; administrativo_senado.job_cotas_0_1.job_cotas --context=Default --stat_port=3881 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:08:02.420
+!MESSAGE 2020-03-28 22:08:02,419 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:08:02.558
+!MESSAGE 2020-03-28 22:08:02,557 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:08:02.772
+!MESSAGE 2020-03-28 22:08:02,771 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:08:02.773
+!MESSAGE 2020-03-28 22:08:02,772 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:08:02.775
+!MESSAGE 2020-03-28 22:08:02,774 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:08:02.776
+!MESSAGE 2020-03-28 22:08:02,775 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:08:02.887
+!MESSAGE 2020-03-28 22:08:02,886 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:08:03.123
+!MESSAGE 2020-03-28 22:08:03,122 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:08:03.298
+!MESSAGE 2020-03-28 22:08:03,295 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/ADMINISTRATIVO_SENADO/poms/jobs/process/job_cotas_0.1/target/classpath.jar; administrativo_senado.job_cotas_0_1.job_cotas --context=Default --stat_port=3692 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:12:36.825
+!MESSAGE 2020-03-28 22:12:36,823 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:12:37.055
+!MESSAGE 2020-03-28 22:12:37,054 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:12:37.294
+!MESSAGE 2020-03-28 22:12:37,293 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:12:37.295
+!MESSAGE 2020-03-28 22:12:37,294 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:12:37.297
+!MESSAGE 2020-03-28 22:12:37,297 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:12:37.299
+!MESSAGE 2020-03-28 22:12:37,298 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:12:37.416
+!MESSAGE 2020-03-28 22:12:37,415 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:12:37.663
+!MESSAGE 2020-03-28 22:12:37,662 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:12:37.820
+!MESSAGE 2020-03-28 22:12:37,819 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/ADMINISTRATIVO_SENADO/poms/jobs/process/job_cotas_0.1/target/classpath.jar; administrativo_senado.job_cotas_0_1.job_cotas --context=Default --stat_port=3658 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:13:18.836
+!MESSAGE 2020-03-28 22:13:18,835 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:13:18.977
+!MESSAGE 2020-03-28 22:13:18,977 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:13:19.196
+!MESSAGE 2020-03-28 22:13:19,195 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:13:19.197
+!MESSAGE 2020-03-28 22:13:19,196 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:13:19.209
+!MESSAGE 2020-03-28 22:13:19,208 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:13:19.210
+!MESSAGE 2020-03-28 22:13:19,210 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:13:19.378
+!MESSAGE 2020-03-28 22:13:19,377 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:13:19.677
+!MESSAGE 2020-03-28 22:13:19,676 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:13:19.831
+!MESSAGE 2020-03-28 22:13:19,830 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/ADMINISTRATIVO_SENADO/poms/jobs/process/job_cotas_0.1/target/classpath.jar; administrativo_senado.job_cotas_0_1.job_cotas --context=Default --stat_port=3354 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:13:40.343
+!MESSAGE 2020-03-28 22:13:40,341 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:13:40.491
+!MESSAGE 2020-03-28 22:13:40,490 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:13:40.755
+!MESSAGE 2020-03-28 22:13:40,754 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:13:40.757
+!MESSAGE 2020-03-28 22:13:40,756 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:13:40.778
+!MESSAGE 2020-03-28 22:13:40,777 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:13:40.779
+!MESSAGE 2020-03-28 22:13:40,778 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ADMINISTRATIVO_SENADO_JOB_COTAS_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:13:40.911
+!MESSAGE 2020-03-28 22:13:40,910 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:13:41.190
+!MESSAGE 2020-03-28 22:13:41,189 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ADMINISTRATIVO_SENADO_ROUTINES: org.example.administrativo_senado.code:routines:7.2.1 with classifier  to /ADMINISTRATIVO_SENADO_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-28 22:13:41.344
+!MESSAGE 2020-03-28 22:13:41,343 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_241/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/GitHub/Talend_PowerBI/ADMINISTRATIVO_SENADO/poms/jobs/process/job_cotas_0.1/target/classpath.jar; administrativo_senado.job_cotas_0_1.job_cotas --context=Default --stat_port=3528 %*
+
